@@ -1,0 +1,438 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_FAVORIS
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_FAVORIS
+ identifier : 0x2fa5247f01f87687
+ internal_properties : CAAAAAgAAAD6DTYClE7AfMyFD37yZ4h0wHsSGLH9uic5EY3Bn2g77EE+darU+FYHRlH2N9FHgQ2oag/9/T1Gol26JI+l4NsLLnPnoZhBzdDiPoWhkfKQ6gfzi1EyVBINApMbHQROeSXsZIVUVHysJDYWM3JJP36DMsKAIWZjRuSgi1++RITwMQ4P2KiVQSlAmSs+UsFK2c2foXI5nDuLIZHmBJsWsv4ypa2I7+U5vaeV0msMz5gA3xjlIJxCZu5IvbpxoHSll1bGzdYG9irFHkErTBVu6Hx+6oGFxqhTLqY4FTDybhAm61Xvll3eSkv4fNXeG14ky7vuVnk8lSTwowv/CO1yY3FNZeTVabyCpuwWqufncAgtJIkd4PFp84waGpzba+80WKyYxClaRQHGIo2HwtPs2qhKJfzVRSdnsgBtlDy1EfeuwIkxCJdN+pDDkpstr2SdOjw+Id6rG2lmOEP+gDFkcvzToQBHDMRt77KvThhbBachK+ydPJf/GK8YfSgkp3OBFY6P+oMrZ83qWLkMFmi4/8ToIP8DmpLyTSIshwFdLTWH9RaplnlePgzn9l+W3QOd/Ytun28mURFxNqvIGDSu2EFVDLSNNxRdqgJcWoVtWzkKFrl83ZI5rTyv1PxysXHD7kVEP47Y+tYzf4qXRItnoIvLWAgG50fIpbvCxpUnjNNLhb471K+yEogsm3tU1p6/ALq5TVTIodaTP/7uIvF1if+N+gGY03qK3/58hOnrfR/5qovEtyQPf8wFYPeWmc/aEB9kI8xm8sQUmnIjjv4VOJ0/YWaFfg==
+ properties :
+  width : 700
+  height : 480
+ controls :
+  -
+    name : FI_FAVORIS
+    identifier : 0x2fa5247f01f97687
+    internal_properties : CAAAAAgAAACyMcjZWkMz6UIIu8akwoEN1ZIORBlCVmAjIRs2oCD9rXVqHpfT09Hp2+QL29PnCJLm0DRQM1U7YRNp3+XJIxost1WSwodu1V+1vm3K0Q20YbwqQpUUm+fXRYsAXN9YgvIXR7dBqn95jUrbkv8VI0SNBuP4QWMzH8PTaWeXV0GmbSMKaREWdijjvKKFI95TCwMvU+aXUx3yuwabk+s1n4RMtktZQHesB/9QuycuxRgmlEBYtNZnEBnNyCuZYKnufItUI3G5wEQuwOSNZ4r4GWcqcEoxhZXPQpWOkGsuPgQ36W8zYvspscIsKDK/56njyO4tJCKSeY7g4cVEgUGMFWOC7WrYhI+xuMiFJk4A/pErTW0DuehNuvcDSe6ASD+tsVTQgxEkk7dLQe0Qv8HWss+6/X7Vte4/YLa+CZgCRJ1IeA+uhGfaNNyvG9S7rdG0mnbrLXHXwKl2XJBTEGcs+bm3b6t3HrDI4Lz9+V/V2sMcz49NgQSCJToeQTWgHflCEq7zPEWv9ZCC45U+8b5WQT3r8N+u2EtU
+    properties :
+     width : 700
+     height : 480
+    controls :
+     -
+       name : LIB_TITRE
+       identifier : 0x2fa52d550288fa29
+       internal_properties : CAAAAAgAAACkQzpgDj/XsZgti0XHWZmxNc6T916wa3+7z3PPLmD8FEOs0S32ZU1/Ba0l9EVsToacgDkcWNZKJ/4zGyD4rvHYtuihBibd7qu9z+wUjcc7Rzd2Va913SM1dUUHBNuNj7QD+TgZ7xD6dkrSyuro3NmHEnnT3IFUmb9+kVxSEiHlx8hb0Hi1YuSC1VQyB+GN60ZLSLZ7HqbYgevrdEAs6rWotNMpwqQPacNH48QCpAqyLaggRHtkDW3JfF0IL9dOEXrk8Nq46pXnGm4NTYy7J9uTU0Q5XuXOhAFeZ2a8Y5+p51+oa2YvELK3ZOyUc82oyr+Nve5n54Se6Bh8/JHAm5fVOHlNaYJeiiE762/ZGjFSeNDwhpFMeVphb2y32lkeGX4EmKaGjl0utL1OSwxBr0DEYOpHaPLlgekfDDqTwq2GnwHj05Q5RkHLVnTGDlM3Jox1QfD13myS7sND5qfmWyTdaqtyRoGycE9s4n3yRdz+++Gs8YViHakMr1tbtiVGo45tg58=
+       properties :
+        x : 24
+        y : 24
+        width : 316
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_VIDE
+       identifier : 0x2fa532ff0383198d
+       internal_properties : CAAAAAgAAAALPei1XUcUHTwHI7YzoEgXTfYxeT7t0YfbuysFnCFBHJeC3kg04ANc5Fy1pagTB6PTkz6raODKomlYaDnEXDJ9y1CLKaQGjaOwwOVsI1+2QS8RGUwrHAU6wfnq+FtUrhKbxval1X7hnZebNN0QqoJF1r5gmjgZfg+3YruNNl4Z3KO5nEvtGdnC9d5oOim+mDHK0+5cDrb17QbedBRgsYkwtHWx/UjlzXqg25h1WuThIjxn8cSCFUrUn04QTzroz92glLkdD05aJ/8g8l9hAlHOIEgz4KwRw6MvVuF1oeH9c9RliyPjbaV2DriLwJtX8Z4jgmL2/feq59XBY00V84DyJ3vGMYdFMKcRoePUysB7sONYa8pGqK7u1B7YSO0SgWbuG62pTANELST+FbXx9lR/+4uVFPJXx8gL4uVdMlBJTuhoGb+bRCP+VKnESbcWzTTzunVmOCPEKHddZWSwUda6li/MYJGH5tdhFOQYsNdaodR5BGYutyGrq69bfFCzbOcXRmtUq3luDeNNwM5PpPVoWvKgcFniIwglO+LUcA==
+       properties :
+        x : 24
+        y : 60
+        width : 652
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_MENU
+       identifier : 0x2fa53608038cf801
+       internal_properties : CAAAAAgAAADvdSyDOtBEsWlaEwH8Mczv6GYKyCCPjgQ0Y7LwxtWwq7yfRzCQwtW8+sQ+l+oDhM+yd3LcLzIpwuZBsA6RxLdtTJFvyWedSHPj3u2v2Q75SuUfd6XtdmbcVD14wpkMpBBD8b1F5vJFkc0u94loRfAoPmBa9Z8xIM9UXtsXh1I6gkA+nZbnijAFVnktU5CVoFabqM9tEZt3IsbPzru6FsQLWx/ErTYTQ3Ggy0RZkDtJY5YXC+QvrmqrDFaxXlfZd8TckV58O4wFkYTXLTzzGlZYBY6k9hA7YIdKmvCRXmyPob6LwjLHzUOsOkIR0veLqMLfF/iF7JXWpLuDYWZMfgcthXzQlHjhKnh7c9B3CS/sFWTd65StdHO7hU7E5m2cQ/8tYgUjVEGxXysDfqhJEYYZrFzQR3G0mJZS9IqxoE2/m4lqoBU/9X77pHZsCuaxTJGosrXhU4or5WTsRo9SVB2CqjTjwu5jg1lNWUEg3TIxF89fAzbYg0bQFkLts871UcO2n1LMh6Osg7amZRwCy4QcLcFKfpNaBEGND8dc20Xhktww3vz7iaXCFLJE1CO6t4QFlLAfMr3n28uuhCq55DbzLB+FHuueTTEAjZtvEuS+DmPAOeedi61EemBfZnqQWGzisagcql8BwQjcSarLaWrX2ONdcIMSb+49V0yqiE+EhZ2bD5BwMRszCpFDeq+wniFkdXhz+q/YrgWWT/NupNdWWg/pHj1vKIAg16rFPbaXhqzXmqCuy5RI0V3dgTcJXjuPb8S6bZSQVzkL2I2LYg3yQd7m2mlHjZ26ywT9+mNyYaTTUcwMt593UBwvNn1XPefoRLRDk++XS9J2fGa3JLLhesyc0ZTLdoBDLhbwJY5HJEV0ixGIlnIhbPSL/vIOkCUyHsyrDiYc3BuqQVy/Yr6vencvyQcklxDpZPU4Gv8EmkvYZA==
+       properties :
+        x : 640
+        y : 20
+        width : 36
+        height : 36
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            OuvreMenuContextuel( MENU_FAVORIS, moimeme..x, moimeme..y )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : ZR_FAVORI
+       identifier : 0x2fa95fd5063d3669
+       internal_properties : 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
+       properties :
+        x : 24
+        y : 87
+        width : 652
+        height : 393
+       controls :
+        -
+          name : BTN_SUPPRIMER_FAVORI
+          identifier : 0x2fa95ff20641a918
+          internal_properties : CAAAAAgAAAC5wM9bT+LtWX9VXM7POeOU5ngEZnNQyGPCIoKd5N9SnHRt7osejy1aV2Z/5Qu/YtHbPAt97SFdyzhOjaMHPWCoX0vlWijO5pyZmKnFTwgYo6WXZhXOnHLLAPWXpdWBiAfNm4Mo+OL4j+ZfUUo6SP3jNv/YaJGqimzKQkyr/7PzqI6CQ0nzoJsQRPKFUE0Hgw188kvYJ+fmdMKlLmAeSiz2hT+SU7xHVdN8n77kKqjkWLAVHUDnNQXgGLlbZnn3lJMNKPoVg8Nc3UQ1JRqGjOdAA/BUXJjavJoc5ehkwyoEw4VCbpFK46lUA3tZjhpZNJtuUr4qhW1AzeeBdAZ0tJjfkw33Gzx8DZGi14jobNsAofEmfPIWl5FPetszzjo6EXQrbOmRmLXRBuFGghtbruivkaH2HHI11+s5+sRT1TIWJPYEjuE9nHnEB1FlyC/p71uFlN3/keMSmM3WiFmY4Fd2PJUOTFFh+BNYG6jKKQwSavfOIshxS1lGU0NzYTUy/Xr/Cngiy1FvqabnOMMZOYpTphi6oDZ3Ep04FutasC+jTHoopK53cd1xxGZy+nJ+BC26UIlXgRpSlepjor6xmtAFE72AkxWBNP0FsdDFwfn+pjbE09KIbU3UVbH4zg0MFSx6OEbgWjEfsVutWZDq0SR9aVL8pA3pE4WEcsJijEYaXrBUrEhF9DgyEKhXKJJ7CBnOF3bfIJ+kG4f5lNH+bEJho9MD0IPUn3Oi+mMUIFP/SflkwoFegw0IFr1oyvo2wBHJqen31o3WF4K1v3xxw65XYN6GjVd/CYsTrfqhvrSCV/zPNUNKay/i84NAEIPvjUWDpRGtaq0IuKWa7ttf5MrJkZyoE7++b1qVlijngrTO
+          properties :
+           x : 608
+           y : 13
+           width : 24
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               // Supprime le favori
+               FavoriSupprime( ZR_FAVORI[ ZR_FAVORI ].LIB_URL )
+               
+               // Supprime la ligne
+               ZR_FAVORI.Supprime()
+               
+               // Sauve les favoris
+               SauveFavoris()
+               
+               LIB_VIDE.Visible			= ( Favoris.Vide )
+               OPT_TOUT_SUPPRIMER.Grisé	= ( Favoris.Vide )
+               OPT_EXPORTER_FAVORIS.Grisé	= ( Favoris.Vide )
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : LIB_URL
+          identifier : 0x2fa95ff20643a966
+          internal_properties : CAAAAAgAAAApQIFmCgEET4M9OYpKtvJvb+XYCl+dGKMXoV+z7uwkPgxs5mp06//+7q5eb6WOqfmSCBICxJSiijcN1x9DW7awI1RPhciYG4ZJhK0opCGdo8qE5r6knwDI1BskQiXyFYEAUl9fO1mzyigK6tgflP05GrSJN1JZnW9fx5F14LzGpmSRlx8jZCNzIrEz2362zCGDLbQgN2bycw8+SnhBVkEmKBgr62pOFrn1PIxBJ/jsFFrmUZ43t8UQzvU09cLygXJi3SM/ZzkKGXW+VGDhsn4PCIFUboU7LobmRKk5dfpkeW4U1vMDL/b4hxAp/wsMxZ2oTmAfhZCeVwcuJ6PqQ5rdloRfJ92lqw0XkEL+B3Cl0GbeM1d3rJUBaeNU6t9P5fFOfc1YbknUcZpMSyEHNenbFntMqLjz6YGFetReC75J34mH7Eclqi3HVfJlOXEvFqkMdI1PBJx4LswLpa8vvX8m0YUGMFs705uS/TQFuBs=
+          properties :
+           x : 274
+           y : 15
+           width : 328
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_TITRE_FAVORI
+          identifier : 0x2fa95ff20645a9b4
+          internal_properties : CAAAAAgAAABjglG2vZKS2xAjOzIV8WAfXYuItT6SxV/DIj1x0qeYhi82Ro5pxunamOrBc+tR6P9FeyYtrIvtmYP4J9zgAK/leG9ZRvBpAxyYBM5i+9qPWNF7RgnllrxfPndeR1hOeT7800F9q2d3acUJcbqvy2z5iUhlNLZvB87kbTbn27AoeF9efyWArt23hW75YqTOT6aq1PGQaARzNhJr4DPAXcRus1KEY24+vl85i9/qPZoNUcZiTYBSRsssxeRNMF1wVYNdsP0f/7xsAlJbPZ+/OUXKY2f9SXmRzX8S/lZChd4dA5OSCYg+LwWllCNf4lGgl9pqpUgLDHnyewQVwTFXwVfD5QUB80Go5y7Tfh1YK44/jlhhxcOrfuqOtPoff6tvn2g7LE8aYQsWgwVtqReGQQ5NdqO8Il9fx8aEflIOliCxtl7eKJm5a4IWzgFI5hRj+Lbxlavdn9no2Yt2CqKcjVZjb9YosOuojP/9IajiY0fAQSIHG4mLyGTp
+          properties :
+           x : 46
+           y : 15
+           width : 220
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_FAVICON
+          identifier : 0x2fa95ff20647aa02
+          internal_properties : CAAAAAgAAABEvTHBWarKTLOzpBRj+DMWgb5M/ktWw0TPnOOvj+IK8wjG9/ekJrUf+qJrBwfK+J21ZvA9OBvfctxs7wqSkzFImN59ECcb4vtC7EChwMKZ14rSS5VD6e6fvGXc7g7+L/7Bzq0AYVH2mgWRRWEAcOdutdK1+Ta745HGak014/Vs+/5cCBvh26bJw5/el1MZ58veZW3HooXbY97L2UnaDiMtFPNXLMO5C2oiKvSqbmcvboLIweO4XFcYUqjAcFcgivjM5refzxC1ryWqTUcPNv26m5O7yZ0d8/OT8SISX6xcE0Fzf+y4neRvOLI5ESRRDCjdSuph0tFoCETqiOp1M/31pAJJvmnQbsGIUIRFAmeCwJ2J1xFFadV4MkxUiQraiGtROw3+jDGQ64HwmsbrqRZUqhbcRghleC/Wq0eGNSStFskEBhriJuKRDc733fQad2P/gr2xRwkZrJ7UmmLIm0iPwIuWNFn5vourHyXJKMHvmE18LIX7o+wSXJ8NHS62BDZOEVfq4QSygyVDRa6p2NCIV8UDQdhKY7jT5t7KBRYGrW1ZGhmEsqAvwc1+BHHv05PknCASPsQOn2+b0WWmoOmWuUhcEeCOzyvZiWYYd/09MIvNr0rvU1eRF7tXuVG49Q2kU3xWpu5NrOyy4Cuge8pGJEh/Y6FRwy8HYh0PHxvRU8HKYbRvgUXqojDORwuaWDjE2sHbvwuQUXy0nI2re/VKAKvDM7aBgyN9MeAghoNK8hV/Za3s8UKzqUPHLzXOGQKvRct/vC9mEytJpPzhf0HIW17CdhreQXSUAaZAk+uh5YghkYvp7FjYFnV+Ss1gvLv7IkRxAaVpkUXaGhquIWRW2Jg4EZDFQDZDYqXK5jmw0a41K9B403AB9J3J4d7n8tg+y6Od1GlNzA==
+          properties :
+           x : 14
+           y : 13
+           width : 24
+           height : 24
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes : []
+       columns : []
+       type : 30
+       code_elements :
+        type_code : 42
+        p_codes :
+         -
+           type : 35
+           enabled : false
+         -
+           type : 22
+           enabled : false
+         -
+           type : 24
+           enabled : false
+         -
+           type : 23
+           enabled : false
+         -
+           type : 25
+           enabled : false
+         -
+           type : 230
+           enabled : false
+         -
+           type : 241
+           enabled : false
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+         -
+           type : 224
+           enabled : false
+     -
+       name : BTN_Double_clic
+       identifier : 0x2fa9605606a02ebe
+       internal_properties : CAAAAAgAAACqOAsTR9Xaidxytlu5Otjx7Poh62fA88HxvL/ZVAV7SerzSUHkT0IEUGilRt6iDfgzm/ShXBXh0iIyVDn43dSfHmvYFpzMDk0ojCyCGd4N26I/A+txcLQoRXtwa3aBifhmZLLmRDAwo5yOoXpLxVgaAvtam7iTW8q1jh7R3VdPiAtt69aOhPkbjVtlN4qsUeTxcx9nU28bXHsaq8J0pnhi/vbZ/z4lfMdj14vpaHFqEDdyFWsIQOKkxyaFTgofV1C5El7GxktVHOkju3fQPlbIoJVXdlqIaFuAhP6kbpcsIlUi2cq02TIKnY0vvZIPmtLwsLVNfNQYbyWQOBowZ+xhIBuZLxTh3fowtt/X/izvd6u/kCZPijxEfFzoTUkSENXHIwyNZ5DvYY5b/hVaiufOjv91mIpk58YnRKDfuUnpDVPXD2Iy+s0CJPTT1c8PrDcC/O2y+3LCX5VZxfu//bGDHHm9VJSVtOSjaiXdnryFvAWEc072sM0dbio8QhOENDyVHK5y3XuijdWkVrOJ25MtqsbCiW6XyB/Mx07KsvFFOIyLhcfl61JAOM/AJWWY1rj37wqoxpKi2mz47nrpF5qN84ItGSIIjyaaOvYdKlY1+CSmrdm73FhykG5gMBO3/PTlbD9gCDEkXE8O9934Omg84S3ipSibD723EuzpStz9t9Xt15A/1LHjASDk4nzAJIugnPy3vMgKqxs51fn+U0wFmcxhGeEqaHWAn5lfoyjbE9HETZn3SXej3QIn18TqT23go4ZYVAipXPGrld3z5lEpiSHftKI3o/gT5p35XwX1Z/KtAIkRrnNvLE6QmktHQ9MlO50huXj7/RGMiiZRxBP1hPkV++nu33YmLnTf2A6ubIwmQUu5kzWYy8JplInUGl3U/4vodrPjfzCYaGk3nA==
+       properties :
+        x : -97
+        y : 101
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Ouvre le site
+            FI_NAVIGATEUR.OuvreNavigateur( Zr_FAVORI[ Zr_FAVORI ].LIB_URL, "", Faux )
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         ActualiseFavoris()
+ menu :
+  name : _Menu
+  identifier : 0x2fa5247901f55ec9
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ popup_menus :
+  -
+    name : MENU_FAVORIS
+    identifier : 0x2fa53612038f1cde
+    internal_properties : CAAAAAgAAAB2sA1s2aJjXTWv6rwQBKtD0J9MJU5aDsvkql0wJNi8ab6v4JwNj2VxlfAwnyIdSreiWUzugD0KnRHKLLfp6JaK7vq8nfxqsaOfMFS7yxnJczYVW5C53slwGeIJ0OheKjtzFgNyttbqn5BOuhvtJvzfiW63U5BChY8BPsyLKLxvrB3kFzqXRzNH3EQQG2BOT38nBlv5tDDxu6JhAZ8DnfcNE+nplj+01eXbS86XYcXGH8yT9+YfK99hZNPyPYdTcSqtDsUc5FgWx2c/L9M51da/WvcJmwWhiRF5mLL4ftcIJACLPVeq/uTzAiNslaxy1IUS6t2sPHQRb9kHCKohKpWRBEgxcJ/YIyiG4v7mXdIF3Dha5U40AGvjRBJSgPmDuffTo1ns5xAZNKO2n7kmSm8NEXI+2yR2QYhUPsXxZQ==
+    options :
+     -
+       name : OPT_IMPORTER_FAVORIS
+       identifier : 0x2fa5361203901cde
+       internal_properties : CAAAAAgAAADkJpjb3rK8D6Ba/uudI982tzeX+IWGEZ55GphZ4RYBDZeTGOwQ5+nioqvDp3WD5IKWugVchO/nHoz+Zuh4oLXxtomKCm+tMpANEuKR+hMmtvDEe3IHJxgrkNNKs7zeNnIo9MsEj2i3QKUQlSrqvGkN1lnIOvuPRUbDT5lFMSpivE4IF+9D7kl9TSpbg10u0MJH7+FlspHw5Sz7q39XNGaKAZaAApwGwx/6cUg+LNoDT3C1lKuIOmpc8/pAA5eQYSXKIGgH1xlo+5lH4SoeE1OK19Rf6PgEsYHI9pfXid0SsPbTMEp7VzjylkBZJphl0qw6G1vWmNxOQyEov/mifXw37gUfTPZ85QD5OoA3jztAMcON3j0ILJDQYz9iLvKgGrOfTRptuVDcJhKlK1hcI9Ff7XO4utvfoF/Z6zah
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAACxKHcdzAW2fL1J6TsagXoaS4NWFT/heaopfqCJiRcY7AEbY2i8sI4klNoUEHPtNckrbBzdjM94WzPe3jJ55mz+6kxiXocu42ZKs/teCAiTmVcEkR9yxvu6bhsFXzbi4bERE7JtHHx3PP5gEF7wdf+5jjyaNkkIjen0wReeukFuYPtb6x4vQ+TZMixXAZzzXp0=
+           code : |1-
+            
+            sFichier est une chaine = fselecteur( "", "", "Ouvrir", "Documents HTML (*.HTML)" + tab + "*.HTM;*.HTML", "*.HTML", fselOuvre )
+            si sFichier <> "" ALORS
+            	
+            	// On charge les documents de type Netscape-Bookmark-File
+            	
+            	// Ouvre le document 
+            	htmlFavoris est un htmlDocument = htmlouvre( sFichier, depuisFichier )
+            	
+            	HTMLParcoursFils( htmlFavoris.html.body )
+            	procédure interne HTMLParcoursFils( htmlRacine est un htmlnoeud )
+            	
+            		// Enumère les noeuds fils
+            		pour tout htmlNoeud de htmlRacine..NoeudFils
+            			
+            			// Ce qui nous intéresse dans le document, ce sont les balises  <A> uniquement 
+            			si htmlNoeud..NomBalise ~= "A" ALORS
+            
+            				stEntrée est une EntréeFavori
+            				
+            				quand exception dans
+            				
+            					stEntrée.Date  = EpochVersDateHeure( htmlNoeud..Attribut[ "add_date" ]..Valeur )
+            					stEntrée.Nom   = htmlNoeud..Texte
+            					stEntrée.URL   = htmlNoeud..Attribut[ "href" ]..Valeur
+            					stEntrée.Icône = htmlNoeud..Attribut[ "icon" ]..Valeur
+            					
+            				faire
+            					
+            					VariableRAZ( stEntrée )
+            					
+            				fin
+            								
+            				// On vérifie si on a déjà une entrée identique
+            				si stEntrée.URL <> "" _et_ FavoriExiste( stEntrée.url ) = faux ALORS
+            													
+            					// Ajoute l'entrée
+            					Favoris.Ajoute( stEntrée )	
+            				FIN
+            			sinon
+            				HTMLParcoursFils( htmlNoeud )
+            			FIN			
+            		FIN
+            	fin
+            	
+            	// Sauvegarde
+            	SauveFavoris()
+            	
+            	// Réinitialise la liste et l'affichage
+            	ActualiseFavoris()
+            FIN
+           type : 32
+     -
+       name : OPT_EXPORTER_FAVORIS
+       identifier : 0x2fa53628039774c2
+       internal_properties : CAAAAAgAAABbilzki63+gt/X5MLgdBnt/pWvcD4xdmW4Lwq7/BumSlKvPqtx3+lFSC+/KuvKZsHwG2FzMa7cZbiNR31aGeRZHXveY00kJDGeUyAai+FygC2X+26wAM28XNJoQTqVn68eh9uu7Uxyz+hLp6iL0hiPq97AqGhY37+D8NGIiNdnivFGoLl7d7EDQ2waOeFOqVfzB8YhUq3rlLo3EBx0man+ePm+AHi5L31BCXwuyCwcFyfXbBV7gAkNDSG7Ssrk4a8EUYjX2VRRcGbtYa8Z9bACSl7MgE1kUCBsjuZP0SAQVtRfQ7mgCOBftNW9QkxsXqcU/v6LNoUytI+pEtQ97h9rUofQVR3e0h871lOVJL2q3reV3C+HwXskVH0xxXJb5xKCRRDPk0OzPva4OuyD7cI+Rl8tCtHO2HBJBLnMOA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAADt5CzvqduMzYuUQb/YRFL1ijRWXC/4Nj0fcFqEANdLD2ht0eHWzVtvLGdkPX/C8VaXu2HPssM4U6pDM4wFYd8uMp6YUgkuwOqag00cVGTnrghFbJDSLjDXUoOuGj4oI/XaBlH5q56eWa9hLKc66yltyIcNg6Xo7WE0CS92UUdi4Q==
+           code : |1+
+            
+            // Sauvegarde les favoris au format standard NETSCAPE-Bookmark-file
+            
+            Epoch est un entier sans signe = DateHeureVersEpoch( Maintenant, epochUnixSeconde )
+            sNomGénéré est une chaine = "favoris_" + dateVersChaine( datedujour, "JJ_MM_AAAA" ) + ".html"
+            sFichier est une chaine
+            
+            // Ouvre le sélecteur de fichiers
+            sFichier = fSélecteur( "", sNomGénéré, "Enregistrer sous...", "Tous les fichiers (*.*)" + TAB + "*.*" + RC + "Documents HTML (*.HTML)" + TAB + "*.HTM;*.HTML", "*.HTM;*.HTML", fselCrée + fselExiste )
+            si sFichier <> "" ALORS
+            	
+            	// Entête du fichier
+            	sHTML est une chaine = [
+            	<!DOCTYPE NETSCAPE-Bookmark-file-1>
+            	<!-- This is an automatically generated file.
+            		It will be read and overwritten.
+            		DO NOT EDIT! -->
+            	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+            	<TITLE>Bookmarks</TITLE>
+            	<H1>Bookmarks</H1>
+            	<DL><p>
+            		<DT><H3 ADD_DATE="[%Epoch%]" LAST_MODIFIED="[%Epoch%]" PERSONAL_TOOLBAR_FOLDER="true">Barre des favoris</H3>
+            		<DL><p>
+            	
+            	]
+            	
+            	// Génère les entrées 
+            	stFavori est une EntréeFavori
+            	pour tout stFavori de Favoris
+            		
+            		sHTML += [
+            			<DT><A HREF="[%stFavori.url%]" ADD_DATE="[%stFavori.Date.VersEpoch( epochUnixSeconde )%]" ICON="[%stFavori.Icône%]">[%stFavori.nom%]</A>
+            		
+            		]
+            		
+            	FIN
+            	
+            	sHTML += [
+            	</DL><p>
+            	]
+            	
+            	// Sauvegarde
+            	fSauveTexte( sFichier, sHTML )
+            FIN
+           type : 32
+     -
+       name : OPT_SEP
+       identifier : 0x2fa53634039aa151
+       internal_properties : CAAAAAgAAADqmugxRdx54qdiLH7bpnH7yB1mw7HcK4Lb5mnr8VprY/eaZyeDHkwFtPnVpmyXHDBlEBJGHHzZV3CFZLDFkotF4Fz5hqvW5pZvXfn3Td2XiJ4uoHkarbxaJv0w4wiX2QAMqGqJSLQuDAnYij/CjomgnoURNP/v9+PXCckg2OVxWcK6ST+LkIc0ag5C35X8InQh3Hh4hJL0+sY16QCwhPhB/RBNlKGGWwwSFi+9jaQ+4c1vp+6NddCHl/WafE7RrEWk9lLVBaAOEZWD1TKReNqQBfiLKKRXX+/hiN+tuR1NmyMb7xq5ZamyuDQWD21id4wnjDOPL0OnUiTyGKROVly3QhT5UuoDVS2qip+UmxSxVXS8BFjTE0Jl0AZogiLsXEX5yhZeLVeFe6VlNq0=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_TOUT_SUPPRIMER
+       identifier : 0x2fa5363203999952
+       internal_properties : CAAAAAgAAAA9HXt+jDzigFwkVB0eE/LYkbh74RWtenluwpdhR3EP4HOr/dA9To9uClZeXet+XTZ2Wzfmz23BFG3HuBnch4SR2XpDVi3R+eK7jQ810jlWXPzd8eA4xw85hiPAGNV2G6qci+AzZsa/1hmnf2+RLH6RwyXnNvBob1kwkvSlTjEsarOsbqtnxMp/gGNEIUY1orTice2hG1ZxMAVUEwz5ZyyXw4clO1BW0LVsq0K/P+G9api4AaTPszP18OvSram4Ds4nygygYElZqu1Q71/faocWJqYFrVdpwKu1McGE4uM4WkRNlFa0azNVjeD5nGP4wyPjepg9jlAUA8s3BHQYynAZ5sOaglfTQzTL8tw5f5G7yoFr9bSa9lS5G3G/hQtnXa6zBBMsLWlzA9m/nBT8nQPsKio=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Supprime tous les favoris
+            favoris.SupprimeTout()
+            
+            // Sauvegarde
+            SauveFavoris()
+            
+            // Réinitialise la liste et l'affichage
+            ActualiseFavoris()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : ActualiseFavoris
+     procedure_id : 2280288872928010373
+     type_code : 14
+     code : |1-
+      // Résumé : Actualise les favoris
+      // Syntaxe :
+      // ActualiseFavoris ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ActualiseFavoris()
+      
+      	mafenetre..AffichageActif = faux
+      
+      	// Vide la liste
+      	Zr_FAVORI.supprimetout()
+      
+      	// Pour chaque favori
+      	POUR TOUT stFavori de Favoris
+      		
+      		// Ajoute une ligne
+      		soit N = ZR_FAVORI.AjouteLigne()
+      		
+      		// Renseigne les informations
+      		ZR_FAVORI[ N ].LIB_TITRE_FAVORI	= stFavori.Nom
+      		ZR_FAVORI[ N ].LIB_URL			= stFavori.URL
+      		ZR_FAVORI[ N ].IMG_FAVICON		= DataURIVersImage( stFavori.Icône )
+      		
+      	FIN
+      	
+      	MaFenêtre..AffichageActif = vrai
+      	
+      	LIB_VIDE.Visible			= ( Favoris.Vide )
+      	OPT_TOUT_SUPPRIMER.Grisé	= ( Favoris.Vide )
+      	OPT_EXPORTER_FAVORIS.Grisé	= ( Favoris.Vide )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa52479000c5ec9
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

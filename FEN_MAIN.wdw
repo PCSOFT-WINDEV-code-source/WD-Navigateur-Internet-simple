@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_MAIN
+ identifier : 0x2fa3dde600804f1b
+ internal_properties : CAAAAAgAAADkYb/VXrInpjs30Mun75LumyREWOUbVRYcnzp9j6KenNigZXC7sshzuKnLyPrHpApd8SSjsIYE0MejQss9A+CM04zWWcmdq36btaVTFOfvo9hRZsRUe2nFn+VCPlNy8f4cS6xT9KdtW23w3Y4xyGRo89yQlvUe3ovPNJCT1FkfrHGwfHSwlKXBhk3tWbzMEf0fYj+fyxRnXv6y5bIKB4LFPsOwHDCP2xhx5W8GrltzNTfhEGmntnl28OMuiw6VhhzzbFTpKRklWj2J/Q274D3+Bw6ihBolDP5imWfynX3ahiBCSLD+XuhuvYq1bA4SKCAGxZ6wVMo90Lc4tvjo0MDvoSQUKPAlIcDLQHHTeb98fXSApUNXpxome+qJLQIxwEyLPXAFrpJ7ysZAZHS0yi3OO4YVFKF/YIz555tB+yPiheZhVHOsn0DXS0x9jyydGLFltAmtvfxzZQvMrMhdOprEf/8eeAoT3ZjbfkAeSIeng0t2bd+mYtdaM2Y+ZkpvLWUCCYetnUv8VrP+gA3ukQYJiz1rjmNdiPz3TBzLps+oUU+8td8Hg/Az2L8UQwiyPRGISV7QcTqA17uDNJBcCZXSTR1tLEPAXe4WGf7u5KLJWTo9iqmq1Hcx80yadZs6vY9tTmH9Mh/A0iXyAjbeoVtcld+fPdw5SNvWvUbgI4rTYA==
+ properties :
+  width : 800
+  height : 600
+  widthClient : 798
+  heightClient : 568
+ controls :
+  -
+    name : ONG_NAVIGATEUR
+    identifier : 0x2fa3dded00f9692b
+    internal_properties : CAAAAAgAAAD0H0phZtOMRI8hcskiXIYB1OdS1S1o/mA8ErTwJHhNsvXbcouopjIjw9vRmDofvv9ghGFImvlQPOVVI5Xr7eXlTwYTdjUqZVvvEqaio5nqXGLXyYu4LtXzyFWvVNfOgnN2oSFoYR/HKbQSx/kyMKIRU4VOtBftOy0vRFpXT0OLSBAHsuhIsJiKFK/K5A+zZUDA1AcC2LkN9FOWgCwcf7/bc//YoLcla4/aqQj34JKc68ywGzTbum5lIGRi86YNF0Wa02QHD25/l+/EdrqNUMnXzke/L/OpyOttYfUqLiWwpsiBmlW0ESHonIwUt+qF/3AJRHXhtM0g0mOqikqiKff1uc8jIXyO4S6iFFG9Hmw6EM76f7xGqTqNds1biSfPdtTEvdHdzBbnOIIB1U2jWFkr0KhNtwC1QR3GHPp7WafFuJyQLbbeBdDb0KQYuP5e3lJdY8wgJO76MWjLpsJL2I9acznbwy0vpmlRrlMJKPSxjqncAb368FQkbuiN2u3oJFvHAxkvuCWDQ9File62Y8j23PgkxsRp9BRXrx60fyFxfuGWYXImG3WI2W6ZMWstPGGxVAHqR6LTqVTGEmCxkruUQiOlPTkd3VVBh0Q/ry1rbcrc02RkeHdF2+d0X8l+KuU4l/KOVOlUMTmmfK7ICbwPIXnqDX/5+TbTUZ/4J3+EasRLXUePVnZyFSHLtrYGFssAqCA2SaskHd9SzhVUzTKC23XWLrpkITKXwCQb3OZYmeMD9KUQBh1vckYpw6ahJoHaQ0m3TRua4uIHabj2O7SY/V2AWYq6Ch+hPjT10bOfEDwB+tfPgFadr+jO2n8jqco4KS23owuYYaqh82aysOfHgfrENVU8btpI64p3spffHAn+AukO5FfbdOQFG0HvGtbvvrWfS7hviJaaBbUeFAiymyQMkyTcS+GiKbMfGUAtaze1/okrDEURPC0yAK9VOBwi0RvhMr/tceQl+xAVXuL+YS/iqC6Z9Yp0JvaPvLplFeKF+NRbLEs2B+9/+5bOaU45gW9YjpgNIdWNbKhUqV7AuqSsDXtPykJbKw50O4r8/UJ12zf5iwO7yzSJn4rknKNIMytSQJZvY/lVr0sR5v01JCNpizm/zgpVgoNcxJhZv5M+iJTDlRcrtkLG7hKSp+zoeJ4P1aG6Wqi6Mnp6LEm5DISjLJxATw5nutlD3x3MtrmODkgujKucJtMd/GeUalsq0j5Nqx5tXgqDkTroA/kHN59P0JtJ7kdXbpUw+C7lXGLmYL4Q+4eoU+5mQC5I8lFFf7KvutNoOzAc
+    properties :
+     y : 1
+     width : 799
+     height : 567
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         // Plus aucun volet ouvert
+         si ONG_NAVIGATEUR..Occurrence = 0 ALORS
+         	
+         	// ferme la fenêtre
+         	ferme
+         FIN
+        type : 236
+      -
+        code : |1-
+         
+         // Récupère le volet affiché
+         si ONG_NAVIGATEUR = "" alors retour
+         oVolet est un champ <- ONG_NAVIGATEUR[ ONG_NAVIGATEUR ]
+         si oVolet = null alors retour
+         
+         // Change le titre de la fenêtre
+         mafenetre..titre = oVolet.Libellé + [ " - " ] + "WD Navigateur"
+        type : 17
+  -
+    name : BTN_CTRL_T
+    identifier : 0x2fa5824b0beddb96
+    internal_properties : CAAAAAgAAABnYA0itfv5us1ippe7oEkYtE2iukUDZt4npQWknaiUTkygSjZDKfDl25kluIQYlv1yKgvpDBtXvCFvzBJfg1oW9JRV9kzUfx3VjzVuie+Kx/NgToIDHPD8IcHWYza9T7lD5S/qa+jhe0NRbG3Ff4+jHMeITYHXwOIFgC18VRkolRUIY5kMQGbi2uJdpsiutyeUiCRD+gBkIs8OPDvuEVLQKF4v/SedEEPO9g692n/eBqTSclD6wGXc0lvMQ2ROYHACPSGkoqW66Tpwz51q8eSnbC7aAvOF7OGlOHi6E7aKZPTyv0OwaiIZxGo5swb1vQ2wuxxfOf4DWtP07a8Hu7T094j+S0YGRgTbcXWQ54sgT/Z5vb0jro6Qb7aUNibYOXqP/tJA8I+iaZD9OUjMG/R+o4kOcolaEjgHIS6TPblwYUwlGozzmpVYUJdXcBXIUiWHDRY8rHZjl2QZTJUSUG4o/sH7aMnnpHd0Z+ALRnRuftnHU6090nO9QrTjdzPYJNeDofThH6zPtyckZVzU4F0rrlPzfOkrJgRel8qFE+58NPW/U9PsLjXMXVs3v8hucMJQ6iON20CmNSK7jcdUEt/XE51LHcL0lWj9qzuhu0EJszG8vrPwaSYvhMXK2Qh+4T0twy/EsRA7suau44BNAwN2jQfaDVEu3C/+q33bQrQV+tF7wVKOX5DuZ0unsmX1hlXcdcIPPiO31XQXLBl+mCOne2KGThXqX6Uqj+4rckiSnakJ+yb6Mn/ua+PPSCe7B8q6yjop/irFzCtFXZOBXIKliyU4zJBSAu09t1jaut+5Y0Hp5uzPCfABqcMnq2ao+Y81Myo9BZ6rtGRhur3KygGGFL3BK4KXuqP+H5paJKBdPrPr4TkuxoypEIrIp+dTEe00fdp56GffcOTr0RfmYog=
+    properties :
+     y : -60
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Ouvre un volet vierge
+         ONG_NAVIGATEUR.Ouvre( "Nouvel onglet", FI_NAVIGATEUR, "" )
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACUML7jWHktzIVrDHN7ZrQYgpHn78JmimzzwXzG7clR9awxSwiR5fAI4hbxEzciv/Qn6hWzYEKdlPEdbb4QSHqpXcgHlhfaUNWATn0NEXBYWrU0q1+VmbdlllEEiL7wE78ajOHFqltWRmmhBZFJ1kYIqD8mMKWKAoQb6xH1odbtixZYezypWM1GD3aOvsIcCulQ/0chvaCvI9Wl+MUMRZUxMb8hdaFBleEUd8DLXXqMY8B4ndfTWFn33rQNwGl7NsaHK1jJtiFsSR3M9atAXtfMWv9vziHqkwi2PuflDQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre( gsUrl est une chaine = lignecommande )
+   -
+     code : |1-
+      
+      // Si on a reçu une URL en ligne de commande
+      si gsUrl <> "" ALORS
+      	
+      	// Ouvre un volet avec l'URL reçue
+      	ONG_NAVIGATEUR.ouvre( "Chargement...", FI_NAVIGATEUR, gsUrl )
+      	
+      sinon
+      	
+      	// Ouvre un volet vierge
+      	BTN_CTRL_T.ExécuteTraitement( trtclic )
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fa3ddd7000413f7
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

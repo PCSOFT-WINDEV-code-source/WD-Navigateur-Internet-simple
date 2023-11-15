@@ -1,0 +1,2095 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_NAVIGATEUR
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_NAVIGATEUR
+ identifier : 0x2fa3be880079c868
+ internal_properties : CAAAAAgAAAC7hbYLog4zaShlnP7Mz5matyCnJDhFKehXZYYU9KltB7fU5YPa8RzjucLgTtZE3s9lWkksPxTigJL6pb5mu5tJg+fsJS6m0s++uNVzchsDXblbtkrdlbsSDjmYoRg8L5069aQEIDpCZa02sn4YxDEC7YIEBEeQlni390svfLOwaAD+vO3soeNOjyHeYKjcGX5d1RfZa+jp3BXP6962G7IWgYeFDGR8uMNuzEGxbxzxcQYwqeuJcyzGlXHHrojZk7Up6a7a9lpvDmxg9VUxalIdvzlpAV9LZgbxieajBsc5MotiEK/Up3UsCfpcaLpIiOjAaQ7RfCPEOAX9dGw+pFOm/djxZ6zmgaF/LYBFDUGW3+F6QGsDV3J3xxuUjCBNAEUJFiVH2RuyjZI0bK1OzP+IVaMyeIlwnPxY+HMaaYthOKs2N1IbL9hVgdlwYETBg7bGalnQqWZWunT+BagI2l/riU3e1WCG1Wrw/l0MQT/65Xic8QAdDcNqMkzN7sFXqm7Xb0ZI40xCqo4C8bUK+St+4Ca0A7yDGx7rNVwkc1MKJ/i6cZLMjXLHRfE1ehHzEvEkfsgdBdL7gqq6ZekqIAZN9pmsuAKkvphFPIwSv2H5YjGFbMdtbPw5YUpFksGvzUkOaPnvNB9tS9N9R771NvTdHuPh7sdFPR0jFuKMVjUiyziE/2bMs/AebIXDX5TNQTbFkN2xMLzuFmBuSNlgMmFLFiyJkjuyQshe8YAXE3wyiop2/RRwJZ2Vx3DN/AgKB0W0ppBb4ypK6jldQkbh2L+ZBUAO7plfV/eR
+ properties :
+  width : 796
+  height : 600
+ controls :
+  -
+    name : FI_NAVIGATEUR
+    identifier : 0x2fa3be88007ac868
+    internal_properties : CAAAAAgAAAAh2kyqwVYKvF0w7Hv2rs1d6xCsaucwmdrTS6u5fkLBiUZVJpz+7GS/IxEKeT0QCabt2/qeuOznGwb2VYJmVSoGjAUfdXur6BfZiVP1ydZfOCrNW76A7OdLyReVGDaw7kJ/nShOkLMzQRQFucAq+WyT5Kgrnz4R3McV5xO3YBFcGnc4Kp+g3zbeNRU4q9i3RvlUignYpZg66uETeYnYErBweIGEk98azKhbxHYMQfnSbADFSpyMb/CDKCWNMANO8leae4VFnPylemT+FZB+QA3eKN+e6dMXDDHjatuftIzufcZdFFxIOvwL9AWeVTReGhnH3nllsbuqAPklQAetFMJEPr9xmny7sDKfyvoUmkxCSTxnIsQ7KjbQyd0Q5Ul4066RigAkIDVpLMsJ+5ozSjLaDnZY1R+4eYlbaaWq4dWQPwzJbrjHPHw/UB0JnAsp9Ix4mzyHVIHCzlHCBvhi5R3c8AXtvbgQZ+JzyAA=
+    properties :
+     width : 796
+     height : 600
+    controls :
+     -
+       name : BTN_PRECEDENT
+       identifier : 0x2fa3be9900ca0a53
+       internal_properties : CAAAAAgAAABJkJn6TtzQt+1v20nHfV/gAV3CLcCTZGmtjVwoC9AIPqgR4KqxF/OQqYWI9P4Bfc2ETCBMH+mMxhHDOLVkhexXJnBpvLgOsR/mRoggcmwfE31k+XwZHuoE5ME2BWak/JE7Ao4tSDRgEYvOT70OdZ45OYbj1dyvrefoqrQ0a8QKjN3R/VzbKdpB1o3EJ9H1vy49xxRaHkvaNWCvtMGvd+KbtuTBL+VrFhf8TD7tPu7ohMpr4mB9v81ksDQlm+o6jtK/btL0BroSn8IQZQrj4eSfBeJYboPdAwNSdK6WDGNXYfn56OfJzJuzanaVV81MZwXqoZMWarZL/PWIMw9g36gLRDqtGsIoe/3niVbNt2b09vWsRQZ4S5TRAUpFVOIkQkxJ8cevHF8tTvNA4Ar2xZP/TgjqW40F3Vq88ud4xEsGFdcFMTiK8ZHb40m0qsJg/tALxwJYZI59AI7SEttwJ1hQZRezNXN/Ls0HaO1avOaM02cUhOewMW3fEciRczI4OMCpFC1TZ2LvATY7t9u/az+wg5GVvf6dGoxlM2P2bTsm6X9X7vLw0Rqzmm6r2ePqbo4aVrZQ3m/ccIjloQ+d4zdq5S28sMIkUH5806jpchk8EceR1I7ianiihT5LmXrdd24vYEo5wcjVM0aDfdxOSiS4vgjULKKPNaFldIXIHvM78zCUPyPmEWDEIZkIiZyBKuLoC6Iqsje7CjVEmC2RHpvdM6fQu/cSD8FqTnkz7rvBdI2YOYRy3rjGYxlrcOXFEgTKUjsDB5T5UTH9a6dIIfkc3NPklhTbG83buK/LEsttX+NesfY+lNwLU4ALFwzrldXaKSEzIG/8v9/mfrLU7xjA35OKZe3APlzLtBa9fTaur6xPDoQkMSSwvOO1eK/vSsJuv03DglaPzmDD5dT8g/PxumcVUjCdMCeejXj7hPeInIU46cZb5dPv62rgvPhWwFDSaT4/mqbLrTgCJVBUd8elR1ey2ghHqhEx+hG8B5T880Lw/bSOI2a7cU8LZdj7
+       properties :
+        x : 8
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAACLAMzwG5og3zJCAw12fh7L6jwCsCG4KJkJgjT69qk/2djF/VVse7G/ioH625XkOaRLbyl3jCXaP7AZDSa/x5d0RamdBYQTLbMZwo7TDfuCKcP4qdPN622UxU771XOrWvzhjfoYOlv3ngpM97ANUEJelcTYiNJP3E1un0pDN2cEBw==
+           code : |1-
+            
+            // Indique l'origine du changement d'Url
+            __Origine = OrigineHistorique
+            
+            // On mémorise le nouveau curseur de l'historique
+            __IndexHistorique --
+            
+            // Si on est arrivé au minimum 
+            si __IndexHistorique <= 1 ALORS
+            	
+            	// Empêche le 'back'
+            	__IndexHistorique = 1
+            	BTN_PRECEDENT.grise = vrai
+            FIN
+            
+            // 'Suivant' est possble si il y a d'autres éléments après l'index
+            BTN_SUIVANT.grise = ( __IndexHistorique >= __HistoriqueLocal..Occurrence )
+            
+            // Page précédente
+            FI_NAVIGATEUR.url = __HistoriqueLocal[ __IndexHistorique ].URL
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_SUIVANT
+       identifier : 0x2fa3c2bc067830f8
+       internal_properties : CAAAAAgAAAAGEfGgC8Gyh5mjk9FxSEzw+oA2XYuC3su1DmbsLPdci6sqFK2sf5IwtGvzt8PPas1tZ4lNK6qQ2wuF2jj2oDI6aRIYytVFzuy67Nrj6mWhWu+R3hpt4txG7bYoHPoyHLJL6QUrTmVWJPxHxxzNcx13dhUPqiz0IIvETXhRX0DhIeF6GnzFPQdc8QhjjBP+zv+6lMjw2lY4glmdHw7npL1uDAkE9nP5fINOHs+NLpd1GBU5T5LQDLhupFZPLKW8dcvbIWhd3VFW7Y+kKc+5YoQO/mstw6jQa0MPFc9I0ZcFwLB4Wz5RCvaJYjJfld10khz0P3b7pCcSI7Kl4JwnGAIQXRG2X1wNsZtgFbuKu1j+TzLM4Iei/YPZEufKEIbJpm43qN30RnsmInwYYr8C+KgTmX2NW9QCnMCsyuRrPyXg4uNwd873xb23WgHUj8neJAEq4ljrNwtzVTjgRVp/vB+VjN05XkifNIO9QbNvF4FFV3vsK6SHli58ttc3jMNx86GkVJ9WLJ241dfsczDslsYnlZzv0VefA9SGGdjJMj4SeCV1wwtePnDgMjWWIgvS+1nKd1koRlgwZ593XdNdqpFinOFhtLClIaDfCv3C+e8QHighCIgr2mhz5lAHLTe9ff9KPbyhhDgVfRAgYyK7N4A+lTENEkHOhWmtlcVbK4p/CqasU/2EFzXB1nRHLphOGOsjGrvhANyysQSBf+F5zLdq/DZSucot3WYkManwAR0ZhLBcKjCUbCESJAdoTQDrTvgIsZ2ka1jbpivVWNyYW8Tr2gDVFgMJVZZWLbc1WgHoBXmKgNL/e9iCoVpTahVr2geQQKgtrJhGdPj+XbRM4wWljPGLRtHLLdqexO9ObKveRdfHABMapXLFz53XiW5uX5PmL/nOO4tMINU1++2/NNUD+JIH/ZwL7ns3k4ZJ+jvtBRkCZQcdL8nvp/lj30xNBV0iwsilzhabH93PygB8GwK4LiphMkOYDLFldYo2JRFDM+I=
+       properties :
+        x : 42
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAACNZ1jT+9l4AhVW85zQu84f1cdW4H4rz9f1FA/yvKEJyVeikKT1Lh3dtvWTmiAOcyRFiLhYZt6PQ0fu7Y5n+ZXtJBgRfFhRwYMpi/81RUN/ExIIUVAR1Aua2cmqJS5a6tl4gPSCLQLU+P7QcSo=
+           code : |1-
+            
+            // Indique l'origine du changement d'Url
+            __Origine = OrigineHistorique
+            
+            // On mémorise le nouveau curseur de l'historique
+            __IndexHistorique ++
+            
+            // Si on est arrivé au minimum 
+            SI __IndexHistorique >= __HistoriqueLocal..Occurrence ALORS
+            	
+            	// Empêche le 'suivant'
+            	__IndexHistorique	= __HistoriqueLocal..Occurrence
+            	BTN_SUIVANT.Grisé	= Vrai
+            FIN
+            
+            // 'back' est possble si il y a d'autres éléments avant l'index
+            BTN_PRECEDENT.Grisé = pas ( __HistoriqueLocal..Occurrence >= __IndexHistorique )
+            
+            // Page suivante
+            FI_NAVIGATEUR.URL = __HistoriqueLocal[ __IndexHistorique ].URL
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_ACTUALISER
+       identifier : 0x2fa3c2cb067e6ce8
+       internal_properties : CAAAAAgAAAA8mN5lI8MEtfqcbMggLnEFSmiTjSP01EmpFCtLPf62JmksvMWcasUnT2sH8Gzw5+h8oEKDCtIJf5vm9ER5WdBp/B4UI5IqIhkA70iY0ujqq/HIBKrhSp6gbZJRpG0vrcwcF/0mJK07c8BcuiJMlsU8RiMojgU/+AZwmEKDTH5imXgmAmW++HgmSl6hJ/KTtuNp02Kaf5++Td7f6HqHFgAkvfvrxkFHLtvv66k2nZBsr2ps/dXoD7YIThvTey6Lze1CS2Uuig1ArakUqAlkolXvLsdX3O9hyOQJ+dUZ4dwbzDEMAJG51K1GeohTsrkRnYqbjuud8/dxh39UmSdwDJrr1MNX0bz1Bi2gwr1zuTpui82V7hgRORkRif2pQoZNFwHfKas5s13ZpmAzNSH8YerSg4RyhXrkLqwGR5SiacuxNZXOPN+XhYeoisPLpurgOawTL3lVyQut4LDVKhJQ2Dg9vcrnkCHConWP2qpG5gNgs38CpznJQhVeav1I6qB/RL6UkPRQ3SATt7ciqGwRFvnKKfSO84bknKBy87udmZLhu//jdHdZF8V8qoeBjvpmxsS4Uwq6VfXNtUGNsLMItEZz/rcyEL1s5DpRYjZWqgk5L55Z/17UFc/h1mqyTzxlKkRI+e89hTPgBTYqytjWQQdBvZ/4ZJhjFn9N3wDVYpDgl/ZWaBkVOlQvlJ74FJuoT0bv0oR7xxGDxcj5IongIpZZ/tRdfZnS8tpu/W6ksjl6AU6ku+JJm1gIYqff/x0TYfMsVxz0cj3Ebj/Dgc5/EfGYZNTuOoQMEK5yUbhjLWP/4Kmcn/YmGD34g7hNs2FCQj9DEwxyzdFH7jnloTfvmvRkkIGLmlTRpLIQcGfpLnQwIKDdZ7vzPebt78QeDuZqJNzdXQy4D5apYhUFBjpGhXQi2vf4n4I4drJa+jVLLqkzhZFL1Tf2Mh5tIR7UTCxiSszs13tJ5TE2aLqIAN4UCLMjyQ0=
+       properties :
+        x : 76
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Indique l'origine du changement d'Url
+            __Origine = OrigineHistorique
+            
+            // On est dans une page système
+            si SAI_BRW [= Prefixe_URL_Système ALORS
+            
+            	// Relance la page système
+            	BTN_BRW_RECHERCHE.ExécuteTraitement( trtclic )
+            	
+            sinon
+            		
+            	// Actualise la page
+            	HTM_BROWSER.Navigue( htmlActualise )
+            FIN
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_ARRETER
+       identifier : 0x2fa3c2ee0684f5ee
+       internal_properties : CAAAAAgAAADaVSwg4hwtxvZS6b/pPj4Hj4ds5B2xUt911HUNbEBEB83NfBgLhfC+0pOYTafQNgDjgjaJUZeyf8WqoGJ6J9MQJo1FMOuPfdMH3LdPU9QjiI0xles9lWqR+cSgdRCwRAcWo+Yiepy7yrq2g/TPo61FkYKfzD5OwLVRdWbCyN2ox61bHh3GSJuFujysFJZB/PF6miw/+oBAoFn35D5BduqRHagac5kL7vjFfDDp4+00LsWhToPkzDOGigXi6XtcPchA6sMs2ECo8GsztHWqx/ZLrAT6tT4IAMFGiiIe4LlgG4f0e2JnGBmL6Fzg+ZeUE7Nm/B0rqGekMyadbC+5fNMyNmtp+mIfwGF4rdC/p1zWBD2a6ve6KO35IVGXIKCAGxrcoDt25qCNX/lQAt7QSi9hy+CoCGVOgF1mwRYsyq+vQzx9/hUBMnweEsPLB87m92HHzuyXcZTtm5QSXKL6q/XCvHutlkc1QOTE2k/9Rp3Msu3ps9bQMSvRuiBz/VTHeEnzLxr4sH3Be23Z52Ci1nx8l3NIDrBc0x+4zPMJDqzWdMXKspG0yPl7WX9ijFcSS0NY3a3wV9CRvoyZ+3QoF37ZB8Skwaapqrs0k46hSNsx7gYDJkDCLELgK/sOaUpQrWSV0IVX/eOmbvjisQ3cFwuUfAczA6VM7LaXodawGmn2ZAl4gUoQtwwj50TaMOWYEyjRg9bMlim1hnJ8FPvugqsP+LeLtWsZrDrwgbKFONGmAqlKBrfkZWwPmg8vFHfnbekOT5M/om3GgQyslOiQjkxa818LBDgES8935qnoFbt/aF2/Urw/GdhDm+CUEwZYOTUQ/D2Y84tHc3T3PD9gerH4fryJGyWges+yKDu1MPCDt5kZHPfWoOZIWtDCUcD+LJbSVY+EK14sHw5a0FrMjUK+JQWqv2jj2qnsHwMkvYax5J6fuViOjHzGSPayksTO4ma5xzU87bcemlLcX8985/aApEeWe/SPppE/5a5EAiZ/7z4=
+       properties :
+        x : 76
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Arrête la navigation en cours
+            HTM_BROWSER.navigue( htmlStop )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : SAI_BRW
+       identifier : 0x2fa3c4c506bf2539
+       internal_properties : CAAAAAgAAAAlcxj7oBj0WWaeSZk/ExObba26LlSXJMPCN9xvaStsSSVeEQc1FFgy0760sVb07RAj7+3ZirZQOlU6RcdWcw9YWqwAS4UvKpkDEi7f4Db8S/vL26dRRiNe2h8yvKj40Im7RhORTcIkkw1Kr6sCyW9P5IVRIxoGYqvVk4lELY044zHlGiZEMmlCpwB8ifRJ3tb6PB5gbEAlbjbt1L7V1DfUv+A6zMxRNHi+vpA8wNMBrk9koEkyfdO7SrBEhu1e4jnJg324cB+Oy51B0s9le/G7Rb8uLANafVHWDCTXaeJvZHbykrF4S3+E5awOH/XONcMqtZ1Z3auQZuus2NIpp9T1GGklLtx9Ghb3+8KL+JA7vIZMVsBXkQ9XptrtDCdNhyTr9NS900IMVC8T5k+W2Q4jNKT53YCF54BFIZoYFvXSKmcHQvjxCEMoUkn/eEHAx4bda71Ue1MZxj45Q6TFZPWkWWTADMgs7kHvarTFv7TqUMbOHmg0v0w6NJPK5UVGFoyoTt0ZRhFglM7SEuvku7UWpY5nWTehBOryDBoYnXwlQ9c8WOHTQjDkg9FFfZ+rwum0Kg+4apfrlbI4A88wLPwssHvjPJRiygxuHi1PLcDXi/emAgao/KTC4joMQ3QjwggeftNIBKeSCMxVw9ro1zGXpr5xRaPSlYdDXUwGl+HJzmmCdIjtvVRv/ftuEyhYrvZJ49t9xhGm2qWcPKCKgf/EuT0RjNyL4TM27XaPFp6u+J57AYHnXIGqAeHun6IB6WjUhb13kY7HXRV4rmEVdTQ2U9K3tbBC6C42eTq/n5eoJ9i7VbF91USSE6LLy7yeZZdgKohXjI4wmbdgS2bCOILul/dHnbECFTQ1ynopK/YI8aKBvVm+RBtqJJpbW8FlrqBUiXprBylRaDqAfw3XUJMtEMBCcXSqwIdll25b+4//6sGzueL4Lu40gCidAIBOqxGxAMX2Czof05o9ni5Bpd7xQ3608weoZG1gIG8hmKQGrdlvCewqp6un9Ezj4qbPNW3tj74SHnanKqE2I3mXxmtagnQQQVyddhnmKyC0x0EzTYPzQ1m3zEPmLXEKt7/ixmSgSGAoa2tVs/XYCf4BtX55dMhXz+/VKPKIhV6K6oL/iJCsEwM0PBTNhLengt9XQZJtsFBQ/hzqUNk19Rl0PuDEKF2/WxnDLr98Ojyk2qOR8UdhJa0ZDUVw9ELymMXOpsc47q1sRZO/6qyV61+dMnezyYDkCTnPHCK6gy8uqRU1f4U07m/mcYUe+/Ak6QqvYrpgzJCTrgwTHy53ya4RkFPnAUiGAbA4FC+4Yv9wQebNXvdz8bZXCIF7136SHfOJgFOsuuUW3dYnNRoGBJ8yAzDIRM6twZfueNuBuhyTZzqHvh8wQEQi0n5wHpOO6W9sVxLu3mPAN0ErZlxGiRFgxsc27PAlBAuBLpOGiiQ9pO0NE7snZ78/BL1KCAQc
+       properties :
+        x : 116
+        y : 1
+        width : 598
+        height : 34
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+            global
+            	VK_RETURN est un entier = 0x0D	
+           type : 14
+         -
+           internal_properties : CAAAAAgAAAB5u2ynX8zV1pHqBwikr95fOYt+TLY39xPx2NP+yAUJQXvuoEC9Wh3hMol/tpQqcxyJfEj05qrtEWmYwzQJ16P/ll5vkgKvr6GzrZ2rl5FFjTwGf0Z74iGQQ2MwS0igIMuahlogX/04XBKkRR4=
+           code : |1-
+            
+            IMG_HTTPS.plan	 		= 1
+            IMG_CHARGEMENT.Plan 	= 1
+            BTN_BRW_RECHERCHE.plan  = 0
+            BTN_BRW_RECHERCHE.Grise = faux
+            
+            // Vide l'historique de saisie assistée
+            SAI_BRW.SupprimeToutSaisieAssistée()
+            
+            // Ajoute les favoris dans la liste
+            POUR TOUT stFavori de favoris
+            	SAI_BRW.AjouteSaisieAssistée( gimage( DataURIVersImage( stFavori.Icône, 16, 16 ) ) + [ " " ] + stFavori.URL )
+            FIN
+            
+            // Ajoute l'historique dans la liste
+            POUR TOUT stEntrée de HistoriqueSansDoublon
+            	SAI_BRW.AjouteSaisieAssistée( gImage( DataURIVersImage( stEntrée.Icône, 16, 16 ) ) + [ " " ] + stEntrée.URL )
+            FIN
+            
+            // Paramètrage de la saisie assistée
+            SAI_BRW.ParamètreSaisieAssistée( saFiltre, filtreContient )
+            SAI_BRW.ParamètreSaisieAssistée( saOuvertureAutomatique, Vrai )
+            SAI_BRW.ParamètreSaisieAssistée( saTailleMin, 1 )
+           type : 15
+         -
+           code : |1-
+            
+            // Mémorise l'URL saisie
+            SAI_BRW..note = SAI_BRW
+            
+            // Simplifie l'URL affichée
+            sUrl est une chaine = SAI_BRW
+            
+            // Si ce n'est pas une URL système
+            si sUrl pas [= Prefixe_URL_Système ALORS
+            	
+            	sUrl = URLExtraitChemin( SAI_BRW, urlDomaine + urlCheminRessource + urlNomRessource + urlExtensionRessource + urlFragment + urlRequête )
+            	si sUrl [= "/" alors sUrl[ 1 ] = ""	
+            	si sUrl =] "/" alors sUrl[ sUrl.Taille ] = ""	
+            FIN
+            
+            SAI_BRW = sUrl
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+            // Rend la saisie active
+            SAI_BRW.Etat = Actif
+           type : 66049
+         -
+           code : |1-
+            
+            // Validation par la touche [Entrée]
+            SI ToucheEnfoncée( VK_RETURN  ) ALORS
+            	
+            	// Fait perdre le focus au champ de saisie
+            	DonneFocus( HTM_BROWSER )
+            	
+            	// Ferme la saisie assistée et bloque la saisie
+            	SAI_BRW.FermeSaisieAssistée()
+            	SAI_BRW..etat = AffichageSeulement
+            	
+            	// Exécution du bouton de recherche
+            	BTN_BRW_RECHERCHE.ExécuteTraitement( trtClic )
+            	
+            	renvoyer vrai
+            FIN
+           type : 65792
+     -
+       name : BTN_FAVORIS
+       identifier : 0x2fa3c4f406c5ddbc
+       internal_properties : CAAAAAgAAAAYqS3CzLrZr6sSnuikJTY08gVz3qis5b6xy6MZbKeSD2SywuGsBKcXdsPDfsJ9CBL5YTSKoru+HctWdU3S/Cm9Ed56p49XurFyN0EfcpaIaH2y+lo3oQYb/D1lVaBr/9jZc/Z12F+xp/DLTbd+OnYR9thAGGtOhUt6dLXskNRP0TAYXZ4XhpPMEKZp+FKNmDvlCeZ92TQmDH3s2z1OuFgYTDwTicVgf7HgvxP+5tGqqQfYNK9Zm5D4P6EUVX107hH+o+i+iotvBSWMUgzQJQmft9riRV863uM5kD8Rjn64/eL/xbvbAWuS/F6CMbQ6JapZxk/ZEzjLcIMNDRoLlj+KDSq5izAq5Jz+unqhcN74PvPUSY0EpqM3IBIF8Hp7i5gGHhvS7Z3d9IF9HjFJfIEd5XntLbK8TFuBjdFeSR5XjKqCR4j3WhbkGMve/+GN7fWEpF93rbfkzdyxwYFneP2vHuGv7zxw5Z4ca64sLK9Xjq483f1+4vVc/Ilxzgw5kiUw45cko1qc50Mhl0S03HJzrYeV9bDbfB6045td3+lgEHlRBmuA950hmj2gCQozndBePUWIX3OUcwyJBYJVxF8IVzr5Ek92WG71qMmlGmkziUrN/UUcSm5+O3VwJLFp75GB5+HyxAl9FYumoAuHLSeFCh8zhxUGwy5QP8iBzYyG6QfrHN6Xs/xSKXjts7W5Lbdj8SkWD7+RqSUL/6Gl6nZkEIOOHcosrbcdjuOhfOkAR9WMinPCxph6guigVq/OhsNrgUMDecWFWVQh8wxizyOqfTyp6QU+m02xv7jL9getHhyacAttaii7hHPEUGHzz55vrm6TewfUIqt1bkQPDl4omaLl2QeL11633Qfh0m51PDVPa6ZpWK2JfYGFae4N3F/lAmN0xKBJHZQcbjE4nfLYdZTv3rwd/XlWOfGVahas7AGCbui5ArspoQKR0msM
+       properties :
+        x : 726
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Affiche les favoris
+            TraiteURLSystème( URL_Favoris )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_MENU
+       identifier : 0x2fa3c55b06cb6cd7
+       internal_properties : CAAAAAgAAAAY3Q2+7ZEsV8Mv+MZFpYXRVFCIwqf0Qhd6hztzrvZ9VmykmVJqv/azT9bI2lYDv68hjjictUHs0zkRk45PoQGbzr37wW/HNYcGSpjS0FPZgrqKaeh1TLYHLgU5lZwLKVun6CSxijHFH0YTzm77S2V2XQx2XLQEL/UQGvDAeOCteO1CZuFD6ClFdTKqGvZmJ8tHP0EGKOOhrquocZKQnivhl0eI2gCOD9ppVkvPNPejlMMihrHLDbH+9e5jbO65eEzxsOy0s97XS228yERT5YbScUDwWVCsIowwcY5Yi0lpXAZUNtATrnpyAwwRIIGqEhDJRRz5xp4G4kX+YaOmkzsGSL+hW8oohJ8KRq9KcubkkroS2ekoPcUFYn1a6/uSJCJ6F1OzRClCtJZUM7jvne5DVEE6CjxmaxrORNfeJfdVnN9OeIBZBc6UsWUCXwUK2Q7mMFlgxPc9FQn0gyXgrxvlKaecHl6WcAdXwiMzTZZZfSgCUvDkqVdSBg+PEq+N3bNwx7I+5gIXuIwkn8h6P9XuSZtvhGx6Gaalk9uJrqqiHSjxPhfmV4aYCyL05YEZlUY4jBgnuL1rpFtG7WABnllb7YtjW7jI8slBDMgxxYZorweG8bzmM0xIB43yr3MrMkkBQFqVqHC+7S2uAH4PvGuWFIKXpzICz3fzPplZzy34mGkqkDRMvhSDohHhNy2PXql99cMZjPbHtP3XYPCrj9XC6+IIk1axxchEZ0R0uS5PuxbowFhFo6OqmN4suIrKU+ccAwS5aA49itoaIgyAHKlhtxIaYuMlLbiwGZ5QbEgJRPrBHUB1WqQgwjvOtJQIdZlSvTi5qm4WZGY+Ns5DLpwF+l4Ra3BWpngb4xwsjchnMHFc/Fo7fS79f2eyFZoLYN67qfx16oEbUe/RqM7OnnNd3gBhmrevdD6z1ooqF6TVDB+oMXZI0Dvph1t/Or/yZ66vJ3JTjhfaBRm5cTMSzA0S
+       properties :
+        x : 760
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Récupère le champ onglet du volet
+            oOnglet est un champ <- { OngletDuChamp( MoiMême ), indchamp }
+            
+            // Construit le menu d'historique
+            ConstruitMenuHistorique()
+            
+            // L'option "Ajouter tous les onglets en favori" n'est utile que s'il existe plusieurs volets de navigateur
+            OPT_FAVORIS_AJOUTE_TOUT..grise = ( oOnglet..Occurrence < 2 ) 
+            
+            // Ouvre le menu
+            OuvreMenuContextuel( MENU_PARAMETRES, moimeme..x, moimeme..y )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_FAVORIS_AJOUTE
+       identifier : 0x2fa3c5f306e8bfb1
+       internal_properties : CAAAAAgAAACRKIejFrrLddWVZZa6LCISsXl7HzXpjac0qlg4rpRnyENGmSFcVq/59Omaf5miFwTlznClyNrYEjjCeWYdTkzctWP1Q1klIDse/Qf9sKjFYPwcvwEL3oEuNbmiBOOttWLz3auSCYw94XoS87L3z/nls2W33G42DgRElbQqs1mML8ttojoOureGFRhmkllpOSiErHnPuuglfgtM8AHdF9Uyxxvh84Mj8wXgFVVCS3SOvjc7QKR7RZYNVk9Jthbf/+JVljJyNbR+Uf2sju37JJ4ReSSDn8I1bk1sBWiZbRjx2jWPGVAQQeaLp3i/lOL0aujenI7kE9itUv89ECLLy9f8/JcZWatL9zJcOVDHvcA6I3LNaGNg3snSU6r9ljBmhQ3VG65ikqT/L62Dn7Ba1wGP28UVYkBoqpOQKlchhBEQjigH9i/mr9SF3rKO0KMSai5f73dl1xZ8hU4Dsy0MRaGUS3ygQCArgl6CGjl/hlN9eujb/tw872xRn22Assglwdd7AwL18399+eGHD3c3DGZ4T0EIxT3ApIheoPPvVigdDqCUAuIa6rQBKKA9vRhUZjlsSLYfBYdW9m5A+ZUVyE8eYzIyw6AFtCoRiuQKAnTP/HXQj8qviJ7cL3rn07b9Ltx7Jix+rpmP2yecKRaEJJJIM8N2X3brviHZr7rUWlcXxpcqz7AcM76yGIzm7tkO1/F1L6sKmkrlMTzkCOt9EitVbPORXYwBRa12f36gmggKnm85PgnyLS982FGIDOihmbfeeFykDc7373E08UZL2Cis4MI6bbS7KSMvmNr4/CdK3nXwMP9qnKyad+aTYoC0rs6DdjvdcyL7rrHyn3OYfce/Lre56UwDNNmwqPIFremSwB1o7LCXGFRIBmSXGMDmMk7A4wPfc3HJYMzoG+eKc9mPzDqTo1DkJXugDlhlak8FqS03CUvtVslcfAsqvFw7j6Vm/uCDhP9Jsm9XUb3tOHe01KH0h2Zt
+       properties :
+        x : 685
+        y : 5
+        width : 28
+        height : 26
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+           code : |1-
+            
+            // Ajoute l'url en cours en favori
+            FavoriAjouteOnglet()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_BRW_RECHERCHE
+       identifier : 0x2fa3c64e06fa23a6
+       internal_properties : CAAAAAgAAACDRBsXUwhQgYVpdMfgsYOVHxf5HR4RS+6xFHWnE6gu+UqlczuZecnbXOQYJvLM4mELR4zYmo4Ya4rIBF8Gd0qhH9911vxBBchQ7vPNMJdD69yEfGjBiv257K/L+2vyPihB7rcsVOJ+qHagPyHI2ty6ou5UlPwP5rYlApWvK10CSvAN8x+Mb39BliVZ9pAzxz1qBHwf299KDk2c7iyl8ILakJC0QoT0CPrf+S/TdA8tUl2L/DdKHaveyCPZHt0Io5NPFcS8vwu1sNsF382o/rJN/VvfmJVdB52g/I70axdLY0bivpfdx4kk37jdfoZxNpseY/etXe0VjLrwp/ZiIq76MKLIfuHvlJlisLWutipyQZ2x57A97/IYwadnfZatlldM//nW69d+Azid+4FEHdnJvS1R9aGOM/wBOsirVKZYnt4NEAGshig/EETH+VXYXIsarKuO8lpbNaLNyAstDME3g3164yxiGgHc3ff/8o+niSIubY1A7jh+1MHmZVUB3A8iIwCHGUG09Ih+AUwmwmnst3/AlO5yiVtSrKv8OdGQ3eDWzK4Ja6IohWeyz+NBizmMl8/ubofRA+iNl/nRvlyxf0Bfa9K5PyEu8NnsP4deuO1P7+HybjhI/C47VKw5TWk2592ZzlZLo2s9P5SWP8rE2i74nwTwikJxo9HDApXicBW6zUHjXYOcr5W7wUnHcrE2RaXueEC1VMeoOa0N+Mas3i1/QkpVvN8awekmb4zRaSVghpDRvWWjhlEAU6rmco7CsnZMWTto9zHxjVj8NGFFg8CiQ6RNGehhdL/Fnci+DuXVBRPGGKEH30EaXaOv3nhagYzT95SPlWLG7BUIRuiA44qPfONxGAHyEJvrQQmOeIyLOzeJon9gzuQDgXMTgLZn
+       properties :
+        x : 117
+        y : 5
+        width : 28
+        height : 26
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+              
+           type : 14
+         -
+           internal_properties : CAAAAAgAAAAeAd/jYajmb/cWyK5JV5oHWC0Nn4d+3ZqEioj56+YMo/BmQ2iZaEPzP4GJvxZYbkPJOsCrgLu47pjlV2t/3qDDDrwUVYWd+9tKArlbQBFWPePHLRalMS2CaHrR2sztjtFpglaSFVGjqIg2j1azq9u6H3AR0lkG3HRp2UToC4dOFzbXuHwB/9mW0xK++Vjlc8ta
+           code : |1-
+            
+            soit REGEXPURL = "((^(http)|^(HTTP))[sS]?(://)[a-zA-Z0-9\./%_\-]+[\?]?[a-zA-Z0-9\./\=&\+%_\-]*)|(^[a-zA-Z0-9\./%_\-]+\.[a-zA-Z0-9\./%_\-]*[a-zA-Z0-9\./%_\-]+[\?]?[a-zA-Z0-9\./\=&\+%_\-]*)"
+            
+            // Indique l'origine du changement d'Url
+            __Origine = OrigineSaisie
+            
+            sUrl est une chaine = SAI_BRW
+            
+            // Elimine les espaces
+            sUrl = sUrl.SansEspace()
+            
+            // Si la saisie correspond à une URL
+            si sUrl.VérifieExpressionRégulière( REGEXPURL ) ALORS
+            	
+            	// On affecte l'URL
+            	FI_NAVIGATEUR.url = sUrl
+            	
+            // C'est un fichier
+            sinon si sUrl [~ "file:" _et_ fFichierExiste( fSéparateur( sUrl[ 9 a ], fSéparateurPlateforme ) )
+            	
+            	// On affecte le fichier
+            	FI_NAVIGATEUR.URL = sUrl
+            	
+            // C'est une url système
+            sinon si sUrl [= Prefixe_URL_Système alors 
+            	
+            	// Traite l'url
+            	TraiteURLSystème( sUrl )
+            		
+            sinon
+            	
+            	// Déclenche une recherche
+            	DéclencheRecherche( sUrl )
+            FIN
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : HTM_BROWSER
+       identifier : 0x2fa3c86107563f45
+       internal_properties : CAAAAAgAAAA+niR6i51OYTFy8uNUHTAXorA/6hsGLWhrEiwT5VTgGW9k3tEFh3Ks2nYW2oHazPh/XuDnntdkI5WRFyv823ZyT5ehWwBqDT+CZ+bou7UBrXAly35bC58BTjzvZ8+Yxk/dA2u6KpurNrfXPFoRNPd0M1KPC0V8L4+JMl4bQNJNShqEDtz5TmUUf/Of46NrQaHiikbf7u+Xg8iFN/vjpVZui5UCWAuzvJdTcJRASlI8hPXuC2f1n8VIBeXP5s92jZtZ8rHLOjVQeJuWrvhxPOUn3QQIo0NaoYX5oQDkalZKf4s/pWYxlT0TC+PZrS+UvISgA3++JBNoWgCdDC0DgFPVx+LZRVYnFgr2Ug==
+       properties :
+        x : -1
+        y : 36
+        width : 798
+        height : 567
+       type : 23
+       code_elements :
+        type_code : 36
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAD7PT3Fm8nn1hHqh4gkL15fuQv+TLY3d5PxWNP+yAUJwXvuoMA92h3hson/NhSq8xwJ/Mj05qqtUSnYg3RJF+O/Vp6v0sLvb+Fz7V3r19GFTfxGv4Y7IuHQA6Pwi4jgYItaxppgHw+FkyMmx5w=
+           code : |1-
+            
+            constant 
+            	cibleBlank	 = "_blank"
+            fin
+            
+            // Autorise le DND
+            ExplorerAccepte( vrai, monchamp )
+            
+            // Sécurité minimale
+            HTM_BROWSER..SécuritéHtml = secHtmlAucune
+           type : 14
+         -
+           code : |1-
+            PROCEDURE ChangePage( sUrl est chaine, sNomCible est une chaine <utile> )
+            
+            	// On maintient la touche CTRL enfoncée (sauf à l'ouverture du volet)
+            	si ToucheEnfoncée( teControl ) _et_ pas __Origine = OrigineOuverture ALORS
+            		
+            		// On ouvre l'URL dans un nouveau navigateur
+            		OuvreNavigateurDifféré( sUrl, "" )
+            		
+            		// Reste sur notre volet
+            		renvoyer faux
+            	fin
+            	
+            	IMG_HTTPS.Plan			= 1
+            	BTN_BRW_RECHERCHE.Plan	= 1
+            	BTN_ACTUALISER.Plan		= 1
+            	IMG_CHARGEMENT.Plan		= 0
+            	BTN_ARRETER.Plan		= 0	
+            
+            RENVOYER Vrai		
+           type : 290
+         -
+           code : |1-
+            
+            IMG_CHARGEMENT.Plan		= 1
+            BTN_BRW_RECHERCHE.Plan	= 1
+            BTN_ARRETER.plan		= 1
+            IMG_HTTPS.Plan			= 0
+            BTN_ACTUALISER.plan		= 0
+            BTN_ACTUALISER.Grisé	= faux
+            
+            // Récupère le titre de la page
+            RécupèreTitre()
+           type : 267
+         -
+           code : |1-
+            PROCEDURE TelechargementRessources( sUrl est chaine, nType est entier )
+            // nType donne le type de ressource à télécharger
+            // exemple : typehtmlResImage, typehtmlResScript, typehtmlResCss, typehtmlResXMLHttpRequest, typehtmlAutre
+            
+            RENVOYER vrai
+           type : 289
+         -
+           internal_properties : CAAAAAgAAABPBo5+U7miCcG+65mCAgpTZrjm9OlB4tXjzKKIBHM337yhFW3K+d/bNOv8wfPmde7Dhw3Lpu+MH0KHi8hJfXvOEHzqQH8UUmAo6Uc6Ku5BGPYbvgbIFHL9UNmoUHQ6Jf8ItJMn6awgcz33SVLvXrjcF0ZecuR5Gg7n4ESZv+nAQw==
+           code : |1-
+            PROCÉDURE ClicLien( sUrl est chaine, bCibleExterne est un booléen, sNomCible est une chaine  )
+            
+            	// Le clic sur le lien envoie vers un autre navigateur
+            	si bCibleExterne ALORS
+            	
+            		// On traite selon le nom de la cible
+            		selon sNomCible.Minuscule()
+            			
+            			// target="_blank"
+            			cas cibleBlank
+            								
+            				// On ouvre l'URL dans un nouveau navigateur
+            				OuvreNavigateurDifféré( sUrl, "" )
+            				renvoyer vrai
+            				
+            			autres cas
+            				
+            				// On ouvre l'URL dans un nouveau navigateur avec alias
+            				OuvreNavigateurDifféré( sUrl, sNomCible )
+            				RENVOYER Vrai
+            		FIN
+            	FIN
+            	
+            
+            	// Affiche l'URL dans le champ de saisie
+            	SAI_BRW = sUrl
+            	SAI_BRW.ExécuteTraitement( trtSortie )	
+            	SAI_BRW.Etat	= Actif
+            	
+            	// Mémorise l'url
+            	__URL = sUrl
+            
+            RENVOYER Vrai
+           type : 266
+         -
+           internal_properties : CAAAAAgAAAD/lLDkD20GLwjMibcAPBo9YhwOhMMNpJFxroz+qi3DcSRBgYEgP90TUu2Sz/F4/WxHy+27+Lmmy4gVBeJje5P8J3v7/+4l4/Xz7KTFP8m4v32yx3U/Rctu5yjBD7WxaGLrp4jyDFX1uNBScB8yozG1cC+lu71Q1b5dHmafS3Nw8w==
+           code : |1-
+            PROCEDURE ClicDroitLien( local sUrl est chaine )
+            
+            // Redéfinit les actions des options de menus
+            
+            
+            // - Ouvrir le lien dans un nouvel onglet
+            MENU_LIEN.OPT_LIEN_NOUVEL_ONGLET..Traitement[ trtOptionMenu ] = () => {
+            
+            	// On ouvre l'URL dans un nouveau navigateur
+            	OuvreNavigateur( sUrl, "" )
+            }
+            
+            // - Ouvrir le lien dans une nouvelle fenêtre
+            MENU_LIEN.OPT_LIEN_NOUVELLE_FENETRE..Traitement[ trtOptionMenu ] = () => {
+            
+            	// On ouvre l'URL dans un nouveau navigateur
+            	OuvreNavigateur( sUrl, "", Vrai, vrai )
+            	
+            }
+            
+            // - Enregistrer le lien sous
+            MENU_LIEN.OPT_LIEN_ENREGISTRER_SOUS..Traitement[ trtOptionMenu ] = () => {
+            
+            	sNomFichier est une chaine = URLExtraitChemin( sUrl, urlNomRessource + urlExtensionRessource )
+            	si sNomFichier = "" ALORS
+            		sNomFichier = "téléchargement.html"
+            	FIN
+            
+            	// Ouvre le sélecteur de fichier
+            	sFichier est une chaine = fselecteur( "", sNomFichier, "Enregistrer sous", "Tous les fichiers (*.*)" + tab + "*.*", "*.*", fselCrée + fselExiste )
+            	si sFichier = "" alors retour
+            	
+            	// Prépare le téléchargement
+            	stTéléchargement est une httpRequête
+            	stTéléchargement.Url = sUrl
+            	stTéléchargement.Destination = sFichier
+            	
+            	// Télécharge le fichier
+            	stTéléchargement.Envoie()
+            
+            	// On prévient
+            	ToastAffiche( "Téléchargement terminé", toastCourt, cvMilieu, chCentre )
+            }
+            
+            // - Copier le lien
+            MENU_LIEN.OPT_LIEN_COPIER..Traitement[ trtOptionMenu ] = () => {
+            
+            	// Copie l'url dans le presse-papier
+            	VersPressePapier( sUrl ) 
+            	
+            	// On prévient
+            	ToastAffiche( "Lien copié", toastCourt, cvMilieu, chCentre )
+            }
+            
+            OuvreMenuContextuel( MENU_LIEN )
+           type : 291
+         -
+           internal_properties : CAAAAAgAAAAnLuYm65WWOTF+O9kyEqrjtti2lCnvli1rKOKEsG/bd2DdQZmmTeP/tCeEdbeimQbn8ym/+nt4m+r72wyVaW/mHgJkDs0KLL5WxwFwmKgjelQJqOyWOpxL7ucy7kJMP4FG+m2VP0pamc+xYWpHxuD0b64m+txR8kYPTOwxF4Goqw==
+           code : |1-
+            
+            nNbFichiers est un entier = _eve.wParam
+            
+            // Si au moins un fichier a été droppé
+            si nNbFichiers > 0 ALORS
+            		
+            	// On ne récupère que le premier fichier fourni
+            	sFichier est une chaine = ExplorerRécupère( _eve.wParam, 1 )
+            	
+            	// Crée une uri d'accès au fichier (on remplace les séparateurs par /, supprime les ":" et encode en format Url)
+            	FI_NAVIGATEUR.url = "file://" + sFichier.remplace( fsep, "/" ).UrlEncode()
+            FIN
+           type : 66099
+        procedures :
+         -
+           name : RécupèreIcône
+           internal_properties : CAAAAAgAAACy5VqKsnRqkEkMRVmHXS0rqTse8fwP6gbzbHJ4XuL6ClvAfhnHm8UmSz8h41GMyKY8LoOPpGOUX6gXZvrSU7/JanSaJEgJShk1UZuKYFyEhB+VJBg1ldfrR70FusGjkchnpB8cPqwicDwVQmAafU9W3LMxU1DDJTEiNgQVoi8rSaSi
+           procedure_id : 2279965861320578219
+           type_code : 14
+           code : |1-
+            // Résumé : <indiquez ici ce que fait la procédure>
+            // Syntaxe :
+            // RécupèreIcône ()
+            //
+            // Paramètres :
+            //	Aucun
+            // Valeur de retour :
+            // 	Aucune
+            //
+            procédure RécupèreIcône()
+            
+            	// Exécute le code JS
+            	HTM_BROWSER.ExécuteJS([
+            	var e = document.querySelector('link[rel$="shortcut icon"]');
+            	if ( e != null )
+            		return e.href;	
+            	return '';
+            	], __SurExécuteJS )
+            	
+            		PROCÉDURE INTERNE __SurExécuteJS( bRes est un booléen, sValeurRetour est une chaine )
+            
+            			sFavicon est une chaine = ""
+            		
+            			// Si l'exécution a réussi
+            			SI bRes ALORS
+            								
+            				// Si on n'a pas de valeur
+            				si sValeurRetour <> "" ALORS
+            					
+            					// Mémorise la la valeur comme chemin d'icône
+            					sFavicon = sValeurRetour	
+            				fin
+            			fin
+            				
+            			si sFavicon = "" ALORS
+            				
+            				// Construit une URL d'accès au 'favicon.ico'
+            				sFavicon = URLExtraitChemin( FI_NAVIGATEUR.URL, urlProtocole + urlDomaine + urlPort + urlUtilisateur + urlMotDePasse ) + [ "/" ] + "favicon.ico"									
+            			FIN
+            			
+            			TéléchargementFavicon:
+            				
+            			// Prépare le téléchargement de l'icône
+            			stFavicon est une httpRequête
+            			stFavicon.url = sFavicon
+            			stFavicon.IgnoreErreur = httpIgnoreRenvoiHTTPS + httpIgnoreRenvoiHTTP + httpIgnoreRedirection + httpIgnoreCertificatExpiré + httpIgnoreCertificatInvalide + httpIgnoreNomCertificatInvalide
+            				
+            			// Télécharge l'icône
+            			stRéponse est une httpRéponse = stFavicon.Envoie()
+            			
+            			// On a obtenu une redirection ?
+            			si stRéponse.CodeEtat dans ( 301, 302 ) ALORS
+            				
+            				// Récupère la nouvelle URL
+            				sFavicon = stRéponse.entete[ "Location" ]
+            				
+            				// Recommence le téléchargement
+            				goto TéléchargementFavicon
+            			FIN						
+            			
+            			// On a obtenu une bonne réponse
+            			si stRéponse.codeetat = 200 ALORS
+            				
+            				// Charge l'icône
+            				__Icône = stRéponse..Contenu
+            				
+            				// Change l'icône du volet
+            				ChangeIcôneVolet( __Icône )				
+            			FIN
+            		FIN
+           type : 458752
+         -
+           name : RécupèreTitre
+           internal_properties : CAAAAAgAAAAeAd8I/SDyqU0gk5Cn/iy7cWfxVByjmUAE78SMJmRSUZZCXryTRZvTV8D9+k9wQloJtiiAuUL0sRhD/10GQhxV0H7Up8uBlaOD5ZwOM4TFrmQOdGVLaf0Q+nvqfnF/yLMHydGhOWwWhNyCo82KyN2yVxTdOthEIuNipFPsxL0Yj48qhxhV0wTFLk8XoHPlc8ta
+           procedure_id : 2279965891385421343
+           type_code : 14
+           code : |1-
+            // Résumé : Récupère le titre de la page actuellement affichée
+            // Syntaxe :
+            //RécupèreTitre ()
+            //
+            // Paramètres :
+            //	Aucun
+            // Valeur de retour :
+            // 	Aucune
+            //
+            procédure RécupèreTitre() 
+            	
+            	// Exécute le code JS
+            	HTM_BROWSER.ExécuteJS("document.location.href + '\t' + document.title;", __SurExécuteJS )
+            	
+            	procedure interne __SurExécuteJS( bRes est un booléen, sValeurRetour est une chaine )
+            		
+            		// Si l'exécution a réussi
+            		si bRes ALORS
+            			
+            			// Récupère l'url
+            			sUrl est une chaine = sValeurRetour.ExtraitChaîne( 1 )
+            			
+            			// Affiche l'URL dans le champ de saisie
+            			SAI_BRW = sUrl
+            			SAI_BRW.ExécuteTraitement( trtSortie )	
+            			SAI_BRW.Etat	= Actif
+            			
+            			// Mémorise l'url
+            			__URL = sUrl
+            			
+            			FI_NAVIGATEUR.TitrePage = sValeurRetour.Extraitchaine( 2 )
+            						
+            			// Récupère l'icône du site
+            			RécupèreIcône()
+            			
+            			// Traite l'historique et les favoris
+            			TraiteHistoriqueFavori()
+            		FIN
+            	FIN
+           type : 458752
+        procedure_templates : []
+        property_templates : []
+     -
+       name : IMG_CHARGEMENT
+       identifier : 0x2fa3f3940327fbae
+       internal_properties : CAAAAAgAAAB2ntOxGBrDwKiGSNJ/rRrLtI+EdmVXZ4k258W1Xo1QnbjFS16VmR7+gXx3B2GK5aBG93OW3wi4xzkx8tWheOUXdxs48v+cM6LSQMLrC8qL7lQ87X36NhKpHy41zaBthJHa7PKVUuvlR3spmTRjbK2DMjR5uGyFuPTCINKQo+iSKbfUN3CBEhrWdOI7antkVIvQ+kk5nR9rlCfuohOO8yTQr4DpTvw+tWCPXcbI9VFJm36bcs8cI2YjS3p9RBJJsr6gYeoRcMAdNHJ7MWw6DSIA9WJ6EpbUSm9hOrqlKS8mB/LyDQZ8orXmtwLutUPT9g+o9qDTmfcMnzkZoNaIcJpqppE10kLZqonFi5sCsUc5BhKBv9/z5ztAxbZU2sxtt8YY9HZeDt6xRttbx6ii6/5ZRmAL56//lxSJnlbPxbYU1BYU6+TqczmKng9SyyClvb8yCWTxMro+zpKF3i+vxW86AePCZ6oPK0XB9xQYOvGzE4tQ/bb0EyPfQbpYBvjIJQzMMxFEimbG7ckz5ts/OL9I5LlTuyUNCGsOTlnhUpZ5aTz75ApooTQsQpNICMQKxrkRDFhJ+c2fDUS20ej/pSs99BVrRMS+3xcF7F84kMOKbEAh/dUoF7D4qESTMOiR2WbwenIjHPHKtxaiL0ybqUkzP493YCSv4uLnvy7qAr5OISXWchhpi3uBWzwzy29lYE2VDsr1IAVnaJ0kKnqOBeLy6x1WRqunn3v1PuozsnepBrF1vFk2r5Phnz9E7kZ/Q6q9NFcHiWylI9zyzjM9VhdH5XdOFkCKNBDx2ZrZ1jIohyRR19RH0gef3R7CuxdK/7VDnIrb3D6sFmE6/urKuDp0ahA+FcWz3ymEm3yzVOG6bx4vER345+c/VPHODf/C+T/kXMsa3AZEMd8nZ/k8AgKKKX+SikgFcMa7yaox
+       properties :
+        x : 122
+        y : 9
+        width : 18
+        height : 18
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_FAVORITE
+       identifier : 0x2fa4328f00ae68ff
+       internal_properties : CAAAAAgAAAD+MX9YGyNb4LhmnIUYxnz7mmZXSmVCP3DwcTIJllz2hp22hv0C+NJpFUkkGvlm+C4Q0dewVOXVbgLIUMR1be7V7bp08RGeCQZ7flm1F4yNd/VTHiy5G57DoTuYTlUizYNHyduwGhCdCTBBJSrxfmEnyMKp0UDKro/FQstg8pyTPKyYIXb7NxhMvql0Vq7ro38sBWsq5wlNlD1nehoNcQ6kbM6RuSakzBb/9ft8SGhIvOJu1aPkIO0cPX+Jy67hVabbiGKCWSb9ew7DbU2ku22GQ5E1nMrAVJkE2uh1lbLyEaeJ4IJ6K4yr8fKd6Bzqu/kRmQddIJ8eTPUbwfFDcHfFyIGhR9l3fceRHcx6cZsMNO593CZF8BNLg7W2vCORMeYMnJPY2pQvXsqAcrujA5kcBZhJiRtLR7JdtT8mKsTOQtGtbHk1GRheWiej8g0s1kefb3LhXHpojNrywVSZ6hctwWA4hxGierWq89mkdMHdazFiu3QwCCWkgWlCG/EKNOPa4pxaniHt6R0uYC3brgWo+XOOm+Mo9US/Tew+JRMkktQ+yBa3bHl2WsLafEfKz4vf+ThX6smyIPYEqmlbxWXhcL3KJvhpO9LN7QDaMjzNSBhDDwZMh8EPdCL14cv6Y3C2D13QZKiozvi4P7DWj/9WH03Nh5CUENUZi9O0o2hB50oRItWXaNeEyqlYS+8mSMIQ2BdtXXL7JsFEP8g5mYiEoRoyip5KT+nmPH+ELbcMraIg9uPeQOp3qq174YycMCxozWmXvB9jxZTrKaDFb0Pmt8eHqdKxtvzDcOQo0mmFGkajXDPn7op3hqiCjHjFT+ZAe8I0kdJd6BTLbHgQSAyPS7v+R4L7Oz22cq0V0pGUxZDtkMcs2tlf6W1oNk8LzhsMqQ8KdANSDh02fdl5svt4s7wxGoPby/Ltor6D4w==
+       properties :
+        x : 664
+        y : -20
+        width : 14
+        height : 14
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_ADD_FAVORITE
+       identifier : 0x2fa432de00b89cac
+       internal_properties : CAAAAAgAAACAWRN9T679q6M7u2Kp/cpX6wJf8z4Qm2ChFuVzaRrWz1nCmMsQ9egLfUgzb42Ip9gHNXHN6pSUDhexUNG/qfsoF4bnUo3Xa9TnlrhBQ1q/J59Y8bFoR8VCSVZpCBN2gRtNbz6fXbLB2hcfn/bzD9csFOo2YJ1DtOYOjI1bamrT273WDD0Wlk9cMJcpc3wJ7DQ1d3IsOi6leLFTN55WfsvDzRxIHIASd4SlbgY0oHb3FzKQh7HZAL7WxL+9h+PIs3RMmZb7nPOyvRFN9sCm7vaXF31EKS+E/Ux9FRd8jvh+9iQEj9Id2+bzMO9sV22WjHOORhrdcs74oJXaKwMASlVHejbBeglasqKb9WcsNY4anHK7mIWL5cSslv0wdH/mZqvModwCOuBKiE9zGURrU7lbs3UosgH7LbDvoTeeFif+jsBLI4rS5LEMgJSOYw75fRAEPYkfHa8oWkLpCuKcuZg1d3Eq0uZyA69db+MtRdssWig1mpXHHhGUR1pwPHgBvYx29Uu8bFDjO1UDmLnaApZ8k2uvaNCq1yFFFJgDIB0/1YnoKuJfiHDLI1M6RW5UkfkIkhPT0T4YOIpIp3w87dSAdoxRoTEzWifaErZyKsh2Hm1W2hwZLlMGWFUKRPESVqxJwwnPUEVsIgRHunK57BobHoH+6LHxmA4rhir2t7sIef7//ghexDzEssKSKKr1E0HD1Jdauy2Svn13Jt+rV2/FpeQaYgPHGRTw5s5mB7FwXw8d5zkaEkoTZaZ48E6PJBFyVGD7X71nBgsz7PXuXkn/M+Prjoligjv41Xi1yHxlpIEh99xSj5xOS64PLWNQwvr7jkryUv2iNokeXSn1Z3bKerGOAzZbOoGGyUBNT5xL7R7UkpC9Th0PDphA5p74JERJ+NeTMCwxpMueOyQ77FpRRja0m0PS/OwfJ+IprtBS4rU4zN5/ZA==
+       properties :
+        x : 686
+        y : -20
+        width : 14
+        height : 14
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : CFI_SYSTEM_TAB
+       identifier : 0x2fa5248f01fdb68e
+       internal_properties : CAAAAAgAAADNZqYsJPKWHg4Qq6WkHD8lBgiFYx5nbeVXFKtB7rjYo75bzvIERgz2+86hrdWf96yv5faLrIebRTk0v0M69qZIId7Ow9SwoBVrrk+d9A0pZ2gjKcVjINB4CGl/cOnsonZeKWe/kIjyUt2vyRWv2NF6G1Eg/8oO1WWUV0TOnWVoCHyT5GFuvsyuidB9X2Piv4eZ5YE3UsuyYSvgJ/1IqhMtWlrkDIeXtib+GfC09nR9yhvoNEv99t4hlAvA4kTICSm27Z++xgjNh1I+ZXl7jCNfukS86FovRSUpNmijjzlEX+EHalxRjepvncG8zkGAxCX9Q6CHzAwJDtutyNSkBtsWmFR5gAGqmXP8nB5F8XrZykkjOY0JR3/CwaRJKnfrZIYYb6vIidFQy1gniPoiTSeMfbQf3VDQKAgSBsLGO7cz6SDy7IVNrn06SWdSHo2fLWJ/D96sqGGVf93R41l4PZ/YeInnBcPfp5Sy5la3SaLH1bkQ/O6Y3QwFTinFuqHv532xpoKUAcunPpRZLMhrZ6dXmC5/4YAEdCPZK4/RTkElXpMZmFaaJkniYG/YdmFLLpYrc6mv3AXs1zBb8U/sxj3wH3EpaiuJF6ATsrwrIm7KdVt4sTFwSNDVc0Q8bgB7kjFQJsDj8dc5lfTjetb+dNKaA4Wp1ud14LKkOaEQhFhGQYFUl8zIosRF
+       properties :
+        y : 36
+        width : 798
+        height : 567
+       controls : []
+       type : 31
+       code_elements :
+        type_code : 73
+        p_codes :
+         -
+           type : 33
+           enabled : false
+     -
+       name : IMG_IS_HISTORY
+       identifier : 0x2fa5641b0969ee9f
+       internal_properties : CAAAAAgAAAAEzLjMIubXEbeeOlIpEgPXHufjQAwMHRPlln6q4m8GTB8J3s4GjLCyfd31JUFAYQc4BHyxbU9LQQzlr11zEMyL85WHy2a6dnj//aCfiN1TMrToWe2bAAnYNK29DwpbZ9Gy6CgcIGqEEav7yi8Uuc0oQ6oxCANmnqaPWz2ZRjVWDf5txczOAp1M8hGOxJsyjf/x9e30fSyLuMg/HT4z3Ba+UjJdBW6NNV5vkECyB9K+tbMSagTKFdhJ+tX2QR5XzTwTs0aQZ0csh2R/YTrz2PQBdYrlhzRAFQc/6mBpkpV7QrW9zinIBn3tyhL0KeVOBu+bGVBRzu4tTvz9JD3sCnJg8rE4FM0eGPeyz0ZSCkuNVCiPUpYbgKKqZVtZMfA3Xs11B1yCUXIDA/ZUox2bhjg4b69q/MVAmh9AF+KSazkSxqrwrr/aQKzlDAkTDLLqEZdUaj+bDrPOWeXxoI/Lr4T5++YQ9EfB3rnKbsGCOR6IwgZs54Od225zLNj7zMvhuVJWToDnTnoSzmM7QsmvdBK+0kAWGiOH2s9yA6rLt8UDmHy8cRhuyGcepbEoZHzHS0jAimMX9Zd9yjnr+5/re+ZQf7NPX5jBwehD5VMeDJIT+nY8UyHfEPO7VGVm/hx8P9IJ/YoOQaatrdIu6O93UaM2xRnD6G6ywjVUvx36U0y4BwOqb6JkMli5wO8aywmgKu13hS+8ryCriCqsJ3BN1Rco6Pud554QPRu7dNhkPTLUpO9ba90IppWG3GODxCTtO9KV82GkQwP2RDRmyZqJyZ3fQbxRBqkPvI6T+lCIomNGwOdZsFC4OsB9VTk6P+HMhdubaOvwYHpxCFDdOL/UPwhdnQSFUFLVi4NP6iqtmYGJP873v6Ba61VbgDmCt+wUtcatdSwmLkcDFdZpNtioy43Mx99gd4M=
+       properties :
+        x : 648
+        y : -20
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_CTRL_P
+       identifier : 0x2fa586960c17a272
+       internal_properties : CAAAAAgAAABKxs7e5bFanolaOeKUK0l6ydLhczGqyjSEGFuj77mBhTQ+0MHA1l3Mn9GHtz6U2acwk308wI7Tf8H95874lIv9vms3C/zN3cH4aRiZivBl285NTVQ4Kf36hPrvuUjARPfQwR4c+m6vrbnts3eMGrJrUi8kqxv1zwb6libgBH7CYCs3FafJqpvNvIbgj7G6vo3K+aoBcl6L9LqrRs34MgCauw3/M8ZK6u1YG90sdGwUN5TPSDlhM1pozVXE+63tzfjJOIKkTJ7S1xSFeRj3rznP3fUGn8HDcWl5pcrqOPGV2FgkDm6i/w4o4S7GkguOPcPo19Wb14Lro5P++/6DLPTFudMppIsHoOdlHH5Kznnw27QYvj4nxpgQQ4EijLPqB5iS1v80CHZwhEpQYnZixIGGIThwOThH2MSUV6T28BN3hg9d5AqIcFdZS7DHPjww7CZJIf6ZIV51cTn5PXXtwF37NqNSysWTIglgtoRV9YYgiRGXgc77HNedqrNj5/m2DoSyb2baNPuQvU7MF2QCGpjmEu/0WKZVOHJClsTWGA2Kv4n7FPqQEZWzjz/vni+pqXIX2NKmauIY8BgPe7O7LTMsQ81Ctc22lleq7OreKYs+xWTjN4A04FpBy6sVGzwk/EJS5+WXZ+vGQgcj6+BeG0rgQKdLernbFzT0Fl2Y4gH3ztbN4MwiLP+tMPysoDeU5jGKigDI+g4tPzCza7rNS91pFPe4h5XEKdNZqCXmsCHxZx3zVlELImJK5ho2oz22eTKFJEnAROuV1Nl88FMQEwIU6qW/Af6KiHte7auQdD1cCRna6uY0NiR0DONTH7CzGgaK1FUyUSH3s3e3kX/BJ3pU8Jzyvf/BEZMlh+8MvnZhb6lA22a29HqdO5EKuvnJrwR1oFc99Lwd1mIjtsZVR8f5X9s=
+       properties :
+        y : -28
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Déclenche l'impression du volet
+            imprime()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_H
+       identifier : 0x2fa9095903e66257
+       internal_properties : CAAAAAgAAAAEcPigr/0UTFtM0zBGbauu/5CHORf4aCrevHIbqXszuovYprd6uG+Sl/u9JxgqKtPVEDYVveKUP11dbxB+0XJml2bg+c/HDoogrEEJ7BYLyLqhRHW9in6/RVmcDokB/RAQMVOACRT423X2/n674SjxJvcNJZtOmAYwfKAhvzLx+wBvSw+SUBdrxK0tsPnx3yZDxcNMplwzhbhxHFueOFYBq0jvBpg0R5nZc9N4bUwa4M7YuFppbN2f01CGq5ytcuE/DfdaQtbG0+cwAExBjYcislm5nSfTV8s/IR/1OHNrlYhVzeo7smwktcCWtXrxg0B2tEvhGEJZZxZDPUI/CI6elgl3YlGJwmsybbC6KdPlQMf2G9dSCxCBm79sbX6Jv0XYbHT5rkK+7iI/MLsoOv0DYFkzV2iixGuc0lnhlGyl/s3f8Tw1HHCekPN82ZFVESBPfCcG9CoaYTlFiz0DAc3ylp9G7VsuWMgqGV+jB12vzust/kJ3QTfsBDo68arns7tBxUsKvZ+NAqNmRpz/D/xlsh9OcduAcvmy7VPlwpV9FGsJXgigee3Pw4EYNZ1XI34KbhJ+9R0opMLPODPNCzqj5f2U5Dhnu3tRVcoxOGpeY7vmJRyoQh7yqIHFRX+5akPNbTZd9zk/S9wQyoIimPQWg2Mp7qX7MMSSzaLfB3XOKhd7bjWMYlQ9IcWYoGa+i1ugRcHAgFIZDgKlLflr/cjFT5jf9YGNJebYNYPHv2WfmZ8xGrdGJ8EIkojaG9dS0onS3ZCJjaLOjxI/9Q1Kx84AueoQSHWT34qJrBKxKXCDmZEMmrZougC4YqVLpTYNuLAavmUScwcR4YGNAw1LzVIkNHI0ez1DnzHnx1u4ht7xpx3fV3qu/AJl+d/4VKMvQcpLzgMRBCwNwpbD6oILmXUrERU=
+       properties :
+        x : 87
+        y : -28
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Ouvre l'historique
+            TraiteURLSystème( URL_Historique )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : LIB_CADRE_SAISIE
+       identifier : 0x2fa90d150434f888
+       internal_properties : CAAAAAgAAAByBRPxS7OfF+N2OhITRNd/sVVWmfizLlyqv8yvYM7QKVcm0yJN0kDzCvJVnUeKpEC9CpF4pkFfRxQHVNylYKQ1uEa4I/5z3I2Z4wtgrPkmNLLLU+ec0J+Rir0fB3SYrXEiot/Ez+JW5L35/vLDgruVT/dkWgC7/ktPbd00rn3kXVGRpa/LoXlLopY+5P5QU2k8+nYB/zdyxN6Mgw7bh+xnPSF4EyaWISuF/Vobr6QXhc4Wph5mMETpkNkeqPwhE/n/YM0LFMUhLjR4qNy1BUdFmOydrJA+MZ56pLiXUcQxoEiFmzcXnnWhhR64/rrfbKQwU7MN/qYCmNp9GXzxpHBdkTlcJfiz/7xae1a6/nVpIx8Qa8BS+yZruCRl9DlT4as01ct9PLSS0NpnR2q2zI9EKZRJZXoVdnHkIFLqbKjhrI+OPRsOog+1+12meGMojsnUSmc0SPxa4LvlDwwaDnkbRb5tBg==
+       properties :
+        x : 134
+        y : -38
+        width : 570
+        height : 38
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_HTTPS
+       identifier : 0x2fa95e5703bc60f0
+       internal_properties : CAAAAAgAAADBmG/Wpk6Wl5XlRPne6LMdWMs4CNcDcK1Vd7LkMPQnN6UmAnj2bXlMKLwdPa7BTuiWW8dKjEGHVi8Yywc9Mt6VtC4aij4vnEhZELLUY/N+DTGSO3dFs/Fc0J+pT3GUt1tZAaNs4IivC3rWTp1O8l0Wc/RdobLVEKFpc+9KGYeED32ohiYhZ4iL6jwJH8qwDpti4jmbmtnE/RPgmRFpJnYaI60HNieUolakpWP7zxvrpWoU5nTSlBOnX6AS54V3ZE8zKuR9Wp+/xYUZLgCFbpDnmVzRNMMPJXdFed5L8xoOgrccUk5PpzmboHRqyf/xSH3x43pwJY0Rw8f9RNTm2pfqYOHWYvDhM9shsoqsJqre5w6SRITIH9n9p4Jy455Ns9HAhe6a6Psn+yw86ReBXFIy2u7MrrXeAiUbt4Yk07lPRL9ymD9VEXAZLhvd8kX+S8eoxicRSDX0wG6onGVTDnFl0oQTeREzyDY2AjEHtvs5j0JxHCC7lgVHBFzIs3AePkUGQuvfgJnh8HvD9QZVWcu6obdVXFHw7sq3tl85+i/l6TqRpESJ0y41O641btMJ0bckvZdJ5mYkBD4K6oSQ7bebHrX2/RZ6GeMOjQV/ho5kIi4zITxnYPPHnrBmMgjRU1E41b7omB3hed2SjnusLW0Tf63ySHIBy/1fKtMETbYThnqPzKu5+nkF+x3Cfs1TDrWqzNoj2cYnGRol3FBEmuuw1RTfOqcscZeiR9bu1SdqxfmNFyCD2Irvtjh/ZvZFF+KXB+gIQ6Kdd65I/vYeDqtIN7fnmBgPEp+b1Cae3LeKu9Rr4fimZQeEHVPIojawpqX1pA9GO+TrTdbESHhTRFUx/gSscuC3QCuQBYw4rFu2OaQRWpo6cI7AEsmqFFKxc13yhrSrycbp7vhvADjkAeGFPLqSxGeTr2VN6NOQyQnoz1U2B8vXSlOGPW/b8zJV
+       properties :
+        x : 117
+        y : 4
+        width : 28
+        height : 28
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_HOME
+       identifier : 0x2faa68c202bf12e8
+       internal_properties : CAAAAAgAAAAw5E4Kg+QFGwsX5otZP4aXXytw5r6i+3GcIHUZpRDQgrLZSpcdEszEWx5FcvXEWCB7lUrLbjXh9fg8Mb4+NPh/ZXr5oEfzZvrHeW+gC3aal4IK8ePfRSU0jEIfxuDKG6KFzgEG7N4K/SviUngdI3Vs2GDyB/lfiY1YUHLoAsyAXr5iHSvrf/3JS99o8o4CsCcplv1fi8zpUABaoui5DKmbcR0/OUHZE93SHat11cwnuTZUkYwn8uSD2QoauzkeG9pBVEpAHOMOjL6iK7RwYQ7NW6TlqmSXnnLjhPTo8TSHQupf0eWCNj7j4pBBZrUISbkOTCEV0dr2eFBqq3gxhZtvZtSuJqB9wW5HzMt2ylJoDTJIZ3Yl0yYcELlO5Hl+P3nXBNj/J0zx6PhFZp8IWShhy+4mg7WLKjiNHMJYnSDxjxboczHYlwYwklnwNwVdeehJyAX7y4Ts31tEkjb+cBOcm/xaIy8Q2Fwvwbx3PK3iW1W8MAWCD/fqL3xMf44HXx/R//BBAzb0pZ6AN3DTLc3MtPl1YMBauA7CTM7U0W16/PybH9BtB+noQZA88juQMmMiW2vrrS1ZNmP9DYmM6XkFZwldszUymKsR3MBpMZyC22EsYjyBm6/EnMHCy70AMtXPtge3aFs3DGdmgv3MlhOs2TtBGEQ9Bo5HhdTMcjeKFRdJQnMywI+PrL+rZBL8mHdMBKG1ucqeYtppgwFnQ8sjSDE95NH1gA1iZZFWT3rCXb55fqwzZ1H5Q/Jfw4FOqPHh/k3fgeUGdoWuxg8ziOParTh8wVapf+qX9gDqL7DT02jEOFvCl6celxCKnyLmowTcqfo3rgcdP6J3sINK+euuqwI6rpyW8ZZkfGm7N9uDBGSc4pSlzPT1D9gR4zDa06BwqChr68aXukXZEQ==
+       properties :
+        x : 630
+        y : -21
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_PARAM
+       identifier : 0x2faa760a06a7f37d
+       internal_properties : CAAAAAgAAAB3khut6ucXm+kNhRdJ60O0sRHiSpxbJJbmXrSaneyLKD5erPhtbvu4/CjCYus1y3D1wkqYIGWLMao7mQwiloP4+huVhwUiJZLASiYTxEXdwh/abt7XnOgBcimeo99DnnvrbXSvmS4W2Oix8c8hhBjUIaJgrzHIDUIQvinoOiSx6sFa1tReKuWmsjXMJycIKBSd0W9CeM0VrI2vuDvjkkatnJjHqruXCksA9az0q0l7bUvF48QRc1bAZGJ/XfRGkoguhRPBSYrDv2W66PKgv39oy4UzoE1omdrRbraS80ITqpMSMexUkV87Ad7b4A02N+7Eao07xob1jXH+oDgT8rnPdIr5kAeI1+sy83JN7tQnaNURfRs5X2p36b98zYh92ZTHT2jvGXyzg85dlc/RDER/L1cIcvqommTxAPhTqINeaRPfjNpf4pkCBVcQSEiil7UxqLw3GXauemcvEIm1+G3N0TZJ4nqn5X74C8mQcmJNFtF8r5yC4kSoB6sFJdgJeufKZ/vdTiMtUl/Fuwyn7X/DpK1Bawi9sT9Mpwpaa5EocwaVrsc4zv6kKFDNQBgI6AjqJ+g4FpaVBdVwMaajbebmToC3jWRdwS+9LcwLf7BPOEU+qyzt/vc9Ph/dwIxpLCcn9WDMSlNiZBH+0wEUHgPKbBC+Yxnc5D/P/KHBfmzRbtbukUK6bV0l9LliHRkRtfee9jCSwqXdRJMHM43//B4tNXSuBu5EzdEJKX8RjSrWSbVUtxiE34KC2cRumzr79ScUAYfxP/3M2+MeamYMGagRr3xHwNHZDGJS6O3nBOSmDAOFNLvWFFAzmygrcX3/EUihz+vluBW/JhTSE5NCfGLuU4Bydw15Kmz+McsR4DG71KK06SKvYrdZpdeOFqwWUey+EksEHafQM90=
+       properties :
+        x : 611
+        y : -21
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABNo3BJivUqcdPbcUv+acFW2BLURrRjbVBTyG9G5Xmbr0UbXNeUDTyvga7O7Rnal7JRFdRwHURqU0AR5OQGUWSfJMTFo9MvLrqkTtAN+d+QgB0VHGKddO56RX+82Fb8ZHl2qE9zBCG5THdGVnLUWcZXTkyyPe8iWZ7ODgL9SfwXefaEhGxNapxutTbsOXzCWPLaidsZolb5oUYE8+xyI+C7drPMPA5QsvwxwsVq8/ZwMWZfScJaG3ITlIj21KKxm2nUSbGjRhaXEZ842IM9CqtPZSqRhJGEozQ8w4lnALNgrPnCTg==
+        code : |1-
+         PROCEDURE MaFenêtre( gsURL est une chaine = "", gsAlias est une chaine = "" )
+         
+         OrigineUrl est une énumération
+         	OrigineClic					// Un clic déclenche le changement d'url
+         	OrigineHistorique			// On change d'url depuis l'historique
+         	OrigineSaisie				// On change d'url depuis une saisie dans la barre d'adresse
+         	OrigineOuverture			// On applique la première url, lors de l'ouverture du volet
+         fin
+         
+         // Urls système
+         constant
+         	Prefixe_URL_Système	= "://"
+         	URL_Favoris			= Prefixe_URL_Système + "bookmarks"<§aad:0§>
+         	URL_Paramètres		= Prefixe_URL_Système + "settings"
+         	URL_Historique		= Prefixe_URL_Système + "history"
+         	URL_Accueil			= Prefixe_URL_Système + "home"
+         fin
+         
+         __Icône				est une image						// Icône du site affiché ("favicon")
+         __AliasWeb			est une chaine						// Alias du volet de navigateur
+         __URL				est une chaine						// URL en cours
+         __Titre				est une chaine = "Nouvel onglet"	// Titre du volet de navigateur
+         __Volet				est un champ						// Volet associé à la fenêtre interne
+         __HistoriqueLocal	est un tableau d'EntréeHistorique	// Historique de navigation local à la fenêtre interne
+         __IndexHistorique	est un entier						// Index dans l'historique de navigation local
+         __Origine			est une OrigineUrl					// Origine du changement d'url
+         
+         // Affichage initial
+         BTN_ACTUALISER.plan		= 0
+         BTN_BRW_RECHERCHE.grise	= vrai
+         BTN_ACTUALISER.grise	= vrai
+         BTN_PRECEDENT.grise		= vrai
+         BTN_SUIVANT.grise		= vrai
+      -
+        code : |1-
+         
+         // Mémorise le volet associé
+         __Volet <- VoletDuChamp( mafenetreinterne )
+         
+         // Change l'origine du changement d'Url
+         __Origine = OrigineOuverture
+         
+         // Navigue vers l'URL
+         FI_NAVIGATEUR.AliasWeb 	= gsAlias
+         FI_NAVIGATEUR.URL 		= gsURL
+         
+         // Si on a ouvert un volet vierge
+         si gsURL = "" ALORS
+         	
+         	TraiteURLSystème( URL_Accueil )
+         	
+         	// Rend le champ de saisie actif et active la saisie 
+         	SAI_BRW.etat = actif
+         	ForceSaisie()
+         	
+         	procedure interne ForceSaisie() < délai = 5ms >
+         		
+         		// Aucune URL saisie
+         		BTN_BRW_RECHERCHE.Plan	= 0
+         		IMG_CHARGEMENT.Plan		= 1
+         		donnefocus( SAI_BRW )
+         	fin
+         FIN
+        type : 14
+      -
+        code : |1-
+         
+         // Sauvegarde l'historique
+         SauveHistorique()
+        type : 2
+ menu :
+  name : _Menu
+  identifier : 0x2fa3be7f0076a3e8
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ popup_menus :
+  -
+    name : MENU_PARAMETRES
+    identifier : 0x2fa57fb10bcbb225
+    internal_properties : CAAAAAgAAAABq7jE5hEtmvGgidrexh1p8RTmyqg1FND0BvAtGpygKLaj8y+oVcREfvvENbWBlaawFGGlDgMHkuS7+x6WMdwhXXLZ2W95/Uy0hXEf9Tng7yXsw6PDmznS2kxFoUQCziLAJbIQsb7eUnIA/IZy7ODJWo71kePXGUpRJtdEAzuhTr+YHrp7T/NkSnKW6UMOQyDG8Tz+xNso8tjn2vQ1hMhHsEMcm4m5Ki7PXnnWnyWQkm5J5UguKBXJGKlZYr/VtuiV8IUama05a70ym0+0iLIDFhKmkix2mVqEV/L5HHVfoMVb7T/NxGvka1aHkxAADQCXQEmo5AAsJzqbrzTVxid3qgyp7+0ktBpS/uLLzYiIedAhaIK/oN87+3T/5WULl5iDk70ra5676leMlUXwtMckag/S3+VbmA==
+    options :
+     -
+       name : OPT_NOUVEL_ONGLET
+       identifier : 0x2fa57fb10bccb225
+       internal_properties : CAAAAAgAAAD0dXeiZb0gb6CQMpoT3odPAgBrjWfSMsW7t2QoN0i82NdVaDM/UAjSP3/Xi16rNIU+a//aGMi/kbb2/2VqIss12AL9zcXBgt12umNdNwkB2jzpVBSN1cGQN/Qcv9zBz3TI5HKDVuP43RfPkOftsXU+iyVBFsqR3IvRGW6KJ6I4FQOfsDIC0PyxnxSst5wgZn2BpKS7gYtDHwQKYjdnWnOoKvW98v1NyyknGO7XrK+lTX3jfyk2v3pchoW2fja1mlbIIWg86dugTtFmH3qNCKiaJFq4ZucdRqRtbkaQVOPP99wv6tUJQrQ+Mv193ZmnMX/qTt/RbkmibbQFzULPJU7j4RxZdih1aq1u6bVMw6ilcGRjE37Pf0Pr2E4uTAajCCI0+IWezfhB8nBAC04Gc9jp2nOHbIkFbM4Pb941V4xp+24=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Ouvre un navigateur
+            OuvreNavigateur( "", "", faux )
+           type : 32
+     -
+       name : OPT_Séparateur
+       identifier : 0x2fa57fb10bcdb225
+       internal_properties : CAAAAAgAAAAz1cCTI0s6RxDhT4I28iN66d47CObl7FMqhfiKPN5dreEcJpBKpYo1Hm9tr0xi9j8Znpzf/PvtqnQ+BIxK5nKtpBwGYjthjmTcUS1TndmtTdWa2x+pFoA2C0309GHYsT3jIK1CRqxoXPpyCgyqSYi4UpsZiPvu/doXnFNp3Dd0n4woJSqeD7lSXzRIaXwqzaTc1Wxc3vjr3yeoqGSQVvL0AzdD/Sr9NO4DOqKD0RAXe4zRmYYgWrBprRQuyeKtWbnyFcViDp+El2zQHsxERPBR5+dftcBDvjMlqh6h1OkZf0e3bF4DjHqVlalH720Q1XYBMlw/HVy4WQ/lFys2e4FSz2FgJdsR0KbRqUrrvGNigxW9BUfiDLnaxQtr341+LVyBZqLkcTsjWIWO7/Q=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_HISTORIQUE
+       identifier : 0x2fa57fb10bceb225
+       internal_properties : CAAAAAgAAACiYrYo6OeE9Yp5+DYKrrVSXzfFxkC4YLllk1d83l0CZ/VBdcQ8L8WdkQLHReM3xuSL1+hRCXvW3jK1Uy2ue4LRWjC2N5k79N4IywSCdg3wkxgUnELlh4TeyjcSLnbdCyt1lF5ivbOb//VIM5emgtUKHRTIGHLbuPLfBNIn5YuSOEO62UHHmjGHxgN6HFEyXDDbOU3CM725tWlENaVxF0Gj3qX7OhT1tIEBiWhLpWwLkNAMg0AGc2f2WKkMxBR7ZPIwwy6NaMQBzzPgPCUsrGmUA5wEgps3UXj/+Gev23kHvxHZ8BG/hdXcxtbqTLNC585+hKUy2dqXVtIEilKxMQMLDQK0kfsXrsN+pNx2xL2Sft6LOsZPryX00X0cIR+ipMY5oHFb/MGv6eFvim1CvQNW0ZUjhpOKvEBq
+       options :
+        -
+          name : OPT_GESTION_HISTORIQUE
+          identifier : 0x2fa57fb10bcfb225
+          internal_properties : CAAAAAgAAAAx3UqBMrGz7TrucuU2yH1VEAPTUL9y2ZPrD2rmVKi2tsq/IBrVXPq4VelC1bIMa1KElDGn/9PgfpBx/fZ2iJXkKGOWuHNxh7uZ3YgQEPrONoBkVSOA0caWZG96ilIeHQZlT4RfHLB29heBGBIT4R82I5EygaGpXyAJYe/suMxLjPCfMfQ52fNfRh63qU19e32jqLOM1DNgcDtqEWpIQxJw54a2F1kfbnmMtSp37ChonZugOa/1ONJ0kNm/WSu0eX9rvXpYPo011DhePrCJyn2TAQyGG3+m2ov0c9lKwtVxvBbeaZ0q9SSSTogKpEyQsS/mIu+71s/vrugtBMCAzkw8zvFXGwoAcZxjy6E6bvYuyE0/w8diStmtCMy0Y5tCXthkD1pQgoUoRuLuJ7uO4MZasy+xBryL0ySVcgBCguU=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Affiche le gestionnaire d'historique
+               TraiteURLSystème( URL_Historique )
+              type : 32
+        -
+          name : OPT_Séparateur5
+          identifier : 0x2fa96af70724b452
+          internal_properties : CAAAAAgAAACsVFHksMCHPMEcfRMnu/Rz/k8Z/zlIS45X6nTulDbr62oBYdJ5zkTAUuTv2mRMyLLmPHpvusumH2oeatgtFYowxcYIsbg5QCm3Kgpydhl5bX/FopTvSavd8rR50TadYqagj+Z1a13Pt6ElV7VDEi0lyxKK2zC3lD32k/C6pRilEPh0HZ5+o/nOKwjspRiGVTy42TQAljRBleEKJrrKDLD+XW2pO+QDorxF5Ohx5WyxSQq7VUCkFsIblVzyA8JNP6Nc/7l84vtGOcQwtjrooBo/pVGf47Cz7iyqyc3pO+MELHICP5GM3g0oQAbEv5hBZ08OiVdGVe/JrMguxJ3PYCyFg+mxpO3TU3wX+ORa5cqHrq5uVtLJZbzvphO5S/MIpcyRdVG3rMCu5RYfcGs=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_1
+          identifier : 0x2fa96af50723aa20
+          internal_properties : CAAAAAgAAAAbdLYQBeJ2QHcs+EbChJFqX7EFSRUGOF6Y0o3Q2aWBpDJWxcBGa3ysiQIB94eAMZQF9wM/6L4PxNcS/n+4WKjowcQ5+selrfQ3vLHba9rkHjpls/Ah0jSO/Lvty7YWNlaUXNiXdLWqWe8CD4fZEYrP2jXLRZFXGAvHUEUTk+MH0OjOOhlZco1ksFF/6KvYEXlhv5X/qidYFPaq/n7SXwQvZmy6WgcJoAosGFdfr1adOr/OkbmlES3CBCMXTq+HS6gkNPZqCwtyp7S55iE7a/GsYYh3zxrLI9u3qVQBe0mTvZeJSIVdDTIsLPI8zDaITQmYgN4zoPneh420aN+epBQxKxhOoDFA0BJZIaG6FuZ9TfI0xpsGEV3f+aBD26As0mjRsvTT0jVyA5f2kUlNcww1YMkOY+T/
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_2
+          identifier : 0x2fa96b09072bfb6d
+          internal_properties : CAAAAAgAAAAH+OfmVxckFg/BfJHmvZZX6RxrwDFu/hU9ZC6fJtVikkNaL8Wt+HANUwHbzB0PCYUQ3RnI3c87dDIS+UwNTTRetd1/m+Yo5+0p8+TNfStmUiQ5OHFYxQbhUGEKJycVyLrMsq6YZCrXJJFIxPhuq/vxSi4h04A8e+umGVv6dfn9nEoBAfGERyjPNEG+Yf8d0h7E0B90IHzvwY21Eyxt/Bkm9bdYjzgTHWURHnmV8kzhOH+kR0Ywxg6o+K111OgkjSAk/ss+JDH+pCAji4x84Gm06/Lqqeoicy//FomNopfMAthC9F8BDoKuIO8JNbQS4d+obU46CXPQ79WaRc3BTOdUUq0XUHLMe2H2pZQQwkO/Mjq++xfDsc9JI2uOA43KojipMPsHX+rPaJD7LpvcaDwSAw==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_3
+          identifier : 0x2fa96b0c072d0792
+          internal_properties : CAAAAAgAAAA0j9a34EBvv/hKpfJPynRWrvcmrT5XBl4e9vf9ouunij9VmMBpbh810pk8J4GSBYah0HltcvahLj9met2iWbhY4p77cqPFi/8ZUY5lyThhusdiTLTjTBR/2wnswvmqR17N7tNAiA/TYZvuroObrHLVuaTfqSpgPVHuDzx/5xfLZ5kQog3WnOseDUBAUxAOwfPPOAWGgmUH8RImUMJXFP3PYYYgvvLVd1Rx34Gibf8J33E/5F2XtJETGSRXPbDtzeXT6qlmhKFnitskiWivWP099pDQzwEErJExf8lVHpFz3PXhqhre7ZUf0QD5VuVnTbH8pGqRnDBrb38tHa/jKIjfR4yJuhHt3CXM/FEkH96WgeSTpkNirxtyDHziq5WknhiLTOoGXiNGAXkUNxJL2U0hMA==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_4
+          identifier : 0x2fa96b0f072f10f9
+          internal_properties : CAAAAAgAAAAEqhlhh4hriYK4I+SR1l6qGmU2Yo5CG39Rkm+Wuchwfi25XMoiQC86WhlQqCuYwgiGPoXiy6cv6Sbxei+v4DhENC6fagDun4EjJ/+0mGd/J7DGbcZUjxf6vtlRr9KqVBtw6lk49Z+E8sE3r8qiYNkB0XotAQTPoVRoon8HPGKSusvC4jkPZSwooJLN1sNY4wKgNRT7CoDBloGpFz9AEEiDQN3qibfLJKMVsY+06xBfCn3JWjgQ7guPKse+cPjOW4gXxPWTGJtCpl5hjZ/KqKOKPvfmUSKClaJ9Eo4a34l3b2ZO5FHXs+LssjovxfzVJHMT6mVGmBFhrQB67qo5VXJM2ErU0oI5E5mFeYoflmDxU/Oc3667e/wvuHSGw4F7+agvR8+aAafzHv8GFDGm6VM=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_5
+          identifier : 0x2fa96b1207311c91
+          internal_properties : CAAAAAgAAACJcmkIaTl2NOEvXrMAt5zJ+w59siN46INnsp/oiUTR43JnztT4CZHqtnZUtXAurNYH+gwD7EysoQkDTjXgtBdb6EZOijFyh5DerrvwykxvUWVI4bpt6FHIIZCBIiQu6VFxhWs9KS1G16rfw/e3gEhQL1FusGkD3gN+WZsGreX9GOI1+YHQJ4xjsD3iCZOt7o4Y8Ces1CyLbbsnRfYnMqNo8+ma2bohA1MPAFv3HDr76p2m0diixAwmfl+nYHwG+468HFm2vLmmathFrTgA7vvO57S0Xf42K41/YIPp5lGiKDhgmidB7mYcWHnDwyqKufcChUYwR/2iP3uqnSsX5JecXP1XlnjmYb0wKSACzM8TsswOy8VRYz033dV4GZvckCq7wgUNRcytRrLdAMkCUsqcjQ==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_6
+          identifier : 0x2fa96b1507332701
+          internal_properties : CAAAAAgAAAC5fXyUIAfmxHnHmg2q/vkrkdTz4TNUEn5YiYoLgiWTn84QE/VDp1ppQSBr9dwVndWrnVwlgHqq1FHcoWScSTdJcf3HZSV1wB6SlLapHA9f7hO69KGIzsa1VAm8x2gwaI7rxrR5DDVRM+drDL29Z4fTnaxCRBpw4/skjkddMLjth5gJDXTQKKd7swz7jqrgw2IgvWRTMhjxMtWdy/tMHFTvLIEHPL5i5Ur0sI49RPc2g/RSK/dLtaooswAHN39X5hcEKVImay65f39wjOBT5wZziVRLfAl5sLMCE4DuMyXFW+LCkIVrodIatIrfn/+2kRo4o+ZVg/Yw7kH3a60sRifr+X+BheGall6GtkciiSHyFjRZxJmCVNdMXSzOsU+V9a5Vbubzuu486YqRr16LFK4=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_7
+          identifier : 0x2fa96b1707353190
+          internal_properties : CAAAAAgAAADWoSstHaj/7Sk7cQcoRG/v7bexZymYhruGWbAWfzX/HT1J5JkdSZXgd7WlEyRyM9KLijMU3nKYj9x1ylGELZcYyvTUffrP7tOXZeT+m1bCBf8YZOJwUZQ4tQtOyMlJdPJ3V8DkqYLtVrytfCU7+Pg0uZLIB08KA2jqod2zzrI1c+V1rnibkYFZQVmmSf0lc97PibpytUzRh8nhUuHO76CQjslp4geB4cKJpERQSZm2cG78iOs52NL7YEfYQ1P7GAzTVoD1b6kA8xYlJpOnwTLgosoHcsCbHCzRr774QZ7/6+98Ytt1kRHegi58z1YmgFfL09MBQpsMDRafUKVE/VtTelHCQyZ1q/Iau9EYZxzpsejfC38ML48Mgw2p2IZ9Ao3DhwQOtxe4r5J+tcIHR6GHm7FN
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_8
+          identifier : 0x2fa96b1b07373ea0
+          internal_properties : CAAAAAgAAADn2AdGNzfE9q/hnHHGXTZ3CTzL4NFOXjUdBHxB/EfMZLlk8eeTIo5XwUu5HkM5Y8f2dztyM0nxpqiE706Tj2YI+895hUykl2trMa7rHyncWF63/pfS61gHOoeUfZFbpmAOeHzOzsBxkiMGNo7I4SmX/DQf4dKihZM2kWtK7QmlrEIBeemUr3gH1MkeIZedSm48wH/UCGwHkXFhB4CpOA3iMWsUQ4zXccGVup1ZvpjVNGvog6rUisLEzOnJBNjUXXSUaj9OFAHK8HDPJyTUsBnosz5OyYKaxyvfMpXt8qfU3nAmUPe5ltaKwAtdObAW5deEZSbGZQ+Qj+l6rYGteFMUxgV/jI6YK2nyzQQEztc7kv4eW7MvbS+pQ0vu462qQlhJUJvnf4pviPCbTrs8CJzyYw==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_9
+          identifier : 0x2fa96b22073b5c88
+          internal_properties : CAAAAAgAAACXaHeWx9OgKnt1OO5zh+b1zb+o/RFVV/jsTCfNL97pggNQ9BUs08YEAgVOKi40UyAzuukLLCMRvwoKxGKLQrX7l5F4RRSw24YucSWSvHI08yaCDLTrLtD1YFgWYnG7lnt6mWHFI/KegcS9WWgboLtl2SxHTsUMqohX1tlHlumxlmQp2VfvGv1gXc4A9czvQ1Km0E6uMnnSsQj+pEOks/jHjkr7Zi8U7FICVyLIPedkSRBzJmVXuDQuHPeHJtrR+ZlH9ivwFrf2wA6LLB0Ey1zT370/SLkMNztfADZ2eya0njW7jOHDHLCbX5QFVIv5a0fE4r/FmQJbd74BScZK5+sEKKsqL22yKRbxHOnf1sVoG9c9rTaDP6z9ETmIbRrJ1wel5PEt/qIf4BCT/qss+KyCkw==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORIQUE_ENTREE_10
+          identifier : 0x2fa96b2a073d7928
+          internal_properties : CAAAAAgAAADftwNASsZ4fib+zqB34ZQejnHVRyJI4uITolN4Jz4waUHm2kkNrJLxIBsxhTwvfUSGUIB35jb1nZ9q5zEfJcc6Pnsikfx+D0EE2YOkC+vvmbVG2M4mB1QdhGjX6WfhgpUU2JViTk8Hf+yO71WLkevwKiDJgVV8O/k6T8QuScexA+VTBnVcW9/WzZkk7IWnnvcjXv+7lbFS2MJCP2NRQ9ydsae5/UrDK1UWHPiYMlumr5+YPVPkKC/WbmlsK1uUtJd4h+kjhV12WNFQCZxgaL2UMGeiUCjNNo0pcru6h6Xlo53Crelke2PSJ2RKiwckvelbXjyh7UuGhXlKkyQizsLL2BToIUbsa7i9uaWv6ECe/3Q5f6iu370Fi/r/IQgl1+ioPs1ib6YDT3XnqDzAiZ8GxEw=
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Favoris
+       identifier : 0x2fa57fb10bd0b225
+       internal_properties : CAAAAAgAAABBusZYzUIOtPVia4xKNBMDzQX5OPKGRReFL2XPVgkCfFJ78dOWgQ6xYiEKQmDynOnON4mHyBPBPaqM7ia3WOxPPkO6fnOx8t6pWJaQ6zhGu+BvYFS5ONlwzRUdb1FO7tT2zh4IjNmG4lFP6Oo877bwFHZToKaCNOMnp5xnngMt3WdUBMzpXOT671wh4wFFmUGobt3yMS6plDyhfEDxgaDl9PvOLnG+fbfGak1cr1oeJgd6dLmiBEHjl0cPOVfd6kfVCsd+vSg44quUOO9e9boPilz03CdI5ZDPELpze98ED+YPSJYSmZFntzKr4VOFt/be7iOClH+gsOghCt/SXl9wVobDYr8On26/kfP7+mWtczD2Id2RTVvc3OKeH/Y6B7cLkeqEhRaJpKXvrZCJHQJUxQ==
+       options :
+        -
+          name : OPT_FAVORI_AJOUTE
+          identifier : 0x2fa57fb10bd1b225
+          internal_properties : CAAAAAgAAAACuEATXOLdjytFPkOOynIowtbf57hzd+KX8VR5HMOnz34s+433M3XwaEMh1Umq+yqac3U/kmrXHhVPFTBuklAtOIwjcQbPsYGzCjPjBPLAk8d8swprISXzaCbXhWTSrxaBybvZP6zojNUQw1B6E3rDl68PQ0dVO1FIX2yY3CvCnciUTHbp9D6pO3EhFH6NbXWIOulokVt5piHx1qchuTd/WCRMwE2Gvqcx9jjZ5JWgAX3Z9BLuXKMGRdmUnGvAwGS9J//qefK2PNovzBuabVjva8TGQBOW1E+LXHTXxoV/Y5rOGABkcdJA7NUGbE+9sm0F404XFi+Z3/o5wT6ydRvhBZGg6ZQCwYgem9JGT4elzLLRxeqc8LzSoy3bNC3UccF9KdTmX4JtnkITCQ/+HVvICvA3X5qWVZYXDSyIwhlq1VH9RzCbpmyf7AwcTFGVO/pFLM6V6v55
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Ajoute l'onglet aux favoris
+               FavoriAjouteOnglet()
+              type : 32
+        -
+          name : OPT_FAVORIS_AJOUTE_TOUT
+          identifier : 0x2fa57fb10bd2b225
+          internal_properties : CAAAAAgAAAD+oeB7EY4lG7ECjb/LWiq1gnwqXds2AENwHf1mMmbh+AyFoWHT/5newMCV+Wuae53RI62R4WI61F+B0GJlbATLO12eLPMEa8jolbAGXf2Pj8bjCEV/5pUIcTKA/wBzYMmHbotL36YOgQKjM6Xrx8w+nciofCgxt/VwtjZpftvdzv4bV+siFbe9XuGNqPr6R7X3Z+oI3EmQTYX7OoCXpQakztkcpGqua4QkoQG1h/muugj70c9tqydx7Edue6cLo6sc3r1lK3A4GWFPaeibrw6VLvBkveVPpSK6Ft3VovvMgkceJa3HDCmT9g/jwLrHVXCrLlevbXuMvDkpmH6OXAczPf2IXNXs84W/UnjM2eY756SR0QT3vLo9lgAmHvIqX7Yn21LR/vrx+rHfHhHVaewGsv7GLrjlljPN3kci93zbHODg4xHeuwUySLD/cSMEvjSzMw33LNQZmOXkmuOz+Qc=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAABPKakwX0SdVtFqh8hsZwbfsSvubMa3R4sJ8EsmiNVJiZvW2NglwnWhEvlP1oyyS5wBvFjUxhoZ3a10Vwjl66dL4mr7Dm5z+133ybF/gwXJ2eiim7L3dq3Mh19kX2QEtCc24rZsK5F0cM+Ss+g=
+              code : |1-
+               
+               oOnglet est un champ <- { OngletDuChamp( mafenetreinterne ), indchamp }
+               
+               // Enumère les volets de l'onglet
+               soit N = 1 
+               soit Alias = EnumèreChamp( oOnglet, N )
+               
+               tantque Alias <> ""
+               	
+               	// Prend une référence sur le navigateur ouvert dans le volet
+               	oNavigateur est un champ <- oOnglet[ Alias ].FI_NAVIGATEUR
+               	
+               	// Demande au volet d'ajouter le site chargé aux favoris
+               	oNavigateur.FavoriAjouteOnglet()
+               	
+               	// Volet suivant
+               	N ++
+               	Alias = EnumèreChamp( oOnglet, N )
+               FIN
+              type : 32
+        -
+          name : OPT_Séparateur1
+          identifier : 0x2fa57fb10bd3b225
+          internal_properties : CAAAAAgAAACDRXDDk9uq16IB1v4c2GfuwQDMopAn8iU8o0I8zlhb4/b97aBJOpLyNuCZSk7moBIO1LZtykckJbqu4BxvH5KYZ+7GjDtsl3xQ38dVVzrA9Iruzffq5HLI1wE6HAsyXXmnZJX8gjiGauL6ACDc2whowvORInN2n3RnbCnxol38Hz5y09KQDQ3aAVIY8+C+P1Ymf9ZQ6Ip8vljBrX3Plym10hoglmW6dbHEa0MASImG5Bd8rvu7/+U8yum7bgkG8Ap1ZLYTZXhtzlEd7x13IY/yFiZ8iisAJeWTUhIYbkClS4MHvCjHm0TRMQeZkKvewuztpJyrQIx22yWrjXaCTSvGYjyGcRjo4IvkNaGXJAvGp4lVzWsizCVW2cbsGICbCLH00DRUAauTyDX+X0Q=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_GESTIONNAIRE_FAVORI
+          identifier : 0x2fa57fb10bd4b225
+          internal_properties : CAAAAAgAAAALr26bhQDFEEkwpIVuA+BR51nl56ZtxhYXHkfNSaLqFqaSMUtySqvJXjrfPoaBe1IpPT5DIjGM39yf5l80Y+UiV4aZifJ64gHSy6ZYvyt9g6GcQjRNiuyZP5zpZ4lc94APCchXyfV2JMBU2qVWD5O4aUNaiMdvAJSgqemRzCAV1Mwp5qFFrAeQTbRe8DMga4gdofpdajIb05WbfqpgJxdZ2HBbZT0LD0yp7i5Ygs8rMCSCKUj7+W8IWlcvDPrrzN27MYBJ5wWF1mzvi4SK9UUWrM0/5xq+dRbjBPW+flvjmf6v6H17TFz9k4X/nyGj4RcYSq0DYP1ilX3JIy2CUVco2Jme3qXnrQJXmK0COr8NnXIRsZ82i28PEmObt6z1aYZ3d12Xqz1q5a+i6zQflrI/Kp5vYDsZkVEdDjGhTo9IIFTwNENEcpBZTj6PcvF6rwYH
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Affiche le gestionnaire de favoris
+               TraiteURLSystème( URL_Favoris )
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Séparateur2
+       identifier : 0x2fa585d60c08b175
+       internal_properties : CAAAAAgAAADp0yQg/5C+klzUHNAEjTqOllg6RaMuhml3gmi+5khh8qp/YMS2JKy5VZfoxPaU4f9IT60zKQfPg+j2vX7onQCn+c2O/d8KlxznYqeH3qhvu76lXwbk7JyvqjclIBBQzWamZMR4PQnvvjsPkT+TvGQEEeY/IMVwHRaWAfYRSwAezp/RyzND7B+2KWLfYY/DRn4xIegELI4vx2SI4WCywDUnoQ7KrDfskeHVbYC+LFlDfV0lsxOvJ3N2E6ukkH/c6WMrz6m/awZhvmjZ/nP/3UpJEuchnttcbcThEdaUKx6DBzijFMyNMYohoXiMkqRd7VNcNyLLvdJU3RaZeNdFQKkokqZEAqKZ2vaAutrUcyLRwN/dJ64BjcIS1+kYJqtHTIs0UUyd3wpLXetD
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Imprimer
+       identifier : 0x2fa585f60c0f2e65
+       internal_properties : CAAAAAgAAADZSDt7NgJHqO8xl6uGijbWgWJwdS6roB+sOo8u06KQ4ZDwJlUfyqQF/fIwTtdorLMy9XHRAAZAHYCf6wM1QupNanzMGpW6d5GDh1s73Z1Pm9CkY7+FDNxmWdk1bzMGE0kwUQWrThO+ublMixB93IeOr9DH3uW/r3gFR6Gd4EfPXLujcYg6LmoSN5zrr2KVFdjVK1gqDWDWVDRhpIacAjDfUR4pzJzvkR3WyFbu5YGIX9GnsCXUkg0emiBXMqJ1wxNRUD0gJWfUm61IpNtSuw4It7VxNQ4idVZL2wT0DdxNJw56GDl7TIgZ//QCnDN94u4dltfPFONgepylPOahNswv3woYb26fCmjLwJWYgWPi+xX+EkLQARYaXE7qX6yTLAuAyeAp2IWYfy8KgHurnWJ2O9z4+DlVUBBPLQb7DUQ2xls=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            Imprime()
+           type : 32
+     -
+       name : OPT_Séparateur3
+       identifier : 0x2fa585f80c103962
+       internal_properties : CAAAAAgAAAA64HWVDNX9vRN514NpEu+d83UrVlz/Ubg+CyhaloB7dKwTIGA6iBQxI5MAMJ60T1XS+xkHlbtX+25iJSa8IdLxWf/OraPeN3it7ifHUqz9MRBhQ1awGOTDdMddTHwsX/jsXJRMDWETutlj+V//UB4Wcxqf3NFkDQbkff6tM0gMbFl905u7FHu2l76DnYfjfKQbLfzYBLtQ3luRWOkFZf7m+N89OY51msiA+hOj82K4dFASoiSaPIDlhmDPXQYt/k4KwHRkUn/e9WdqZVSaMl9A8SDEY2LVYuPY6h191gNkJltIi0Xw5sMIUN2Pl6MeQj5DcN2IhGtlrN2SL5gQ3fqLQT8XdzE6cynvywkVhgcKq6gm+F1QfrEDxAYl0R70GdbhhnngmleeLriQ
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Paramètres
+       identifier : 0x2faa789b06b1fafe
+       internal_properties : CAAAAAgAAAAjlMOSg51eFInP/k4IqdSRG1ZzokVCwJHNj65ZstQrPGWDV4pgqKe/zkHykcjEfwV6lCjEaYoLVhWGMvzZRiAVqqjCXCdtjjFcAqXuHIk5Cyq6Aayf4FwSFH1GSfiubVKwzkN7y/XQJY1eHc8h31I7o3gyWocA4j5BNrte96QPBDPMywbu0PaCByBo0WGv89QAmNd2DEmOzdzeyM/WgeHmXxP6fiU0YEEoCI0Mafl7PAfOIktZ78wgArVNuwYEzeNlbKMWrYyNOIuoDN+/JaJWHEDITQ4RtWq3HPZMEbg93eDUhj4mve98ceSqVLubvuJd+jJI5C1S1uz0XCaRlQQ/aJyZbqzq25p3MR6lVUjnYDts85lA6YmCEkqrxljlkfkSm8icBOb3kJST/i+ovGA2Jw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            TraiteURLSystème( URL_Paramètres )
+           type : 32
+     -
+       name : OPT_QUITTER
+       identifier : 0x2fa585d30c07a705
+       internal_properties : CAAAAAgAAABPLQgEoqkQKJwl3n14WLaHEIx82uXrRpkxrAOLGRBvI5ZgdCYqZKvRJhbLCD6N8Yv5U2GGhZi9XFbUfFExO24/D2EZ7L5/ecN7zWKnM///9SkWuPb1TRKjy4sOMC+E2O4UsMBn5IJtpRIDHA+AatoAjCt6VoXxzvct2sAMmMECnfxlfhCo+fUYOpucWWbpqkIhpmmDKIBAckD0bUw/g7cQ4WQLFC4aonWr4gZ1X5QB7ZV4ZMXueKo9jd9uAUpXf4KMwfZ45lAnOleIeAVOifG7D0Sw7QglZpcgzFx5wOUUYKKRrG1E6VhvyTPBKcpiN5uMVHneIsUHKiLkB/BRICUQPNw2bAj13Uk0AS4kqpxCtIfSlRL3vIUKpXV45x/dL0qfiXP444xh8zQbdELE8w==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Ferme la fenêtre mère
+            ferme()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_LIEN
+    identifier : 0x2fa91abf065e5888
+    internal_properties : CAAAAAgAAABthsxn5a7MG5phzHTOjNVfq3h2C8fZ8ZzQZrBUlRlBww+JS/OMpv7QfNPNuwMyf273xekIPcl+RAbtruK1zR76ndU7EKQXf7gXkV3SzOVE/CJkRduxiQM8jivhmU0Jo7/KOjwUaosb/HL1WNiu58L21cw7Z7ZA+RxUszsbjrt12UlBhIbugGSPlhA8RlREUmhkfrxtnjr4+r6qd7n+k16XimmkUsYZw7BoS1b++d2LbsGmZvCMyeAiclNvd09PYFJzc61IfPdJTEpGIEXQaaG9eu0BiFgRWql0I68xRzoJOaG51HGIVWEv8/JevI4ElidjImH4V+pNsbSWepQF6BG9emSK6uJPJK5WEu3shD5XyU1m2yIoBJaDLRbiS+wjI6/iaKvWcqJhVQkQWu09/NtvdQoy40Sn401pbp8MKSYxjvItHP5K
+    options :
+     -
+       name : OPT_LIEN_NOUVEL_ONGLET
+       identifier : 0x2fa91abf065f5888
+       internal_properties : CAAAAAgAAACpfHa5YiV1cQmq3G/4J0dCAwlCgebFbexLasK96uHpiwTxDHlAr27219pUMQ4PaWdJrMqZ3xfAen0BcUPMCHmm4aw/oWfoVoYjG+XSDJaFCj/sHTuiPRWyYMKnaeviaLsoJdjUEeFn2El+sJ3a2TvNSKuvsqRcvRjizOX0h4ek05MlqWIQW2pVTuyRwU7yiv/eM+7lqhniy0L9zpoyuGF/ak+pSxGi56dzrnS6DhFNibW68+Ai3qK95U9HtOzopH02Le+E3AI/NeYejo2SVhDx0evurorwY9nysoFxkJbYat+EvELXwN8YyuzX1oBfT2tIQ/A3grCeGvKRv5jF+OM4gnHlgekHtKnmWsy/P2rDEDbqPxU5eqGFQWVZUch1lHwurVufDKthO3uL3Euf+46U8sUt6yoWciocp+xg+33Mkj9kWF4W3MF1tMttZg==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LIEN_NOUVELLE_FENETRE
+       identifier : 0x2fa91ae70666f4c8
+       internal_properties : CAAAAAgAAAByAA/RTMHCZHxrF1+4OmFkR6ttK/ULwCe/IvXEEmifHeF+d41/rEPAMqoiKkJxB+rpLi1RO/g7Xk4vi/E5v1yw3bkTfmDqXQ+elhP2M40nwOi3IelN/tf9HVthe4A2tIcmXKFvHHp+eofoYZPknHh1PlZNx0CzJnr47DDQb2LmOdG3CtNfY9UHuuXZVhqQVoffn16dqpMkNwmMVnIVxiP1NrZXhwei6Xwf9JfxvPwNM17YYzI57eeImJkZx9GqE/gfJMFsqYVi8954uxIo/XHAP4k/UcJ2lQwWsD2taqF6XTOZ3BhYa3P5pU4OxCmFPdirUH+gDwzz7V/z3cAiZxvFN0UsaSVP+MGsj3bHkvEwbn2ILL8ZWTsyTWkJW5hxg+4OKXya0kniOAV21YoLn8Q2He3QKi89LKi8DCM/I0jz779nufZ2waGQvdITpNOZlm/u
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Séparateur4
+       identifier : 0x2fa91af20669227f
+       internal_properties : CAAAAAgAAAAodOjHM7RleYBGD490aGbrgXBY0qmLOs/HlEmqDGMo3lFrGkoZ8uC85kysob1ZLGV7ki2iiTcIUqPVLivVH+UKMM5NbxHBChtA1oPe7QQhrBk+sdcyVzmKlUC2EebN1cVrP2DRuvS8R+6bDftH6skkg69CMBvNndCuu1RAQuyQIj/vsx8fjEWXqC92T3E/wi1sLpGW9IdAgtfpFMDwzw/Q67nCE0chuYD1yFtb4ThYmECfTt1k5Gl9JMEZUEBzAlMgERjJFahmKh3Ekat9dYDvUQMSazB1mM/zHBPsucPXSCbK1xH60HBpwnIpMBDG9NGC2nm/9WzwdAU8tmwRZ7DwfRrpTvczq8WZzqUX//5UC2VD4gal5+cAn/AersOzt4FpY3jI0LbvIO4381Gx
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LIEN_ENREGISTRER_SOUS
+       identifier : 0x2fa91afd066b4c5e
+       internal_properties : CAAAAAgAAAB97JQfViGMqIukBlCDh7MD6OF/qFxr+wdNhICScdOt7uU2mnlRQuV1+UHEpy6bCVmmO+2nPiJZRGooWRUfC3gQ47v6r/Vy2gQZLw/cEsATkHNqM8aYAdrmfXdMFzt0H6JQumUC7T7yS6diBGZLeOqc1l9KvgBcJ4XE4PBSm1Kx49JmAgSK2H2WzExSZojUoaST4ALTyNIHxohZLetWElLI6jX9wiKwlHM3rCwzQ9bPl7QV7JeosOBMbLM2BCcd2Ot6Dwb3fjI5YBzNxRK5bQpXlhDIsZJm1S1lCwOvHzQoKWhSPjNrNpiEhMV4Xu9F40ipnxqG/cmyEERUVjCRYEk2og6XMWx1BKsbPr18EzvOJa+aVptGS+mJ7rkbDRkw49bENBYum07bsq0oK9wcdDdLQlPnmdigxc9XGrcWsCvSYvc=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LIEN_COPIER
+       identifier : 0x2fa91af006681773
+       internal_properties : CAAAAAgAAAAzC2pslLiobBCELrcO3+p9kx2vw9hbaexK7PLzOtJBvNFbbgbgiUMyq/+2dNHg/r3HOB5FxqOHZpSmX/VHGXKPKxvaiMI7eLk/OGCmSPWfsEMQtSDux0RtOZbKERQx3dl3zpf9qUm4C+jz6pwT35Psrp6GU1JC39fTno880+hzViBPOBi+60iPviV0zFhFTtNd0WVtsdlYr/eTs/Pt08RX4unD0fIorVAwLvSo7hP3CY2BKdn2hHAZ0h43Ejk2i2FcT5kDv2nJ8JJl8EwsLYXghCLDeq7MLQf/B9qP3ga0i6naMOY7g4s9sx9Nt1ZzhXkL+RpSQmj5fv5yOsV6MoxvdF/asvx9549C7f7G6gDLfqCDAHQCMukXX6Esq2MqCsOjIqDNfCLq3AiSJfmbrv7iICA=
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : DéclencheRecherche
+     procedure_id : 2279945778054631377
+     type_code : 14
+     code : |1-
+      // Résumé : Déclenche une recherche
+      // Syntaxe :
+      //DéclencheRecherche (<sRecherche> est chaîne)
+      //
+      // Paramètres :
+      //	sRecherche (chaîne ANSI) : Mots clés de recherche
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure DéclencheRecherche( sRecherche est une chaine )
+      
+      	// Recherche le moteur par défaut
+      	soit N = MoteursRechercheDéfaut.Cherche( tcLinéaire, "ParDéfaut", vrai )
+      	
+      	// Aucun moteur par défaut, on prend le premier de la liste
+      	si N < 1 alors N = 1
+      		 
+      	// Construit l'URL de recherche ( en UTF )
+      	sURL est une chaine = MoteursRechercheDéfaut[ N ].URL.Remplace( "%s", sRecherche.VersUTF8().URLEncode( encodeURLDepuisUTF8 ) )
+      	
+      	// Change l'URL
+      	FI_NAVIGATEUR.url = sURL
+     type : 458752
+   -
+     name : NouvelleEntréeHistorique
+     internal_properties : CAAAAAgAAAB1AXFvQ4H6X5WOe3BysglbGAKtepdFCIe1H53fHYHlsGJvKZZLqsFE1PDwWdempa4D7xXrHocMl8Jv0+h5dQuGLBAG7APwLlQUzbueTtJt1DLn8hZYKNnq+FXB6oF3UjDKVHUiWRM4xyUHZ2z5BR9H4gjkPLfm909m083Qbdb6eQ==
+     procedure_id : 2279987817194246859
+     type_code : 14
+     code : |1-
+      // Résumé : Mémorise une nouvelle entrée d'historique
+      // Syntaxe :
+      //NouvelleEntréeHistorique (<stEntrée> est EntréeHistorique)
+      //
+      // Paramètres :
+      //	stEntrée (EntréeHistorique) : Entrée d'historique à mémoriser
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure NouvelleEntréeHistorique( stEntrée est une EntréeHistorique )
+      
+      	// Ignore l'entrée si elle vient déjà de l'historique
+      	si __origine = ( origineHistorique ) _ou_ stEntrée.URL = "" ALORS
+      		retour
+      	FIN
+      
+      	// Vérifie s'il s'agit d'une url système
+      	si stEntrée.url pas [= "://" ALORS
+      	
+      		// Mémorise l'entrée dans l'historique général
+      		Historique.Ajoute( stEntrée )		
+      	
+      		// Actualise le volet d'historique
+      		si ChampExiste( "FI_HISTORIQUE" ) ALORS
+      			FI_HISTORIQUE.ActualiseHistorique()
+      		FIN
+      	
+      		// Mise à jour
+      		HistoriqueSansDoublon <= Historique
+      		HistoriqueSansDoublon.SupprimeDoublon( ttMembre, "URL" )
+      	FIN
+      	
+      	// Si on n'a jamais fait 'back'
+      	si __IndexHistorique = __HistoriqueLocal..Occurrence ALORS
+      		
+      		// Mémorise aussi dans l'historique local
+      		__IndexHistorique = __HistoriqueLocal.Ajoute( stEntrée )
+      		
+      		SI __Origine <> OrigineOuverture ALORS			
+      			BTN_PRECEDENT.grise = faux
+      			BTN_SUIVANT.grise 	= vrai
+      		FIN
+      		
+      	sinon
+      		
+      		// Tronque l'historique local jusqu'à l'index actuel
+      		dimension( __HistoriqueLocal, __IndexHistorique )		
+      		
+      		// Mémorise aussi dans l'historique local
+      		__IndexHistorique = __HistoriqueLocal.Ajoute( stEntrée )	
+      		
+      		SI __Origine <> OrigineOuverture ALORS
+      			BTN_PRECEDENT.Grisé	= Faux
+      			BTN_SUIVANT.Grisé	= Vrai
+      		fin
+      	FIN
+     type : 458752
+   -
+     name : TraiteHistoriqueFavori
+     internal_properties : CAAAAAgAAAA70H5bhIXKI8wAQbMsHj3hvu98z4qau7+P4bvBZ0cFwvLXzSLNZIsEYsqeS9FEgQTrn+nn3GUab+AZPUaPt/fkfdFF7RyLxctB+kYrpUPqYZvYiY/Bm0wFwZaA26hoZ8Vj/aR7op5T5l5BejaWhZAqKVd7vX8CA3z7zGzYAbe0tw==
+     procedure_id : 2280011113097762270
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // TraiteHistoriqueFavori ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure TraiteHistoriqueFavori() < délai = 5ms >
+      
+      	// Relit l'url
+      	sUrl est une chaine = FI_NAVIGATEUR.URL
+      
+      	// Crée un entrée pour mémoriser dans l'historique
+      	stEntrée est une EntréeHistorique
+      	stEntrée.Date	= DateHeureSys
+      	stEntrée.Icône	= ImageVersDataURI( __Icône )
+      	stEntrée.Titre	= FI_NAVIGATEUR.TitrePage
+      	stEntrée.URL	= sUrl 
+      	
+      	// Mémorise l'entrée
+      	NouvelleEntréeHistorique( stEntrée )
+      	
+      	// Teste l'url en favori
+      	UrlTesteFavori( sUrl )
+      	
+      	BTN_FAVORIS_AJOUTE.Grisé	= Faux
+      	OPT_FAVORI_AJOUTE.Grisé		= Faux
+      
+      	// Restaure l'origine du changement d'Url
+      	__Origine = OrigineClic
+     type : 458752
+   -
+     name : UrlTesteFavori
+     internal_properties : CAAAAAgAAACzmnJz9wm6S3lhHoOMCH4hkMv9Ki3KcdBJGz0LQS054PbTJRKX3r3wZMSo9bPCwcbnYwlPChtYq3rbayyFue92hlrcRtXytMaub6n4YMC7gnw5WPjqqgdEOle/5DutoP48RmM0y31OlZCD0pm0QpP10IcNqx3J1U0sbe/mw/U8Pw==
+     procedure_id : 2280225955951991527
+     type_code : 14
+     code : |1-
+      // Résumé : Traite une url pour les favoris
+      // Syntaxe :
+      //UrlTesteFavori (<sUrl> est chaîne)
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url à tester
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure UrlTesteFavori( sUrl est une chaine )
+      
+      	// Si la page est déjà dans les favoris
+      	SI FavoriExiste( sUrl ) ALORS
+      		
+      		BTN_FAVORIS_AJOUTE.Image	= IMG_IS_FAVORITE
+      		BTN_FAVORIS_AJOUTE.Bulle	= "Modifier le favori"
+      		BTN_FAVORIS_AJOUTE.Note		= favoriEnregistré
+      		
+      		// La page n'est pas déjà dans les favoris
+      	SINON
+      		BTN_FAVORIS_AJOUTE.Image	= IMG_ADD_FAVORITE
+      		BTN_FAVORIS_AJOUTE.Bulle	= "Ajouter cette page aux favoris (CTRL + D)"
+      		BTN_FAVORIS_AJOUTE.Note		= favoriInconnu
+      	FIN
+     type : 458752
+   -
+     name : TraiteURLSystème
+     internal_properties : CAAAAAgAAAAqt2w0502c9TwfqR4AYlzWQM6fQwD2DXDwLdkJzrf3OP1b3iuqi5kcfJE0IuiqcsCxWvIh2xTDmOILLFrkkPHYZaRGggOhNs14YJOMHGPfCezoIHeavtSy6GJz+x02mAm8Kz4iK24DvFihRqYhN1zztVWl6v+Ul3ovNCV01D9hQQPzuQsdH/Tm02Kw79cCHtUno7+v1WiSM+Lku9297T49HqgzoPbNrvF3zLYt
+     procedure_id : 2280276731054144393
+     type_code : 14
+     code : |1-
+      // Résumé : Traite une Url système
+      // Syntaxe :
+      //TraiteURLSystème (<sUrl> est chaîne)
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url à traiter
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure TraiteURLSystème( sUrl est une chaine )
+      
+      	// Si c'est une url système
+      	// Vérifie si on n'a pas déjà un volet ouvert avec cette url
+      	si sUrl [= Prefixe_URL_Système ALORS
+      		
+      		// Récupère le champ onglet du volet
+      		oOnglet est un Champ <- { OngletDuChamp( mafenetreinterne ), indChamp }
+      				
+      		// Enumère les volets de l'onglet
+      		soit N = 1 
+      		soit Alias = EnumèreChamp( oOnglet, N )
+      		
+      		TANTQUE Alias <> ""
+      			
+      			// Prend une référence sur le navigateur ouvert dans le volet
+      			oNavigateur est un Champ <- oOnglet[ Alias ].FI_NAVIGATEUR
+      			
+      			// Vérifie l'URL
+      			si oNavigateur.__URL = sUrl ALORS
+      				
+      				// Force le volet à être affiché
+      				oOnglet			= Alias
+      				RETOUR			
+      			FIN			
+      				
+      			// Volet suivant
+      			N ++
+      			Alias = EnumèreChamp( oOnglet, N )
+      		FIN
+      	FIN
+      
+      	// Synchronise le champ de saisie
+      	__URL	= sUrl
+      	SAI_BRW = sUrl
+      	SAI_BRW.ExécuteTraitement( trtSortie )
+      
+      	SI sUrl ~= URL_Paramètres
+      	
+      		// Ouvre les paramètres
+      		AfficheParamètres()
+      				
+      	SINON SI sUrl ~= URL_Favoris
+      		
+      		// Ouvre les favoris
+      		AfficheFavoris()
+      		
+      	SINON SI sUrl ~= URL_Historique
+      	
+      		// Ouvre l'historique
+      		AfficheHistorique()
+      		
+      	SINON SI sUrl ~= URL_Accueil
+      	
+      		// Ouvre l'accueil
+      		AfficheAccueil()
+      				
+      	fin
+     type : 458752
+   -
+     name : OuvreNavigateur
+     internal_properties : CAAAAAgAAABclsdrTxb6qD06YRxt7pPgcMLE78sabyIGYza8E4mNHhSpuPnDAHPFBN5hSH/vWGk6bZyVmp2LnBRbx5u93epsZSoLxRBv9TfKV9fGSPhAUdcrA1ZxtSnqPk1na4sfa6akGDRRLXY53vM9JTM90OgE7HPw0qkIkMoIJuw9hnVKWZ4ABzyt7n9Y7P8Xf66gO4s+inaxMAvy6cdrAnhxvFTSj1yZpsLszrmFhtI1eYFfhlQE7ntblSjiywEzgyc=
+     procedure_id : 2280283684607423151
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre une URL avec un nouvel onglet
+      // Syntaxe :
+      //OuvreNavigateur (<sUrl> est chaîne [, <sAlias> est chaîne [, <bConserveVoletCourant> est booléen [, <bDétacheOnglet> est booléen]]])
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url à ouvrir
+      //	sAlias (chaîne ANSI - valeur par défaut="") : Alias de ce navigateur
+      //	bConserveVoletCourant (booléen - valeur par défaut=1) : Vrai si on doit conserver le volet actuellement affiché en premier plan, Faux sinon
+      //	bDétacheOnglet (booléen - valeur par défaut=0) : Vrai pour détacher le nouvel onglet, Faux sinon
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure OuvreNavigateur( sUrl est une chaine, sAlias est une chaine = "", local bConserveVoletCourant est un booléen = vrai, bDétacheOnglet est un booléen = faux ) 
+      
+      	sAliasOuvert est une chaine
+      
+      	SI bDétacheOnglet ALORS
+      		
+      		// Ouvre une nouvelle fenêtre
+      		fen_main.OuvreSoeur( sUrl )
+      		bConserveVoletCourant = faux
+      		retour
+      	FIN
+      
+      	mafenetre.AffichageActif = faux
+      
+      	// Récupère le champ onglet du volet
+      	oOnglet est un champ <- { OngletDuChamp( mafenetreinterne ), indchamp }
+      	
+      	// Si on a fourni un alias
+      	si sAlias <> "" ALORS
+      		
+      		// Vérifie si on n'a pas déjà un volet ouvert avec cet alias
+      		
+      		// Enumère les volets de l'onglet
+      		soit N = 1 
+      		soit Alias = EnumèreChamp( oOnglet, N )
+      		
+      		TANTQUE Alias <> ""
+      			
+      			// Si l'alias correspond
+      			si Alias ~= sAlias ALORS
+      				
+      				// Prend une référence sur le navigateur ouvert dans le volet
+      				oNavigateur est un Champ <- oOnglet[ Alias ].FI_NAVIGATEUR
+      				
+      				// Demande au volet d'afficher l'url
+      				oNavigateur.URL = sUrl
+      								
+      				SI bConserveVoletCourant = faux ALORS
+      					
+      					// Force le volet à être affiché
+      					oOnglet = Alias
+      					sAliasOuvert = Alias
+      				FIN
+      				
+      				retour
+      			FIN
+      			
+      			// Volet suivant
+      			N ++
+      			Alias = EnumèreChamp( oOnglet, N )
+      		FIN
+      	FIN
+      		
+      	// Ouvre un nouvel onglet
+      	sAliasOuvert = oOnglet.Ouvre( ( sUrl = "" ? "Nouvel onglet" sinon "Chargement..." ), FI_NAVIGATEUR, sUrl, sAlias )
+      	
+      fin:
+      	
+      	si bConserveVoletCourant alors
+      		
+      		// Restaure le volet affiché
+      		oOnglet = __volet.alias
+      		sAliasOuvert = __volet.alias		
+      	
+      	fin
+      	
+      	
+      
+      	mafenetre.AffichageActif = vrai
+     type : 458752
+   -
+     name : ChangeIcôneVolet
+     internal_properties : CAAAAAgAAAC1nHREUbd0F0MD/FmSonInUEtZXqO2s5hbGaOhZy9FCgqH/Rp9xFMUumr+Y2kk+dTbp8G35H0aZ9Ch5favX1cscd1J4eif2YcFNpLHMe9e1W80XaN9D8DhpcI8d5SEC6kHGbiv/lKnTh+atd57s+iSqVhE/B6IFAgt3kKbue86OQ==
+     procedure_id : 2280307379942203236
+     type_code : 14
+     code : |1-
+      // Résumé : Modifie l'icône du volet associé au browser
+      // Syntaxe :
+      //ChangeIcôneVolet (<oFavicon> est Image)
+      //
+      // Paramètres :
+      //	oFavicon (Image) : Image de l'icône
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ChangeIcôneVolet( local oFavicon est une image )
+      
+      	// Redimensionne l'image
+      	oFavicon.Redimensionne( 16, 16, drHauteQualité + drHomothétiqueCentré )
+      	
+      	// Crée une image un peu plus large pour laisser une marge entre l'icône et le titre
+      	oVoletImage est une image
+      	oVoletImage.Largeur	= oFavicon.Largeur + 8
+      	oVoletImage.Hauteur	= oFavicon.Hauteur
+      	
+      	// Copie le favicon dans l'image du volet
+      	oFavicon.Copie( oVoletImage, 0, 0, oFavicon.Largeur, oFavicon.Hauteur, 0, 0, oFavicon.Largeur, oFavicon.Hauteur )
+      	
+      	// Affecte l'image au volet d'onglet
+      	__Volet.Image = oVoletImage
+     type : 458752
+   -
+     name : AfficheFavoris
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 2280308011302476806
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche les favoris
+      // Syntaxe :
+      // AfficheFavoris ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure AfficheFavoris()
+      	
+      	MaFenêtre.AffichageActif	= Faux
+      		
+      	// Crée un entrée pour mémoriser dans l'historique
+      	stEntrée est une EntréeHistorique
+      	stEntrée.Date	= DateHeureSys
+      	stEntrée.Titre	= "Favoris"
+      	stEntrée.URL	= URL_Favoris
+      	
+      	// Mémorise l'entrée
+      	NouvelleEntréeHistorique( stEntrée )
+      	
+      	// Affiche la fenêtre interne système et cache le browser
+      	HTM_BROWSER.Plan	= 1
+      	CFI_SYSTEM_TAB.Plan	= 0
+      	
+      	// Comme pour un affichage de page, mémorise l'URL, change le titre et l'icône du volet
+      	FI_NAVIGATEUR.TitrePage	= "Favoris"
+      	ChangeIcôneVolet( IMG_IS_FAVORITE )
+      	
+      	// Charge les favoris
+      	CFI_SYSTEM_TAB.ChangeFenêtreSource( FI_FAVORIS )
+      	CFI_SYSTEM_TAB.Visible		= Vrai
+      	
+      	MaFenêtre.AffichageActif	= Vrai
+     type : 458752
+   -
+     name : AfficheHistorique
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 2280338651601648226
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche l'historique
+      // Syntaxe :
+      //AfficheHistorique ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure AfficheHistorique()
+      		
+      	MaFenêtre.AffichageActif	= Faux
+      		
+      	// Crée un entrée pour mémoriser dans l'historique
+      	stEntrée est une EntréeHistorique
+      	stEntrée.Date	= DateHeureSys
+      	stEntrée.Titre	= "Historique"
+      	stEntrée.URL	= URL_Historique
+      	
+      	// Mémorise l'entrée
+      	NouvelleEntréeHistorique( stEntrée )
+      	
+      	// Affiche la fenêtre interne système et cache le browser
+      	HTM_BROWSER.Plan	= 1
+      	CFI_SYSTEM_TAB.Plan	= 0
+      	
+      	// Comme pour un affichage de page, mémorise l'URL, change le titre et l'icône du volet
+      	FI_NAVIGATEUR.TitrePage	= "Historique"
+      	ChangeIcôneVolet( IMG_IS_HISTORY )
+      	
+      	// Charge l'historique
+      	CFI_SYSTEM_TAB.ChangeFenêtreSource( FI_HISTORIQUE )
+      	CFI_SYSTEM_TAB.Visible		= Vrai
+      	
+      	MaFenêtre.AffichageActif	= Vrai
+     type : 458752
+   -
+     name : FavoriAjouteOnglet
+     procedure_id : 2280369364912985294
+     type_code : 14
+     code : |1+
+      // Résumé : Ajoute l'onglet aux favoris
+      // Syntaxe :
+      // FavoriAjouteOnglet ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure FavoriAjouteOnglet()
+      	
+      	pstFavori	est une EntréeFavori dynamique
+      	bAjout		est un booléen
+      	sTitre		est une chaine	= FI_NAVIGATEUR.TitrePage
+      	sUrl		est une chaine	= FI_NAVIGATEUR.url
+      	
+      	// Le site est déjà en favori
+      	SI BTN_FAVORIS_AJOUTE.Note  <> favoriInconnu ALORS
+      		
+      		// Retrouve le favori
+      		soit N = favoris.Cherche( tcLinéaire, "URL", sUrl )
+      		
+      		// Si on a retrouvé le favori
+      		SI N > 0 ALORS
+      			
+      			// Garde une référence sur l'entrée
+      			pstFavori = Favoris[ N ]
+      		FIN
+      		
+      	FIN
+      	
+      	// Si on ne connaît toujours pas le favori
+      	SI pstFavori = Null _OU_ BTN_FAVORIS_AJOUTE.Note = favoriInconnu ALORS
+      		
+      		// Crée une entrée
+      		stFavori est un EntréeFavori
+      		stFavori.Date	= DateHeureSys
+      		stFavori.Nom	= sTitre
+      		stFavori.URL	= sUrl
+      		stFavori.Icône	= ImageVersDataURI( __Icône )
+      		 
+      		// Ajoute l'entrée
+      		soit N = Favoris.Ajoute( stFavori )	
+      		
+      		// Garde une référence sur l'entrée
+      		pstFavori	= Favoris[ N ]
+      		
+      		// On indique à la popup qu'on crée l'entrée
+      		bAjout		= Vrai
+      		
+      	FIN
+      	
+      	// Ouvre la fenêtre d'ajout/modification des favoris
+      	FEN_FAVORI.OuvrePopupPosition( poSelonChamp + poDroite, BTN_FAVORIS_AJOUTE, pstFavori, bAjout )
+      	
+      	// - Si le favori a été supprimé	
+      	// - Si l'Url du favori a été modifiée
+      	UrlTesteFavori( sUrl )
+      	
+      	// Sauve les favoris
+      	SauveFavoris()
+     type : 458752
+   -
+     name : Imprime
+     procedure_id : 2280376172439372729
+     type_code : 14
+     code : |1-
+      // Résumé : Déclenche l'impression de la page affichée
+      // Syntaxe :
+      // Imprime ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure Imprime()
+      
+      	// On ne peut imprimer que les pages web
+      	si __url [= Prefixe_URL_Système ALORS
+      		retour
+      	FIN
+      	
+      	// Déclenche l'impression
+      	HTM_BROWSER.ExécuteJS([
+      	window.print();
+      	])
+     type : 458752
+   -
+     name : ConstruitMenuHistorique
+     internal_properties : CAAAAAgAAACD3WN0N+kVV0Qc227QhtnNa0cVqgvnbsyi89OjYo3/6Y39ygldcrud+thZLJxO2SqOLMbRD5KtDnS4RIRES2hfJ6IQadKBHFncBylEiuImG5huEatc5ODQxMs3knyX6aB3UVJ9CletRLhQaD7fsBS5Zf6MWAcxRxtuvH6L2qkfVuGgRgbWZhOFAn2UYnq/DHIWEg==
+     procedure_id : 2281363770109207967
+     type_code : 14
+     code : |1-
+      // Résumé : Construit le menu d'historique
+      // Syntaxe :
+      // ConstruitMenuHistorique ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ConstruitMenuHistorique()
+      
+      	X est un entier
+      				
+      	// Récupère l'historique mais supprime les doublons d'url
+      	tabHistorique est un tableau d'EntréeHistorique <= historique
+      	tabHistorique.SupprimeDoublon( ttMembre, "URL" )
+      	
+      	MENU_PARAMETRES.OPT_HISTORIQUE.OPT_Séparateur5.Visible = ( tabHistorique.vide = faux )
+      	
+      	// On autorise maximum 10 entrées d'historique
+      	pour i = 1 _a_ 10
+      		
+      		X ++
+      		oOption est un champ <- { "OPT_HISTORIQUE_ENTREE_" + i, indChamp }
+      		
+      		si X > tabHistorique..Occurrence ALORS
+      			oOption.Visible = faux
+      			continuer
+      		FIN
+      		
+      		// Prend une référence sur l'entrée d'historique
+      		stEntrée est une EntréeHistorique = tabHistorique[ X ]
+      		
+      		// Si l'url de l'entrée est la même que celle affichée dans le navigateur
+      		tantque stEntrée.url = FI_NAVIGATEUR.url
+      			
+      			// on cherche l'entrée suivante
+      			X ++
+      			
+      			// Si il n'y a plus d'entrée d'historique disponible
+      			SI X > tabHistorique..Occurrence ALORS
+      				
+      				//  Cache l'option et on reprend le parcours des options
+      				oOption.Visible = Faux
+      				CONTINUER(2)
+      			FIN 
+      			
+      			stEntrée = tabHistorique[ X ]			
+      		FIN
+      		
+      		// Modifie l'option
+      		oOption.Visible = vrai
+      		oOption.grise 	= faux
+      		oOption.Libellé = stEntrée.Titre
+      		oOption.Image	= ( DataURIVersImage( stEntrée.Icône, 16, 16 ) )
+      		
+      		// Modifie le traitement de clic sur l'option de menu : on génère l'appel à une procédure
+      		oOption.Traitement[ trtOptionMenu ] = __OuvreUrl( stEntrée.Url )			
+      	FIN
+      	
+      	procedure interne __OuvreUrl( local sUrl est une chaine )
+      		
+      		// Crée une procédure qui ouvrira le volet avec l'url
+      		pOuvreNav est une procedure = __OuvreUrlOptionMenu
+      		
+      		procedure interne __OuvreUrlOptionMenu()
+      			// Ouvre un onglet avec l'URL
+      			OuvreNavigateur( sUrl, "", Faux )
+      		fin
+      		
+      		renvoyer pOuvreNav
+      	FIN
+     type : 458752
+   -
+     name : OuvreNavigateurDifféré
+     internal_properties : CAAAAAgAAAB0aQyIYkb0axji9JC3FYwLMgsLvJAKGzKQztQRXi0N/blkffv0wWxQ5BGVP9bNxCXuocAdjaB2FEEV4zZLWKH1XIE7mP/lpMcY9QpdRMo1ZYDp/8I+wDq86IZ8d1qklM5hXwZR1azUZDsA8F405wRP4N64CQr2i5tjqTceZbMGa2x7qozvzqC4no0tD6gDNr+ICzdktATpt3be
+     procedure_id : 2281474807909490831
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre une URL avec un nouvel onglet
+      // Syntaxe :
+      //OuvreNavigateurDifféré (<sUrl> est chaîne [, <sAlias> est chaîne [, <bConserveVoletCourant> est booléen [, <bDétacheOnglet> est booléen]]])
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url à ouvrir
+      //	sAlias (chaîne ANSI - valeur par défaut="") : Alias de ce navigateur
+      //	bConserveVoletCourant (booléen - valeur par défaut=1) : Vrai si on doit conserver le volet actuellement affiché en premier plan, Faux sinon
+      //	bDétacheOnglet (booléen - valeur par défaut=0) : Vrai pour détacher le nouvel onglet, Faux sinon
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure OuvreNavigateurDifféré( sUrl est une chaine, sAlias est une chaine = "", local bConserveVoletCourant est un booléen = vrai, bDétacheOnglet est un booléen = faux ) < délai = 5ms >
+      
+      	OuvreNavigateur( sUrl, sAlias, bConserveVoletCourant, bDétacheOnglet )
+     type : 458752
+   -
+     name : AfficheAccueil
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 2281751141791062568
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche l'accueil
+      // Syntaxe :
+      // AfficheAccueil ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure AfficheAccueil()
+      
+      	MaFenêtre.AffichageActif	= Faux
+      	
+      	// Crée un entrée pour mémoriser dans l'historique
+      	stEntrée est une EntréeHistorique
+      	stEntrée.Date	= DateHeureSys
+      	stEntrée.Titre	= "Accueil"
+      	stEntrée.URL	= URL_Accueil
+      	
+      	// Mémorise l'entrée
+      	NouvelleEntréeHistorique( stEntrée )
+      	
+      	// Affiche la fenêtre interne système et cache le browser
+      	HTM_BROWSER.Plan		= 1
+      	CFI_SYSTEM_TAB.Plan		= 0
+      	
+      	// Comme pour un affichage de page, mémorise l'URL, change le titre et l'icône du volet
+      	FI_NAVIGATEUR.TitrePage	= "Accueil"
+      	ChangeIcôneVolet( IMG_IS_HOME )
+      	
+      	// Charge l'historique
+      	CFI_SYSTEM_TAB.ChangeFenêtreSource( FI_ACCUEIL )
+      	CFI_SYSTEM_TAB.Visible		= Vrai
+      	
+      	MaFenêtre.AffichageActif	= Vrai
+     type : 458752
+   -
+     name : AfficheParamètres
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 2281765706028750724
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche les paramètres
+      // Syntaxe :
+      // AfficheParamètres ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure AfficheParamètres()
+      
+      	MaFenêtre.AffichageActif	= Faux
+      	
+      	// Crée un entrée pour mémoriser dans l'historique
+      	stEntrée est une EntréeHistorique
+      	stEntrée.Date	= DateHeureSys
+      	stEntrée.Titre	= "Paramètres"
+      	stEntrée.URL	= URL_Paramètres
+      	
+      	// Mémorise l'entrée
+      	NouvelleEntréeHistorique( stEntrée )
+      	
+      	// Affiche la fenêtre interne système et cache le browser
+      	HTM_BROWSER.Plan		= 1
+      	CFI_SYSTEM_TAB.Plan		= 0
+      	
+      	// Comme pour un affichage de page, mémorise l'URL, change le titre et l'icône du volet
+      	FI_NAVIGATEUR.TitrePage	= "Paramètres"
+      	ChangeIcôneVolet( IMG_IS_PARAM )
+      	
+      	// Charge l'historique
+      	CFI_SYSTEM_TAB.ChangeFenêtreSource( FI_PARAMETRES )
+      	CFI_SYSTEM_TAB.Visible		= Vrai
+      	
+      	MaFenêtre.AffichageActif	= Vrai
+     type : 458752
+  properties :
+   -
+     name : TitrePage
+     identifier : 0x1fa3d2560082219e
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique TitrePage()
+         renvoyer __Titre
+        type : 1966080
+      -
+        code : |1+
+         procédure publique TitrePage( sValeur est une chaine )
+         
+         	__Titre = sValeur
+         	
+         	// Si un volet est mémorisé
+         	si __volet <> null ALORS
+         		
+         		// Modifie le titre du volet
+         		__Volet.Libellé = sValeur
+         		
+         		// Modifie également la bulle
+         		__Volet.Bulle   = gPoliceGras( vrai ) + sValeur + gPoliceGras( faux ) + rc + FI_NAVIGATEUR.Domaine
+         		
+         		// Mise à jour de l'onglet
+         		ExécuteTraitement( OngletDuChamp( mafenetreinterne ), trtmodification )
+         	FIN
+        type : 2031616
+     template_refs : []
+   -
+     name : URL
+     identifier : 0x1fa3e0cc0011a1aa
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique URL()
+         renvoyer __URL
+        type : 1966080
+      -
+        internal_properties : CAAAAAgAAAA/YQSHqyHf3HJdDB34dSrWorbP6RK998PQmj4kNgaqfqk5msQRR3FCCLirlqLTdtK9A9v47VU/TyRLe2QuVkj1jHakIwRpCVQw4IBhJ2jnS2hn/p9w2O3qM/8uJJG4geOybAIkPtV9mOE6hKOVvAW/bVNQ+YxHhKZMrKOpZSqxyfaagQnf5BIjIaV5t3VWXKYiVzAwTOSrsMyrLLVsq5/C2PT9JSKC4L2BgP7AJA==
+        code : |1-
+         procédure publique URL(Valeur)
+         	
+         	// On charge une url système
+         	si Valeur [= Prefixe_URL_Système ALORS
+         		
+         		// Traite l'url
+         		TraiteURLSystème( Valeur )		
+         	sinon
+         	
+         		// Force l'affichage du browser
+         		CFI_SYSTEM_TAB.ChangeFenêtreSource( "" )
+         		CFI_SYSTEM_TAB.Plan	= 1
+         		HTM_BROWSER.Plan	= 0
+         	
+         		// L'url est déjà chargée
+         		si Valeur = __URL _et_  Valeur <> "" ALORS
+         			
+         			// On devra actualiser
+         			HTM_BROWSER.Navigue( htmlActualise )	
+         		sinon
+         			
+         			// Mise à jour de l'URL
+         			__URL = Valeur
+         			
+         			// Synchronise le champ de saisie
+         			SAI_BRW = __URL
+         			SAI_BRW.ExécuteTraitement( trtsortie )
+         			
+         			// Affiche la page dans le browser
+         			HTM_BROWSER = __url
+         			donnefocus( HTM_BROWSER )
+         		FIN
+         	FIN
+        type : 2031616
+     template_refs : []
+   -
+     name : Domaine
+     identifier : 0x1fa4069300203285
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique Domaine()
+         
+         	// Extrait le domaine
+         	sDomaine est une chaine = URLExtraitChemin( FI_NAVIGATEUR.URL, urlDomaine )
+         	
+         	// Supprime la partie "www." du nom de domaine
+         	si sDomaine [= "www." ALORS
+         		sDomaine = sDomaine[ 5 a ]
+         	FIN
+         
+         renvoyer sDomaine
+        type : 1966080
+     template_refs : []
+   -
+     name : AliasWeb
+     identifier : 0x1fa41d32000ff4ec
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique AliasWeb()
+         renvoyer __AliasWeb
+        type : 1966080
+      -
+        code : |1-
+         procédure publique AliasWeb( sValeur est une chaine )
+         __AliasWeb = sValeur
+        type : 2031616
+     template_refs : []
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa3be7f0002a3e8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

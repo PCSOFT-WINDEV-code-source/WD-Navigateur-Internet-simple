@@ -1,0 +1,179 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_PARAMETRES
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_PARAMETRES
+ identifier : 0x2faa6f0604308dc1
+ internal_properties : CAAAAAgAAAC5LKjoF19rKUxAuqASFOnx4BsqUpx2YPYFLCd2uapNKlghSxlt9tY1iQCkm1qINA7UUBNsfSCHlhCJZU+dXEifxpFrp3/rTwXMvPJhbUEVUn4gZzp4q/SDO23M66EM1xuHkLOf7CzhXX/KCOhSN76ZuIyNuXkkt2cqDO4CYQtHarbON6LWOCY7q7nRsvFh5EPGIQXzoDcSGKYyed2BxazRJSYqXEQfGfI0HKdWodw/qjYYmyPFs3X7N/QUZMI1/HPDxip8Zg6ZZh+WS0SmTSVUkncS8PH+ZZygSSpLYTh9VOVi25aPLdYiaMyHAyAzmLxyo02YE2bgT3xxoeD09ZnmEhcwcnkEZLxwesV16tavucvvgvQwL/H9pLjT5Q3RZLjwRKah3RM5WrVt2vW2oB+nNM11C9jYdpupdgtc8PBb5aJAS77HbwPifkgp5w3Y53NeKaWDl89/kPAQW1g5QFsTSh08PqVF/wIhp94Ij/I/xuUtbq2Q6UHbj63mSeoFRYfunv/PC4PD8x1H9CgDJFXbT+83iUaCzzoATAtoe+jUOkHXySHE8JKedJbghXwex5/DXLrHzHuu4PYyybNMCxTss4HwgKFgOEGpZSaGpkeR8vIijfIzAbZDq4+xWhnRMS3o7cq0DDTFTyBfeCV7n+Ib4jGQe9ZyZ+QgiBSmO3jaxdq8Kep/AU1U+gyv5VQPwlK42mVvt4c/mF36GQoToPJqCGHu/RieiFAcpV5r17h5bwrUrTGKhxQ0u3Ph/dU8hJS1
+ properties :
+  width : 700
+  height : 480
+ controls :
+  -
+    name : FI_PARAMETRES
+    identifier : 0x2faa6f0604318dc1
+    internal_properties : CAAAAAgAAADBJ8tLNbqk0I/a82rfo99O6Y5/O8awPVLRvmd7KsC+yQFWjOxJ38I3tRFds0GoP65y7/Ey6nURR2j2JIQfcqi/UQQqzS139oQjll3ZM+ic/V9x+ohFpByrZa86perI12U7Ve80Rr7Gqd749uC5tnBVIbXJZBL8XDHFyCS58feT9eaGdx6c+UHTdXC4xwhe4vB/cXj+55zQhWfmlrJqUSoenRqNGyEZ5auhK+MSl0rOTPkh9C120g/T/X3S/RKy/9bCHGfkL9Mqg3uuQmtHalWBS4vXNvyvLRTzwc6C7xbesDgFZYgAdlTEauKTic/fN7jVIccHJzu66hoazrq8kPEpStkahB9KVPtrCLmOZHHTe1zxDpZ0SKnWUZxu759h7pmTwYLKn/SX33GSjW6jpdQlHN20f7Z3UOhHZHl6YZ2IK4WLaAmsPyWRuobLzQEuv11zZLserloiQSOwmC+UKGY5Vl5LI4pfKYln
+    properties :
+     width : 700
+     height : 480
+    controls :
+     -
+       name : LIB_TITRE
+       identifier : 0x2faa6f10044db483
+       internal_properties : CAAAAAgAAACa1GY9fGwsXPuwUltNSuGU+J+JEOIxAjfcGu/o5TzPtBfQLn03+evwLn+855qfnoBQmdAkr4LudETtzHHL86z3os12WGmnTapMhFTbPDWoivDqugYyYSCmyz74OW374uuCWt7lvUtbLFod1JSEwPLA2ATiNHFy+vzQ9qZuSfRrN2ADINz60jgc73qYACQC0dSeIv93InXFnQh/SX2ZyJvOUIEGhYYCgud7h1rwUFDE2Zaux4ION6FQywBsVT4MaGJjiSx8YTWpHcIkZpAbCa8irWhrN5kLBSOTL3WOcTY/iPfFpeF9nyuXSVuD/fNxQxbAM54gdmgHPsABkJDPj9nhqwziv3JSvs88YK7y23MKmBLESPlWKkjxtputGcw2Kpe7CZwJT9BCqBAiXIobk7w3QKSHRWFV/Hti8hLO0/sZmjPt2aGv/TEuJS4LsDu3Xf2zmG/z5vWDA5s/DVkikkjIx+7wVLIzhSdsQ3Plx6nX4C2YOkXze43vWpNPA3OGjkxq6X9n5Rp7ig==
+       properties :
+        x : 24
+        y : 24
+        width : 316
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Moteur_de_recherche
+       identifier : 0x2faa6ff2049b2530
+       internal_properties : CAAAAAgAAACLWfk1bS6zWZRaqkm1VgH7+d+JF21RvIgm4XGGUqun3xAgusCJwcCnKD9H06ugzhod4hDu2qRteuTEb0A2BVZaNYNdspgVIWVS1nZWiVCp+XGk98IyEOFaVfQRkpioYLHaGksrHROcuZSsw+X/S2QsrPHTn6xmC380ileEwpIIB/MbWrYLzFH9MCSfinO0Wq1nxVcy7R5IQKTEWAicea+upSvdN7fB5TwGOhVaF9JSqElzji0i9c1NtYbsQn/uRlZOiV5Mr0CkTXJAyJql//Xah+elMJd74DZNdx2CO61z4xbXt4XFZosg7d5CaH8XxOG6w8T5lcalMI/ziyCg5wskbTeXHl5fSurSGtQE9gvt6FczlpRUQlNsnslmNqN7RwLHG8605Yh07k29S0FkCVMNHoXok1EsieiqALIu/Fn2ZNxwlwQE2VzENTDj9Y0Ut7CH5/jkYRZMP0sqFRNFPTE526W1T3qLRvD+v7P77N0gB9kNhu6hgbDCEwV7xgC3
+       properties :
+        x : 24
+        y : 77
+        width : 316
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : ZM_MOTEURS
+       identifier : 0x2faa702f054a14d0
+       internal_properties : CAAAAAgAAAAFju4O5rQdz09Lo1ubmWD1m3W+9WAnFMJyjYDt/ZNoamQcULl0EYn3wOS5IgfhUNNk+7ifI3KrvfcmKVQZl1JIn3Vk+3bHcBEfzC9zNFey9JFHGZn1C4cmNEk7t8Cv8L8hL546NqllFFJDefexlcvYUwajId5Y7Oa9swzJTSqqTWP+7rR7hD2sRhh4jB7mkV+M5DBgqxnvW5myyUSoJnD0fCCniO+okoZavL3PwmFQZvgOREqaQ3KHU18diJtIRNSxqWAgTHdMFAgScD+Cn3IxXubUGGblBaCPMkz9Ug2O/7KWWhM6GOdZKn19xTNknac2lAHKaB50c1JbVN5M8xp8QM24fxfVkyYbCCojz8jVnnbHIgZ2DVNQk+gX7m6jbgfCZUiWN98Hy+Ysf2LaO9ojdq2YpQEltLHMly3mC2b+jWOeTDZ6USnCmQQ0yLRNGcd+5mDOiQ/jKG8CLtWSxhY+fRT7vYc04gMtCJKG+8nKW69OEvtvJ3616ADVrVa4Ho0k6a+0xi4caFMp08czk/G+i/NP71n60IP/7Cp+RjwiyKXAOJ3Hed1sNSLUsZAenNQsvZSvtCnPAkWRq1QvRkBp6RmA6OgzedJkY/dUXU9p9gqPN5LbLvRrDQ8xjN9ooE288ws3uSMw4I/Lm/nqpv+UjO50+AtZWY7WA+W9KfUNwnS5S7k6jl1+0XNUM9XhxQQUKDHvjwyV/tU3rX/JrYWFakkiaB8dXR8rVblfJ/jbu6c5C9RUB9Sims/WkdJYaogP02c5hOdCQkTOB13dvrS9xVjOhE8qDA0=
+       properties :
+        x : 24
+        y : 103
+        width : 570
+        height : 32
+       rows :
+        -
+          internal_properties : CAAAAAgAAADD6+bcENEKllRos0HaGGP6c2eFSCk7VVf/JZbAfXh2Ao4I5rFpwnqLDetM/IACy1b5q4d/MxKtgvn1Gx442Y8dLUj+uqClNFbLNPZHXdf5KEBvJ5P4mkICD7OuTEsyUjZF2z6O6ooCB2H3gto6xpGUskY=
+          controls :
+           -
+             name : LIB_MOTEUR_BARRE
+             identifier : 0x2faa704005545861
+             internal_properties : CAAAAAgAAACJW9hcXXK7cXnjw07IwotfOas4zQzjz0oehL72MFAtT4IuHH+h8ENR+lm2+exGL2jUR1eFaqgR0Fb4g1NRjOgGk11FLhas3xPejYdvKCleSsx3n8YR4HH62KV3PSouSjr6zd7BXdmx+PboQd+YRNNJDc5Wek9WUY2YCqLer0PaZUq4Wl69psATuX487T7IAVa/CP7wj4pTcvUXZkhbvi6JIWXsl/HObTbUP/HewUG8kLk4IsGH65odFuiz9TujFt0C0AtfYvinZ9Fbzfie+pZQyu2vRzM/UTDNYgImbI3Ki75q61bIjdnT5ITkJRBb/k7ls0atOJnsuKfLbtQ+c5WKmdCe1sJdlFwh0607TDfDETof/wU9VGfFj4Ms73+gVq+AZ1UqVD1BIprAHWvIx9wo8JbzBYIS3rHlQIrW/3XFS0hLw//Br/SqxrHO1VvKDgJ563XfrKzgZwPh4isGXDIBi5hIPNZ3OogQeGjK9N91dQP3JQsh4BmVytT4tEcrfZR7d/ctEXOJ332BoFsZgn6qQp/boaeZYhEU2bHoegYUyLx4
+             properties :
+              x : 18
+              y : 6
+              width : 350
+              height : 20
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : COMBO_MOTEURS
+             identifier : 0x2faa70af058e093d
+             internal_properties : CAAAAAgAAAC3aUUJtfiL7B17MS4+qZ/gTnHC8oDof32sgVn8CAkYt1vjAapcieFtAxdzX0M+yHwc+Mz8Z6mV4PgkFoAZDi4L/IE6pg5StRhjqLp8Uwv0b08to1COomSZahKVT7qQU6+UyXjVO/mZ4V+aYhJL8PLvdu4Q30D/ysLfvN+R/rgig04k6xlxvq7LaV5Zap74rn+WT4ZBTy46U6vsUUxc2KteLvTTMuEEy+2Ti/IcL1l2FazHiJ8Zjt85AnrqkuUfdD0y1w9FtnWpfyViiepodekz19rlVStGYqHylfcfkaHjsBPSMgOwI345Hkl7o61OhRN91LL3x62L9Diwn9s7L6PejcYstI0BHWGVrkjlEs1GUq3zXYQjXM4Vtmfe5EAXwVCJjInqzJcKZCC65FsbAqenLN44N3uIFB2EEeDqF+wv7OAtFh80zLSvQO62l4uwh7SzczU50CXCydX05Ux5DmDp1qDFPVpihRXtEkevtaZtxOpLV8JHz7+OJQtzdCLLs5dsFD6wCnm2XDnAWV1BK3zhxNMfDSVuix5Qx2u32WX2Qy+O6Y0TfmiyO5ePzpD4lgobJi7muruTiLwsGlYEHD5QW1hnWGzMJXAX3YFdV2BhMgyjZ41JPeDzXciHZC29BQ1pmBgFOz3C5Gmbj4M/AJ5IfXAdxU+zSbDgE9EgDpI4lKbBH0teX+UgT3NGS7t6WZ+y6o6iHVSsVX1tPyb0jBFRz238TSNs+OjdfSBMHgHJl/lN2+CyH9WwESLJfRvOo4eMOqK9Ysta9vKaPWbKGi9EMBQZwgp7dg8DPiXkIf0Y4L1Y7qN3OCU4pD8aJh4U7pyJv9T0xnOCKVhg4F6HeQ8BxKSlmXmeXOjuYkNKMErN6Ujm5dUkb4U946pORMs6RGY3upUz5WNmQ92PipsX86YYV9y0Hjz9oZPPUls/+PNxuk5jOoTJTWTBp474fX1IjL9NqxOQU+LCiQpx7rLuHHbpPDEQNv5f2A6Apym1KMAjrhDJ+teZp+Mfe+J6fYgwxy3o6BBt4wkwAbpnsdCq/OxnCqcDR0SkLXK+7hCY46iQtxWBfQpR3DU3LUZc70+GREaZhUrtqnXjEgEgCMiZsz5qW7f/UPr3n44KfwIEPQGK1aJEpwgAMgUI8+WHrIc8jTYbM2iA+ZFz5N/C/k4KulxkOBE+b87i3HEs69cE9hc90aN+WTJUUv+mqc2Atn1xZ+inAaoB8OPJC/5I0Dpdq2kqxetBL7waLcCG7V26VWhMztpeH8vfABUOMNZGg9PG/ICjzctwfFW1dzLVq8UJ7/vp+EWIXKlltmCRhKcndcAbWS6ePjMw6ztn3XUblhOe7alznCLbzFCqL7eB/o7dJ9iBlDKzivm45PDElfeLPUnVVqp2RXAevYlbatTWzvFEirrLRv6H7f2kSgXcyB3EKhZFkJoRNTNA3mMkYi1F+4/p6vDnREnTgBzZ5zV1EtSpBghYqouRhtDdkVowPT9gxeiMVTOR7Cu28FJylvfnZEx76fTtBEcd9fI2kZv+hWNjtfJgN+NV05imPevIU1llJAnu+QRkh8XuwKiveWA2krH6aQylfS2v6rlocUU0nS2pW9Qd/rZBee4lDn9R5iAsQl4vlKopgQvOqm4zebJbgvXTBjawri1bWzVloy7vn4pEl0/NTfkIIKas8pYeIN64YJwccbjzktlQHX1NXYzqPs3NG8i4CQbRLxQQRBYD0VOT58YAMpclBpWbvpm84rdVDpeCSvFsVarP2A/GyvbILA==
+             properties :
+              x : 374
+              y : 1
+              width : 178
+              height : 30
+             dropdown :
+              internal_properties : CAAAAAgAAABa0eLLkDu6jIIvl7TMe82OSq/gX6thZoAlKhEW2j+z3ENUX+ufnaC+bn2wTrsben2GzQ0tVDqI8LKv0WhyMb7CEWGnin3exnqn3TmFQpkZQm72GHuCn1yfrTMbrFV52zkNmQYMO+RAqf1eQ5V91yhaxet1dmynujGOGTw2LoHUD+cilXQ9Psu8DS/Qf7gu6syYugw6r8uv0a43BoOgXr02eWoiCPwARmBKS9nRHT7l7RIcAOnFMpkeXtusul/FsNqVe5UVCu8DYhnkqQ+J1KRk6zZUgqlpj89HDTNsPS4dYdFVME4tBP8/QHvR+5dWJ2NQ3luluiUzcgw5vqM7EJ6gkdGPDYaL2+GCTEGvgf/e7NLR8jz0h8S+77G7bMTgieg8mJo8DfRyQXowi4R9OesSzsM1rEjGpcm604WhxkQNxiYDjdC9YoUdz7xN3k4GGWHY25mtil9WSWZ5iPMcTlmH15DvIf00roaUd9NQ+ao88OSsjLmyzuxOUsB2T5ML15/0BZSvNJfbH9PxPhpJQItHsMExxN1AbdqOW8KafQDCRlyJ+YVeqcsaEPMvii40vhUOhy+9y/V2vmR2B4p4CbZ3sJeUQPidVclbRJm+gn/ynPadQnaX6RxxN40G5AdJReOOZxHFExhUjZTdDDodbCk7qqGvn21QDW87w7JHYJZp54Z7MhxSpAf/7QD1hWXL78mNcVrbdr594lY5GS5/OVFXOzsH0niQLK86raoYc01DWt0oKdLjfmpkCS79NPC2RNx6x1BZ6im4a7vuqhqOMYZN2PH4iKs7g069Anatghxm5spSA7DHg5KY4Z+psKI+9OVZ+qpU4X0NT8FcGCwltIzvDppCbeI5VvdGz75m/D6+vuvvGV6dNg==
+              type : 7
+             type : 14
+             code_elements :
+              type_code : 23
+              p_codes :
+               -
+                 code : |1-
+                  
+                  // Sélectionne le moteur par défaut dans la combo
+                  pour x = 1 _a_ COMBO_MOTEURS.Occurrence
+                  	
+                  	// Obtient une référence
+                  	pstMoteur est un MoteurRecherche dynamique <- COMBO_MOTEURS[ x ]
+                  	
+                  	// Si c'est le moteur par défaut
+                  	si pstMoteur.ParDéfaut ALORS
+                  		
+                  		// Mémorise le moteur par défaut
+                  		gpstMoteurDéfaut <- COMBO_MOTEURS[ x ]
+                  		
+                  		// Sélectionne la ligne dans la combo
+                  		COMBO_MOTEURS.SelectPlus( x )
+                  		sortir
+                  	FIN
+                  FIN
+                 type : 35
+               -
+                 code : |1-
+                  
+                  // Obtient une référence
+                  pstMoteur est un MoteurRecherche dynamique <- COMBO_MOTEURS
+                  
+                  si gpstMoteurDéfaut <> null alors
+                  	// Annule l'ancien moteur par défaut
+                  	gpstMoteurDéfaut.ParDéfaut = faux
+                  FIN
+                  
+                  // Change le moteur par défaut
+                  pstMoteur.ParDéfaut = vrai
+                  gpstMoteurDéfaut <- COMBO_MOTEURS
+                  
+                  // Mémorise les informations
+                  SauveMoteursRechercheUtilisateur()
+                 type : 33
+               -
+                 type : 17
+                 enabled : false
+       type : 97
+       controls : []
+       code_elements :
+        type_code : 126
+        p_codes :
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         gpstMoteurDéfaut est un MoteurRecherche dynamique
+ menu :
+  name : _Menu
+  identifier : 0x2faa6f00042d74da
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1faa6f00005174da
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

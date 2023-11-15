@@ -1,0 +1,286 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_PARAMETRES
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1fa412d7000c80b8
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ChargeHistorique
+     internal_properties : CAAAAAgAAACmR3B08ceSm2nT/4Rxo81sRMkjyU58iYPJnJsLmFRyZH276JTbDP3TO3DfVkYVGQG6SysgfQ32ivizd6VZSgI0+OoQFMh01oowykxUP8oZbFpqH48ef0yYgvPjGlnQtNk2xizksdOrfeeNhHS1Eg==
+     procedure_id : 2279987172949067667
+     type_code : 15
+     code : |1-
+      // Résumé : Charge l'historique
+      // Syntaxe :
+      //ChargeHistorique ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ChargeHistorique()
+      
+      	// Charge les données mémorisées
+      	sJSON est une chaine ansi = ChargeParamètre( "history", "" )
+      	si sJSON = "" ALORS retour
+      	
+      	// Désérialise les données
+      	deserialise( Historique, sJSON, psdJSON )
+      
+      CAS EXCEPTION:
+      	retour
+     type : 458752
+   -
+     name : SauveHistorique
+     internal_properties : CAAAAAgAAACqmyOPC7TAveb259CvhYumqEX6NXrX2fC1/3r0WDXAj96nrVE3w5noaaoDwZgsvrk0f+GAyswH+lU1utSBWPf6n2UdohLAtUQtPhyfhXgdsrkGhSzvwpWGhBbD1MVw/TR5JlRHTBmYzQJMjhVx
+     procedure_id : 2280236530162232389
+     type_code : 15
+     code : |1-
+      // Résumé : Sauvegarde l'historique
+      // Syntaxe :
+      //SauveHistorique ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure SauveHistorique()
+      
+      	sJSON est une chaine ansi
+      	
+      	// Sérialise
+      	serialise( Historique, sJSON, psdjson )
+      	
+      	// Sauvegarde
+      	SauveParamètre( "history", sJSON )
+     type : 458752
+   -
+     name : ChargeMoteursRechercheUtilisateur
+     internal_properties : CAAAAAgAAABc4I6fQlFx+Eo2RjSQppcNNZK6SZS+8Mi14kqNsKa16cju6dvqzl0AnC0Ob/GkKMmCMq12+wNgCZS8ed+fXhKhJG2zijX2aG9YMxy4TxJRx6pbiDbS7Ds=
+     procedure_id : 2280237728458255230
+     type_code : 15
+     code : |1-
+      // Résumé : Charge les moteurs
+      // Syntaxe :
+      //ChargeMoteursRechercheUtilisateur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ChargeMoteursRechercheUtilisateur()
+      	
+      	// Charge le moteur mémorisé
+      	sMoteur est une chaine	  = ChargeParamètre( "searchEngineSelected", "" )
+      		
+      CAS EXCEPTION:
+      	retour
+      	
+      fin:
+      	
+      	N est un entier
+      	
+      	si sMoteur = "" ALORS
+      		
+      		// On utilisera le premier moteur de la liste
+      		N = 1
+      	sinon 
+      		
+      		// Recherche le moteur dont le nom est spécifié
+      		N = MoteursRechercheDéfaut.cherche( tcLinéaire, "Nom", sMoteur )
+      		si N < 1 alors N = 1
+      	FIN
+      	
+      	// Annule la mise par défaut de tous les moteurs
+      	pour tout stMoteur de MoteursRechercheDéfaut
+      		stMoteur.ParDéfaut = faux
+      	FIN
+      	
+      	// Place le moteur sélectionné en moteur par défaut
+      	MoteursRechercheDéfaut[ N ].ParDéfaut = vrai
+     type : 458752
+   -
+     name : SauveMoteursRechercheUtilisateur
+     procedure_id : 2280237728458320969
+     type_code : 15
+     code : |1-
+      // Résumé : Sauvegarde les moteurs de recherche
+      // Syntaxe :
+      //SauveMoteursRechercheUtilisateur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure SauveMoteursRechercheUtilisateur()
+      
+      	sMoteurSélectionné est une chaine
+      		
+      	// Cherche le moteur sélectionné
+      	pour tout stMoteur de MoteursRechercheDéfaut
+      		si stMoteur.ParDéfaut ALORS
+      			sMoteurSélectionné = stMoteur.Nom
+      			sortir
+      		FIN
+      	FIN
+      	
+      	// Sauvegarde
+      	SauveParamètre( "searchEngineSelected", sMoteurSélectionné )
+     type : 458752
+   -
+     name : ChargeFavoris
+     internal_properties : CAAAAAgAAABc4I6fQlFx+Eo2RjSQppcNNZK6SZS+8Mi14kqNsKa16cju6dvqzl0AnC0Ob/GkKMmCMq12+wNgCZS8ed+fXhKhJG2zijX2aG9YMxy4TxJRx6pbiDbS7Ds=
+     procedure_id : 2280237771408069199
+     type_code : 15
+     code : |1-
+      // Résumé : Charge les favoris
+      // Syntaxe :
+      //ChargeFavoris ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ChargeFavoris()
+      
+      	sJSON est une chaine ansi = ChargeParamètre( "favorites", "" )
+      	si sJSON = "" alors retour
+      	
+      	// Désérialise les données
+      	Désérialise( favoris, sJSON, psdjson )
+      
+      CAS EXCEPTION:
+      	retour
+     type : 458752
+   -
+     name : FavoriExiste
+     internal_properties : CAAAAAgAAABXI38ylYOY0zdfOA0G5pbDjB+t2gc8QsfbuWMBh68lakrnvdqdBLM0eor+w0nkmfSbBwH3BP36B5BBJdYPH/fMYc25cbgvydd1ZqKXQd+uxd8kTfMNH/CxFXKMx6R0Wxn3Cai/TmIXHq5Ypc5j8yC6UYB8PK5g5GBdJupDF/jYWw==
+     procedure_id : 2280237771408134923
+     type_code : 15
+     code : |1-
+      // Résumé : Vérifie si un favori existe
+      // Syntaxe :
+      //[ <Résultat> = ] FavoriExiste (<sUrl> est chaîne)
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url à vérifier
+      // Valeur de retour :
+      // 	booléen : Vrai si le favori existe, Faux sinon
+      //
+      procédure FavoriExiste( sUrl est une chaine ) : booléen
+      
+      	// Cherche l'url dans les favoris
+      	si favoris.cherche( tcLinéaire, "URL", sUrl ) > 0 ALORS
+      		renvoyer vrai
+      	FIN
+      
+      renvoyer faux
+     type : 458752
+   -
+     name : FavoriSupprime
+     internal_properties : CAAAAAgAAABXI38ylYOY0zdfOA0G5pbDjB+t2gc8QsfbuWMBh68lakrnvdqdBLM0eor+w0nkmfSbBwH3BP36B5BBJdYPH/fMYc25cbgvydd1ZqKXQd+uxd8kTfMNH/CxFXKMx6R0Wxn3Cai/TmIXHq5Ypc5j8yC6UYB8PK5g5GBdJupDF/jYWw==
+     procedure_id : 2280237771408200646
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime un favori
+      // Syntaxe :
+      //FavoriSupprime (<sUrl> est chaîne)
+      //
+      // Paramètres :
+      //	sUrl (chaîne ANSI) : Url du favori à supprimer
+      // Valeur de retour :
+      // 	booléen : Vrai si le favori a été supprimé, Faux sinon
+      //
+      procédure FavoriSupprime( sUrl est une chaine ) : booléen
+      
+      	// Cherche l'url dans les favoris
+      	soit N = Favoris.Cherche( tcLinéaire, "URL", sUrl )
+      	si N > 0 ALORS
+      		
+      		// Supprime l'entrée
+      		favoris.supprime( N )
+      		RENVOYER Vrai
+      	FIN
+      
+      RENVOYER Faux
+     type : 458752
+   -
+     name : SauveFavoris
+     procedure_id : 2280237771408266370
+     type_code : 15
+     code : |1-
+      // Résumé : Sauvegarde les favoris
+      // Syntaxe :
+      //SauveFavoris ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure SauveFavoris()
+      
+      	sJSON est une chaine ansi
+      	
+      	// Sérialise
+      	serialise( Favoris, sJSON, psdjson )
+      	
+      	// Sauvegarde
+      	SauveParamètre( "favorites", sJSON )
+     type : 458752
+   -
+     name : HistoriqueSupprime
+     internal_properties : CAAAAAgAAABbJ2N36Wvgjb8jqN0edjDTotU3NE/FDUOdO42LEV0ZsIbz9RJ3Lu1QpDSo5bOiUUbns+m/+vv4G6p728wVqW/mPqKELm1qjB62J2HQOMhDWnQhQIBiIl98Qu/3XLN1KDa0Tmt8I3XGET/igDseIBWrpt3LZYdP11cya50Q2wTUVw==
+     procedure_id : 2280335825513099392
+     type_code : 15
+     code : |1-
+      // Résumé : Supprime une entrée d'historique
+      // Syntaxe :
+      //HistoriqueSupprime (<dhDateHeure> est dateheure, <sUrl> est chaîne)
+      //
+      // Paramètres :
+      //	dhDateHeure (dateheure) : Date et heure de l'entrée
+      //	sUrl (chaîne ANSI) : URL
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure HistoriqueSupprime( local dhDateHeure est une dateheure, sUrl est une chaine )
+      
+      	// Cherche l'entrée correspondante dans l'historique
+      	soit N = historique.cherche( tcLinéaire, "Date;URL", dhDateHeure, sUrl )
+      	si N > 0 ALORS
+      		
+      		// Supprime l'entrée trouvée
+      		historique.Supprime( N )
+      		
+      		// Mise à jour
+      		HistoriqueSansDoublon <= Historique
+      		HistoriqueSansDoublon.SupprimeDoublon( ttMembre, "URL" )
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa412d0000a6754
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
